@@ -227,7 +227,16 @@ const Page = async ({ params }: any) => {
   }
 
   // Get similar trains
-  const similarTrains = await getSimilarTrains(forward.train_name, trainData);
+  let similarTrains: any[] = [];
+  try {
+    const trainName = forward?.train_name || reverse?.train_name;
+    if (trainName) {
+      similarTrains = await getSimilarTrains(trainName, trainData);
+    }
+  } catch (error) {
+    console.error('Error getting similar trains:', error);
+    similarTrains = [];
+  }
 
   const faqData = [...faqForwardQuestion, ...faqReverseQuestion];
 
