@@ -84,7 +84,7 @@ export default function RootLayout({
               </GoogleAdWithSuspense> */}
           </div>
           <main className="flex-1">
-            <p className="whitespace-nowrap text-end py-4 text-xs italic mr-4">Last Updated: 13th February, 2026</p>
+            <p className="whitespace-nowrap text-end py-4 text-xs italic mr-4">Last Updated: 28th March, 2026</p>
             <div
               className="overflow-hidden w-full min-h-[430px] max-h-[430px] flex items-center justify-center"
             >
