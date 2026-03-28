@@ -5,7 +5,7 @@ import { allStationNames } from '@/data/Stations/0_all_station_name'
 export const dynamic = 'force-static'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://your-domain.com' // Replace with your actual domain
+  const baseUrl = 'https://www.trainjatri.com' // Replace with your actual domain
 
   // Static routes
   const staticRoutes = [
