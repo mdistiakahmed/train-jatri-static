@@ -1,5 +1,5 @@
 import React from "react";
-import { getDataForTrain } from "@/utils/getData";
+import { getDataForTrain, getSimilarTrains } from "@/utils/getData";
 import { FaTrain, FaMapMarkerAlt, FaClock } from "react-icons/fa";
 import Image from "next/image";
 import { uniqueTrainNames } from "@/utils/trainNames";
@@ -225,6 +225,9 @@ const Page = async ({ params }: any) => {
       })),
     ];
   }
+
+  // Get similar trains
+  const similarTrains = await getSimilarTrains(forward.train_name, trainData);
 
   const faqData = [...faqForwardQuestion, ...faqReverseQuestion];
 
@@ -460,6 +463,40 @@ const Page = async ({ params }: any) => {
             ))}
           </div>
         </div>
+
+        {/* Similar Trains Section */}
+        {similarTrains.length > 0 && (
+          <div className="bg-white rounded-lg shadow-md p-6 mb-8 mt-8">
+            <h2 className="text-2xl font-bold mb-4 text-center">
+              Trains on Similar Routes
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {similarTrains.map((train) => (
+                <div
+                  key={train.name}
+                  className="border rounded-lg p-4 hover:shadow-lg transition-shadow"
+                >
+                  <h3 className="font-semibold text-lg mb-2">{train.name}</h3>
+                  <p className="text-sm text-gray-600 mb-2">{train.path}</p>
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded">
+                      {train.similarityType === "forward" && "Same Direction"}
+                      {train.similarityType === "reverse" && "Return Route"}
+                      {train.similarityType === "opposite" &&
+                        "Opposite Direction"}
+                    </span>
+                    <a
+                      href={train.url}
+                      className="text-blue-600 hover:text-blue-800 text-sm font-medium"
+                    >
+                      View Details →
+                    </a>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
