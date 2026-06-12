@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "PROBAL EXPRESS",
+    "train_number": 822,
+    "arrival_at_source": "11:30 am BST",
+    "departure_from_source": "11:32 am BST",
+    "arrival_at_destination": "01:06 pm BST",
+    "journey_duration": "01:34",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "HARBANG",
+    "destination_city": "Patiya",
+    "main_source_city": "Cox's Bazar",
+    "main_destination_city": "Chattogram"
+  }
+]

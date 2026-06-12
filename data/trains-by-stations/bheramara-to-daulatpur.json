@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "SIMANTA EXPRESS",
+    "train_number": 748,
+    "arrival_at_source": "12:00 am BST",
+    "departure_from_source": "12:03 am BST",
+    "arrival_at_destination": "03:41 am BST",
+    "journey_duration": "03:38",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Bheramara",
+    "destination_city": "Daulatpur",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Khulna"
+  }
+]

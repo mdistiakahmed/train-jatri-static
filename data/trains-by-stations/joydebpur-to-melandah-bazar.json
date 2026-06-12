@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "BHRAMMAPUTRA EXPRESS",
+    "train_number": 743,
+    "arrival_at_source": "07:14 pm BST",
+    "departure_from_source": "07:18 pm BST",
+    "arrival_at_destination": "10:58 pm BST",
+    "journey_duration": "03:40",
+    "operating_days": "Daily",
+    "source_city": "Joydebpur",
+    "destination_city": "Melandah Bazar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Dewanganj_Bazar"
+  },
+  {
+    "train_name": "TISTA EXPRESS",
+    "train_number": 707,
+    "arrival_at_source": "08:23 am BST",
+    "departure_from_source": "08:26 am BST",
+    "arrival_at_destination": "11:56 am BST",
+    "journey_duration": "03:30",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Joydebpur",
+    "destination_city": "Melandah Bazar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Dewanganj_Bazar"
+  }
+]

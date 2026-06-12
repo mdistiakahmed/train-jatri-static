@@ -1,0 +1,67 @@
+[
+  {
+    "train_name": "BANGLABANDHA EXPRESS",
+    "train_number": 803,
+    "arrival_at_source": "03:01 am BST",
+    "departure_from_source": "03:03 am BST",
+    "arrival_at_destination": "04:40 am BST",
+    "journey_duration": "01:37",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Setabganj",
+    "destination_city": "Panchagarh",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "DRUTOJAN EXPRESS",
+    "train_number": 757,
+    "arrival_at_source": "05:20 am BST",
+    "departure_from_source": "05:22 am BST",
+    "arrival_at_destination": "07:10 am BST",
+    "journey_duration": "01:48",
+    "operating_days": "Daily",
+    "source_city": "Setabganj",
+    "destination_city": "Panchagarh",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "DOLONCHAPA EXPRESS",
+    "train_number": 767,
+    "arrival_at_source": "06:48 pm BST",
+    "departure_from_source": "06:50 pm BST",
+    "arrival_at_destination": "08:40 pm BST",
+    "journey_duration": "01:50",
+    "operating_days": "Daily",
+    "source_city": "Setabganj",
+    "destination_city": "Panchagarh",
+    "main_source_city": "Santahar",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "EKOTA EXPRESS",
+    "train_number": 705,
+    "arrival_at_source": "07:35 pm BST",
+    "departure_from_source": "07:37 pm BST",
+    "arrival_at_destination": "09:00 pm BST",
+    "journey_duration": "01:23",
+    "operating_days": "Daily",
+    "source_city": "Setabganj",
+    "destination_city": "Panchagarh",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "KANCHON INTERCITY COMMUTER",
+    "train_number": 41,
+    "arrival_at_source": "09:35 am BST",
+    "departure_from_source": "09:37 am BST",
+    "arrival_at_destination": "12:00 pm BST",
+    "journey_duration": "02:23",
+    "operating_days": "Daily",
+    "source_city": "Setabganj",
+    "destination_city": "Panchagarh",
+    "main_source_city": "Parbatipur",
+    "main_destination_city": "Panchagarh"
+  }
+]

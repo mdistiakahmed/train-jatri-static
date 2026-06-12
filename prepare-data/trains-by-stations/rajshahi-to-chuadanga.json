@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "KAPOTAKSHA EXPRESS",
+    "train_number": 716,
+    "arrival_at_source": null,
+    "departure_from_source": "02:30 pm BST",
+    "arrival_at_destination": "05:11 pm BST",
+    "journey_duration": "02:41",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Rajshahi",
+    "destination_city": "Chuadanga",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "SAGARDARI EXPRESS",
+    "train_number": 762,
+    "arrival_at_source": null,
+    "departure_from_source": "06:00 am BST",
+    "arrival_at_destination": "08:56 am BST",
+    "journey_duration": "02:56",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Rajshahi",
+    "destination_city": "Chuadanga",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Khulna"
+  }
+]

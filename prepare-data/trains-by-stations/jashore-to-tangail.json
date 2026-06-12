@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 763,
+    "arrival_at_source": "10:04 am BST",
+    "departure_from_source": "10:08 am BST",
+    "arrival_at_destination": "03:52 pm BST",
+    "journey_duration": "05:44",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Jashore",
+    "destination_city": "Tangail",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  }
+]

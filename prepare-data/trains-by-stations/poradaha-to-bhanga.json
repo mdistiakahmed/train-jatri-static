@@ -1,0 +1,41 @@
+[
+  {
+    "train_name": "SUNDARBAN EXPRESS",
+    "train_number": 725,
+    "arrival_at_source": "12:58 am BST",
+    "departure_from_source": "01:00 am BST",
+    "arrival_at_destination": "03:45 am BST",
+    "journey_duration": "02:45",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Poradaha",
+    "destination_city": "Bhanga",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "BENAPOLE EXPRESS",
+    "train_number": 795,
+    "arrival_at_source": "03:57 pm BST",
+    "departure_from_source": "04:00 pm BST",
+    "arrival_at_destination": "06:56 pm BST",
+    "journey_duration": "02:56",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Poradaha",
+    "destination_city": "Bhanga",
+    "main_source_city": "Benapole",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "MADHUMATI EXPRESS",
+    "train_number": 756,
+    "arrival_at_source": "08:50 am BST",
+    "departure_from_source": "09:10 am BST",
+    "arrival_at_destination": "12:24 pm BST",
+    "journey_duration": "03:14",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Poradaha",
+    "destination_city": "Bhanga",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhaka"
+  }
+]

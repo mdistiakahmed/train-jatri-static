@@ -1,0 +1,41 @@
+[
+  {
+    "train_name": "BIJOY EXPRESS",
+    "train_number": 785,
+    "arrival_at_source": "03:35 pm BST",
+    "departure_from_source": "03:55 pm BST",
+    "arrival_at_destination": "04:23 pm BST",
+    "journey_duration": "00:28",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Gouripur Myn",
+    "destination_city": "Mymensingh",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Jamalpur_Town"
+  },
+  {
+    "train_name": "HAWR EXPRESS",
+    "train_number": 778,
+    "arrival_at_source": "09:31 am BST",
+    "departure_from_source": "09:34 am BST",
+    "arrival_at_destination": "10:14 am BST",
+    "journey_duration": "00:40",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Gouripur Myn",
+    "destination_city": "Mymensingh",
+    "main_source_city": "Mohanganj",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "MOHONGANJ EXPRESS",
+    "train_number": 790,
+    "arrival_at_source": "12:32 am BST",
+    "departure_from_source": "12:35 am BST",
+    "arrival_at_destination": "01:10 am BST",
+    "journey_duration": "00:35",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Gouripur Myn",
+    "destination_city": "Mymensingh",
+    "main_source_city": "Mohanganj",
+    "main_destination_city": "Dhaka"
+  }
+]

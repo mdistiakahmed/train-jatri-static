@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "HAWR EXPRESS",
+    "train_number": 778,
+    "arrival_at_source": "08:14 am BST",
+    "departure_from_source": "08:16 am BST",
+    "arrival_at_destination": "01:22 pm BST",
+    "journey_duration": "05:06",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Barhatta",
+    "destination_city": "Biman Bandar",
+    "main_source_city": "Mohanganj",
+    "main_destination_city": "Dhaka"
+  }
+]

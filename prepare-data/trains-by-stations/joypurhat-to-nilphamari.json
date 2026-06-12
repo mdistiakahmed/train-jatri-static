@@ -1,0 +1,80 @@
+[
+  {
+    "train_name": "RUPSHA EXPRESS",
+    "train_number": 727,
+    "arrival_at_source": "02:05 pm BST",
+    "departure_from_source": "02:08 pm BST",
+    "arrival_at_destination": "04:05 pm BST",
+    "journey_duration": "01:57",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Joypurhat",
+    "destination_city": "Nilphamari",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Chilahati"
+  },
+  {
+    "train_name": "SIMANTA EXPRESS",
+    "train_number": 747,
+    "arrival_at_source": "03:46 am BST",
+    "departure_from_source": "03:49 am BST",
+    "arrival_at_destination": "05:41 am BST",
+    "journey_duration": "01:52",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Joypurhat",
+    "destination_city": "Nilphamari",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Chilahati"
+  },
+  {
+    "train_name": "BARENDRA EXPRESS",
+    "train_number": 731,
+    "arrival_at_source": "06:07 pm BST",
+    "departure_from_source": "06:10 pm BST",
+    "arrival_at_destination": "08:33 pm BST",
+    "journey_duration": "02:23",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Joypurhat",
+    "destination_city": "Nilphamari",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Chilahati"
+  },
+  {
+    "train_name": "TITUMIR EXPRESS",
+    "train_number": 733,
+    "arrival_at_source": "09:30 am BST",
+    "departure_from_source": "09:33 am BST",
+    "arrival_at_destination": "12:11 pm BST",
+    "journey_duration": "02:38",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Joypurhat",
+    "destination_city": "Nilphamari",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Chilahati"
+  },
+  {
+    "train_name": "CHILAHATI EXPRESS",
+    "train_number": 805,
+    "arrival_at_source": "11:19 pm BST",
+    "departure_from_source": "11:22 pm BST",
+    "arrival_at_destination": "01:41 am BST",
+    "journey_duration": "02:19",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Joypurhat",
+    "destination_city": "Nilphamari",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chilahati"
+  },
+  {
+    "train_name": "NILSAGAR EXPRESS",
+    "train_number": 765,
+    "arrival_at_source": "12:54 pm BST",
+    "departure_from_source": "12:57 pm BST",
+    "arrival_at_destination": "02:50 pm BST",
+    "journey_duration": "01:53",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Joypurhat",
+    "destination_city": "Nilphamari",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chilahati"
+  }
+]

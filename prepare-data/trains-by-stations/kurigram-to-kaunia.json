@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "KURIGRAM EXPRESS",
+    "train_number": 798,
+    "arrival_at_source": null,
+    "departure_from_source": "07:10 am BST",
+    "arrival_at_destination": "07:50 am BST",
+    "journey_duration": "00:40",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Kurigram",
+    "destination_city": "Kaunia",
+    "main_source_city": "Kurigram",
+    "main_destination_city": "Dhaka"
+  }
+]

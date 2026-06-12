@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "UDAYAN EXPRESS",
+    "train_number": 724,
+    "arrival_at_source": "10:39 pm BST",
+    "departure_from_source": "10:41 pm BST",
+    "arrival_at_destination": "04:07 am BST",
+    "journey_duration": "05:26",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Maijgaon",
+    "destination_city": "Feni",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "PAHARIKA EXPRESS",
+    "train_number": 720,
+    "arrival_at_source": "11:09 am BST",
+    "departure_from_source": "11:11 am BST",
+    "arrival_at_destination": "05:24 pm BST",
+    "journey_duration": "06:13",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Maijgaon",
+    "destination_city": "Feni",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Chattogram"
+  }
+]

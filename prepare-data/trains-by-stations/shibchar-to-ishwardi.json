@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "MADHUMATI EXPRESS",
+    "train_number": 755,
+    "arrival_at_source": "04:03 pm BST",
+    "departure_from_source": "04:05 pm BST",
+    "arrival_at_destination": "09:05 pm BST",
+    "journey_duration": "05:00",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Shibchar",
+    "destination_city": "Ishwardi",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "train_name": "EKOTA EXPRESS",
+    "train_number": 705,
+    "arrival_at_source": "01:01 pm BST",
+    "departure_from_source": "01:04 pm BST",
+    "arrival_at_destination": "02:09 pm BST",
+    "journey_duration": "01:05",
+    "operating_days": "Daily",
+    "source_city": "Ullapara",
+    "destination_city": "Ishwardi Bypass",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "PADMA EXPRESS",
+    "train_number": 759,
+    "arrival_at_source": "01:30 am BST",
+    "departure_from_source": "01:33 am BST",
+    "arrival_at_destination": "02:30 am BST",
+    "journey_duration": "00:57",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Ullapara",
+    "destination_city": "Ishwardi Bypass",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "SILKCITY EXPRESS",
+    "train_number": 753,
+    "arrival_at_source": "05:31 pm BST",
+    "departure_from_source": "05:34 pm BST",
+    "arrival_at_destination": "06:48 pm BST",
+    "journey_duration": "01:14",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Ullapara",
+    "destination_city": "Ishwardi Bypass",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "DHUMKETU EXPRESS",
+    "train_number": 769,
+    "arrival_at_source": "08:56 am BST",
+    "departure_from_source": "08:59 am BST",
+    "arrival_at_destination": "10:12 am BST",
+    "journey_duration": "01:13",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Ullapara",
+    "destination_city": "Ishwardi Bypass",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  }
+]

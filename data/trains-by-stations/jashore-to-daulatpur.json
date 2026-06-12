@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "SUNDARBAN EXPRESS",
+    "train_number": 726,
+    "arrival_at_source": "02:04 pm BST",
+    "departure_from_source": "02:08 pm BST",
+    "arrival_at_destination": "03:08 pm BST",
+    "journey_duration": "01:00",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Jashore",
+    "destination_city": "Daulatpur",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "SIMANTA EXPRESS",
+    "train_number": 748,
+    "arrival_at_source": "02:41 am BST",
+    "departure_from_source": "02:45 am BST",
+    "arrival_at_destination": "03:41 am BST",
+    "journey_duration": "00:56",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Jashore",
+    "destination_city": "Daulatpur",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Khulna"
+  }
+]

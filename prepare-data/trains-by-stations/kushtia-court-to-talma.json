@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "MADHUMATI EXPRESS",
+    "train_number": 756,
+    "arrival_at_source": "09:22 am BST",
+    "departure_from_source": "09:25 am BST",
+    "arrival_at_destination": "12:05 pm BST",
+    "journey_duration": "02:40",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Kushtia Court",
+    "destination_city": "Talma",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhaka"
+  }
+]

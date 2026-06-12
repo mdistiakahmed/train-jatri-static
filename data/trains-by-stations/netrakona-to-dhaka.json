@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "HAWR EXPRESS",
+    "train_number": 778,
+    "arrival_at_source": "08:47 am BST",
+    "departure_from_source": "08:52 am BST",
+    "arrival_at_destination": "01:55 pm BST",
+    "journey_duration": "05:03",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Netrakona",
+    "destination_city": "Dhaka",
+    "main_source_city": "Mohanganj",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "MOHONGANJ EXPRESS",
+    "train_number": 790,
+    "arrival_at_source": "11:50 pm BST",
+    "departure_from_source": "11:53 pm BST",
+    "arrival_at_destination": "04:55 am BST",
+    "journey_duration": "05:02",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Netrakona",
+    "destination_city": "Dhaka",
+    "main_source_city": "Mohanganj",
+    "main_destination_city": "Dhaka"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "train_name": "BENAPOLE EXPRESS",
+    "train_number": 795,
+    "arrival_at_source": "04:12 pm BST",
+    "departure_from_source": "04:15 pm BST",
+    "arrival_at_destination": "04:49 pm BST",
+    "journey_duration": "00:34",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Kushtia Court",
+    "destination_city": "Khoksha",
+    "main_source_city": "Benapole",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "TUNGIPARA EXPRESS",
+    "train_number": 784,
+    "arrival_at_source": "05:57 pm BST",
+    "departure_from_source": "06:00 pm BST",
+    "arrival_at_destination": "06:30 pm BST",
+    "journey_duration": "00:30",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Kushtia Court",
+    "destination_city": "Khoksha",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Gobra"
+  },
+  {
+    "train_name": "MADHUMATI EXPRESS",
+    "train_number": 756,
+    "arrival_at_source": "09:22 am BST",
+    "departure_from_source": "09:25 am BST",
+    "arrival_at_destination": "10:01 am BST",
+    "journey_duration": "00:36",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Kushtia Court",
+    "destination_city": "Khoksha",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhaka"
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "train_name": "CHATTALA EXPRESS",
+    "train_number": 802,
+    "arrival_at_source": "03:57 pm BST",
+    "departure_from_source": "04:00 pm BST",
+    "arrival_at_destination": "06:53 pm BST",
+    "journey_duration": "02:53",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Bhairab Bazar",
+    "destination_city": "Feni",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "MAHANAGAR PROVATI",
+    "train_number": 704,
+    "arrival_at_source": "09:16 am BST",
+    "departure_from_source": "09:19 am BST",
+    "arrival_at_destination": "12:00 pm BST",
+    "journey_duration": "02:41",
+    "operating_days": "Daily",
+    "source_city": "Bhairab Bazar",
+    "destination_city": "Feni",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "MOHANAGAR EXPRESS",
+    "train_number": 722,
+    "arrival_at_source": "11:00 pm BST",
+    "departure_from_source": "11:03 pm BST",
+    "arrival_at_destination": "01:53 am BST",
+    "journey_duration": "02:50",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Bhairab Bazar",
+    "destination_city": "Feni",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "BIJOY EXPRESS",
+    "train_number": 786,
+    "arrival_at_source": "12:30 am BST",
+    "departure_from_source": "12:35 am BST",
+    "arrival_at_destination": "03:15 am BST",
+    "journey_duration": "02:40",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Bhairab Bazar",
+    "destination_city": "Feni",
+    "main_source_city": "Jamalpur_Town",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "TURNA",
+    "train_number": 742,
+    "arrival_at_source": "12:49 am BST",
+    "departure_from_source": "12:52 am BST",
+    "arrival_at_destination": "03:40 am BST",
+    "journey_duration": "02:48",
+    "operating_days": "Daily",
+    "source_city": "Bhairab Bazar",
+    "destination_city": "Feni",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chattogram"
+  }
+]

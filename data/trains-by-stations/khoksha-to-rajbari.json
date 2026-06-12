@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "BENAPOLE EXPRESS",
+    "train_number": 795,
+    "arrival_at_source": "04:49 pm BST",
+    "departure_from_source": "04:51 pm BST",
+    "arrival_at_destination": "05:30 pm BST",
+    "journey_duration": "00:39",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Khoksha",
+    "destination_city": "Rajbari",
+    "main_source_city": "Benapole",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "MADHUMATI EXPRESS",
+    "train_number": 756,
+    "arrival_at_source": "10:01 am BST",
+    "departure_from_source": "10:03 am BST",
+    "arrival_at_destination": "10:50 am BST",
+    "journey_duration": "00:47",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Khoksha",
+    "destination_city": "Rajbari",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhaka"
+  }
+]

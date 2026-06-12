@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "BURIMARI EXPRESS",
+    "train_number": 809,
+    "arrival_at_source": "08:53 am BST",
+    "departure_from_source": "08:58 am BST",
+    "arrival_at_destination": "08:21 pm BST",
+    "journey_duration": "11:23",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Hatibandha",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Burimari"
+  }
+]

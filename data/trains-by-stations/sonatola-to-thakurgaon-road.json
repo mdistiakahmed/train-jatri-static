@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "DOLONCHAPA EXPRESS",
+    "train_number": 767,
+    "arrival_at_source": "12:50 pm BST",
+    "departure_from_source": "12:52 pm BST",
+    "arrival_at_destination": "07:38 pm BST",
+    "journey_duration": "06:46",
+    "operating_days": "Daily",
+    "source_city": "Sonatola",
+    "destination_city": "Thakurgaon Road",
+    "main_source_city": "Santahar",
+    "main_destination_city": "Panchagarh"
+  }
+]

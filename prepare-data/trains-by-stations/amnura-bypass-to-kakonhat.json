@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "CHAPAINAWABGANJ SHUTTLE",
+    "train_number": 110,
+    "arrival_at_source": "02:32 pm BST",
+    "departure_from_source": "02:35 pm BST",
+    "arrival_at_destination": "02:55 pm BST",
+    "journey_duration": "00:20",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Amnura Bypass",
+    "destination_city": "Kakonhat",
+    "main_source_city": "Chapainawabganj",
+    "main_destination_city": "Rajshahi"
+  }
+]

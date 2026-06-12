@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "JAYENTIKA EXPRESS",
+    "train_number": 718,
+    "arrival_at_source": "04:30 pm BST",
+    "departure_from_source": "04:32 pm BST",
+    "arrival_at_destination": "05:28 pm BST",
+    "journey_duration": "00:56",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Mukundapur",
+    "destination_city": "Ashuganj",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "UDAYAN EXPRESS",
+    "train_number": 724,
+    "arrival_at_source": "10:58 pm BST",
+    "departure_from_source": "11:00 pm BST",
+    "arrival_at_destination": "11:40 pm BST",
+    "journey_duration": "00:40",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Baramchal",
+    "destination_city": "Shamshernagar",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "UPABAN EXPRESS",
+    "train_number": 740,
+    "arrival_at_source": "12:28 am BST",
+    "departure_from_source": "12:30 am BST",
+    "arrival_at_destination": "01:09 am BST",
+    "journey_duration": "00:39",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Baramchal",
+    "destination_city": "Shamshernagar",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  }
+]

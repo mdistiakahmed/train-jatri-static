@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "PAHARIKA EXPRESS",
+    "train_number": 719,
+    "arrival_at_source": "10:26 am BST",
+    "departure_from_source": "10:28 am BST",
+    "arrival_at_destination": "12:28 pm BST",
+    "journey_duration": "02:00",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Cumilla",
+    "destination_city": "Nayapara",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Sylhet"
+  }
+]

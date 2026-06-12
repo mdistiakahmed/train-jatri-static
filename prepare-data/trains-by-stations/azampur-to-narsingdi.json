@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "KALNI EXPRESS",
+    "train_number": 774,
+    "arrival_at_source": "10:20 am BST",
+    "departure_from_source": "10:22 am BST",
+    "arrival_at_destination": "11:43 am BST",
+    "journey_duration": "01:21",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Azampur",
+    "destination_city": "Narsingdi",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  }
+]

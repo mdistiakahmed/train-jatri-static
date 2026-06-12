@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "JAMUNA EXPRESS",
+    "train_number": 746,
+    "arrival_at_source": "02:15 am BST",
+    "departure_from_source": "02:18 am BST",
+    "arrival_at_destination": "07:23 am BST",
+    "journey_duration": "05:05",
+    "operating_days": "Daily",
+    "source_city": "Sarishabari",
+    "destination_city": "Biman Bandar",
+    "main_source_city": "Tarakandi",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "AGHNIBINA EXPRESS",
+    "train_number": 736,
+    "arrival_at_source": "05:45 pm BST",
+    "departure_from_source": "05:47 pm BST",
+    "arrival_at_destination": "10:22 pm BST",
+    "journey_duration": "04:35",
+    "operating_days": "Daily",
+    "source_city": "Sarishabari",
+    "destination_city": "Biman Bandar",
+    "main_source_city": "Tarakandi",
+    "main_destination_city": "Dhaka"
+  }
+]

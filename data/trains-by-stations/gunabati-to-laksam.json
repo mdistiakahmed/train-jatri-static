@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "MAHANAGAR GODHULI",
+    "train_number": 703,
+    "arrival_at_source": "04:36 pm BST",
+    "departure_from_source": "04:38 pm BST",
+    "arrival_at_destination": "05:04 pm BST",
+    "journey_duration": "00:26",
+    "operating_days": "Daily",
+    "source_city": "Gunabati",
+    "destination_city": "Laksam",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Dhaka"
+  }
+]

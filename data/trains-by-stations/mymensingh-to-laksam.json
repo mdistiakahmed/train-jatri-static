@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "BIJOY EXPRESS",
+    "train_number": 786,
+    "arrival_at_source": "09:05 pm BST",
+    "departure_from_source": "09:35 pm BST",
+    "arrival_at_destination": "02:32 am BST",
+    "journey_duration": "04:57",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Mymensingh",
+    "destination_city": "Laksam",
+    "main_source_city": "Jamalpur_Town",
+    "main_destination_city": "Chattogram"
+  }
+]

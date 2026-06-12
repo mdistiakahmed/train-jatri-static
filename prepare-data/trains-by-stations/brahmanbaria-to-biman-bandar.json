@@ -1,0 +1,67 @@
+[
+  {
+    "train_name": "JAYENTIKA EXPRESS",
+    "train_number": 718,
+    "arrival_at_source": "05:09 pm BST",
+    "departure_from_source": "05:13 pm BST",
+    "arrival_at_destination": "06:40 pm BST",
+    "journey_duration": "01:27",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Brahmanbaria",
+    "destination_city": "Biman Bandar",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "PARABAT EXPRESS",
+    "train_number": 710,
+    "arrival_at_source": "08:30 pm BST",
+    "departure_from_source": "08:34 pm BST",
+    "arrival_at_destination": "10:12 pm BST",
+    "journey_duration": "01:38",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Brahmanbaria",
+    "destination_city": "Biman Bandar",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "UPAKUL EXPRESS",
+    "train_number": 711,
+    "arrival_at_source": "09:11 am BST",
+    "departure_from_source": "09:15 am BST",
+    "arrival_at_destination": "10:47 am BST",
+    "journey_duration": "01:32",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Brahmanbaria",
+    "destination_city": "Biman Bandar",
+    "main_source_city": "Noakhali",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "CHATTALA EXPRESS",
+    "train_number": 801,
+    "arrival_at_source": "10:26 am BST",
+    "departure_from_source": "10:29 am BST",
+    "arrival_at_destination": "12:10 pm BST",
+    "journey_duration": "01:41",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Brahmanbaria",
+    "destination_city": "Biman Bandar",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "KALNI EXPRESS",
+    "train_number": 774,
+    "arrival_at_source": "10:48 am BST",
+    "departure_from_source": "10:51 am BST",
+    "arrival_at_destination": "12:24 pm BST",
+    "journey_duration": "01:33",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Brahmanbaria",
+    "destination_city": "Biman Bandar",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  }
+]

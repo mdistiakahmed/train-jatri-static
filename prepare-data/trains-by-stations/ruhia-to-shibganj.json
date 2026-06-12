@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "KANCHON INTERCITY COMMUTER",
+    "train_number": 42,
+    "arrival_at_source": "04:01 pm BST",
+    "departure_from_source": "04:03 pm BST",
+    "arrival_at_destination": "04:34 pm BST",
+    "journey_duration": "00:31",
+    "operating_days": "Daily",
+    "source_city": "Ruhia",
+    "destination_city": "Shibganj",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Parbatipur"
+  },
+  {
+    "train_name": "BANGLABANDHA EXPRESS",
+    "train_number": 804,
+    "arrival_at_source": "09:29 am BST",
+    "departure_from_source": "09:31 am BST",
+    "arrival_at_destination": "09:57 am BST",
+    "journey_duration": "00:26",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Ruhia",
+    "destination_city": "Shibganj",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Rajshahi"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "LALMONI EXPRESS",
+    "train_number": 751,
+    "arrival_at_source": "05:37 am BST",
+    "departure_from_source": "05:40 am BST",
+    "arrival_at_destination": "06:58 am BST",
+    "journey_duration": "01:18",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Gaibandha",
+    "destination_city": "Teesta Junction",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Lalmonirhat"
+  },
+  {
+    "train_name": "KOROTOA EXPRESS",
+    "train_number": 713,
+    "arrival_at_source": "11:59 am BST",
+    "departure_from_source": "12:04 pm BST",
+    "arrival_at_destination": "01:22 pm BST",
+    "journey_duration": "01:18",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Gaibandha",
+    "destination_city": "Teesta Junction",
+    "main_source_city": "Santahar",
+    "main_destination_city": "Burimari"
+  }
+]

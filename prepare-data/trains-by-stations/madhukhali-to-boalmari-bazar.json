@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "TUNGIPARA EXPRESS",
+    "train_number": 784,
+    "arrival_at_source": "07:51 pm BST",
+    "departure_from_source": "07:54 pm BST",
+    "arrival_at_destination": "08:14 pm BST",
+    "journey_duration": "00:20",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Madhukhali",
+    "destination_city": "Boalmari Bazar",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Gobra"
+  }
+]

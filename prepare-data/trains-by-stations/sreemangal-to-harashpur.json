@@ -1,0 +1,41 @@
+[
+  {
+    "train_name": "PAHARIKA EXPRESS",
+    "train_number": 720,
+    "arrival_at_source": "12:57 pm BST",
+    "departure_from_source": "01:02 pm BST",
+    "arrival_at_destination": "02:39 pm BST",
+    "journey_duration": "01:37",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Sreemangal",
+    "destination_city": "Harashpur",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "JAYENTIKA EXPRESS",
+    "train_number": 718,
+    "arrival_at_source": "02:40 pm BST",
+    "departure_from_source": "02:45 pm BST",
+    "arrival_at_destination": "04:18 pm BST",
+    "journey_duration": "01:33",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Sreemangal",
+    "destination_city": "Harashpur",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "KALNI EXPRESS",
+    "train_number": 774,
+    "arrival_at_source": "08:17 am BST",
+    "departure_from_source": "08:20 am BST",
+    "arrival_at_destination": "09:52 am BST",
+    "journey_duration": "01:32",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Sreemangal",
+    "destination_city": "Harashpur",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  }
+]

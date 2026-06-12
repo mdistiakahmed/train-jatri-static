@@ -1,0 +1,67 @@
+[
+  {
+    "train_name": "RUPSHA EXPRESS",
+    "train_number": 728,
+    "arrival_at_source": "02:24 pm BST",
+    "departure_from_source": "02:27 pm BST",
+    "arrival_at_destination": "03:20 pm BST",
+    "journey_duration": "00:53",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Bheramara",
+    "destination_city": "Chuadanga",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "KAPOTAKSHA EXPRESS",
+    "train_number": 716,
+    "arrival_at_source": "04:09 pm BST",
+    "departure_from_source": "04:12 pm BST",
+    "arrival_at_destination": "05:11 pm BST",
+    "journey_duration": "00:59",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Bheramara",
+    "destination_city": "Chuadanga",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "SAGARDARI EXPRESS",
+    "train_number": 762,
+    "arrival_at_source": "07:54 am BST",
+    "departure_from_source": "07:57 am BST",
+    "arrival_at_destination": "08:56 am BST",
+    "journey_duration": "00:59",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Bheramara",
+    "destination_city": "Chuadanga",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "SIMANTA EXPRESS",
+    "train_number": 748,
+    "arrival_at_source": "12:00 am BST",
+    "departure_from_source": "12:03 am BST",
+    "arrival_at_destination": "01:00 am BST",
+    "journey_duration": "00:57",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Bheramara",
+    "destination_city": "Chuadanga",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 764,
+    "arrival_at_source": "12:25 am BST",
+    "departure_from_source": "12:28 am BST",
+    "arrival_at_destination": "01:24 am BST",
+    "journey_duration": "00:56",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Bheramara",
+    "destination_city": "Chuadanga",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Khulna"
+  }
+]

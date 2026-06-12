@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "CHATTALA EXPRESS",
+    "train_number": 802,
+    "arrival_at_source": "04:19 pm BST",
+    "departure_from_source": "04:23 pm BST",
+    "arrival_at_destination": "06:21 pm BST",
+    "journey_duration": "01:58",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Brahmanbaria",
+    "destination_city": "Nangolkot",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "MOHANAGAR EXPRESS",
+    "train_number": 722,
+    "arrival_at_source": "11:28 pm BST",
+    "departure_from_source": "11:31 pm BST",
+    "arrival_at_destination": "01:26 am BST",
+    "journey_duration": "01:55",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Brahmanbaria",
+    "destination_city": "Nangolkot",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chattogram"
+  }
+]

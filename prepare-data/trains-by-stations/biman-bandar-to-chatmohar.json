@@ -1,0 +1,80 @@
+[
+  {
+    "train_name": "SILKCITY EXPRESS",
+    "train_number": 753,
+    "arrival_at_source": "02:53 pm BST",
+    "departure_from_source": "02:58 pm BST",
+    "arrival_at_destination": "06:23 pm BST",
+    "journey_duration": "03:25",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Chatmohar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "DHUMKETU EXPRESS",
+    "train_number": 769,
+    "arrival_at_source": "06:23 am BST",
+    "departure_from_source": "06:28 am BST",
+    "arrival_at_destination": "09:44 am BST",
+    "journey_duration": "03:16",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Biman Bandar",
+    "destination_city": "Chatmohar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 764,
+    "arrival_at_source": "07:53 pm BST",
+    "departure_from_source": "07:58 pm BST",
+    "arrival_at_destination": "11:04 pm BST",
+    "journey_duration": "03:06",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Chatmohar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "DRUTOJAN EXPRESS",
+    "train_number": 757,
+    "arrival_at_source": "09:08 pm BST",
+    "departure_from_source": "09:13 pm BST",
+    "arrival_at_destination": "11:56 pm BST",
+    "journey_duration": "02:43",
+    "operating_days": "Daily",
+    "source_city": "Biman Bandar",
+    "destination_city": "Chatmohar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "RANGPUR EXPRESS",
+    "train_number": 771,
+    "arrival_at_source": "09:33 am BST",
+    "departure_from_source": "09:38 am BST",
+    "arrival_at_destination": "12:31 pm BST",
+    "journey_duration": "02:53",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Chatmohar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rangpur"
+  },
+  {
+    "train_name": "PADMA EXPRESS",
+    "train_number": 759,
+    "arrival_at_source": "11:08 pm BST",
+    "departure_from_source": "11:13 pm BST",
+    "arrival_at_destination": "02:07 am BST",
+    "journey_duration": "02:54",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Chatmohar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  }
+]

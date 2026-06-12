@@ -1,0 +1,41 @@
+[
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 764,
+    "arrival_at_source": null,
+    "departure_from_source": "07:30 pm BST",
+    "arrival_at_destination": "04:40 am BST",
+    "journey_duration": "09:10",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Dhaka",
+    "destination_city": "Khulna",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "SUNDARBAN EXPRESS",
+    "train_number": 726,
+    "arrival_at_source": null,
+    "departure_from_source": "08:00 am BST",
+    "arrival_at_destination": "03:40 pm BST",
+    "journey_duration": "07:40",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Dhaka",
+    "destination_city": "Khulna",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "JAHANABAD EXPRESS",
+    "train_number": 826,
+    "arrival_at_source": null,
+    "departure_from_source": "08:00 pm BST",
+    "arrival_at_destination": "11:45 pm BST",
+    "journey_duration": "03:45",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Dhaka",
+    "destination_city": "Khulna",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Khulna"
+  }
+]

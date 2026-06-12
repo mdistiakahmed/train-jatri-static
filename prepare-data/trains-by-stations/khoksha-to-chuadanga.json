@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "BENAPOLE EXPRESS",
+    "train_number": 796,
+    "arrival_at_source": "02:44 am BST",
+    "departure_from_source": "02:46 am BST",
+    "arrival_at_destination": "04:01 am BST",
+    "journey_duration": "01:15",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Khoksha",
+    "destination_city": "Chuadanga",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Benapole"
+  }
+]

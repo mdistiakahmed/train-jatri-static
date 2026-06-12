@@ -1,0 +1,80 @@
+[
+  {
+    "train_name": "JAMALPUR EXPRESS",
+    "train_number": 799,
+    "arrival_at_source": "01:05 pm BST",
+    "departure_from_source": "01:10 pm BST",
+    "arrival_at_destination": "02:25 pm BST",
+    "journey_duration": "01:15",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Mymensingh",
+    "destination_city": "Jamalpur Town",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Bhuapur"
+  },
+  {
+    "train_name": "AGHNIBINA EXPRESS",
+    "train_number": 735,
+    "arrival_at_source": "02:35 pm BST",
+    "departure_from_source": "02:38 pm BST",
+    "arrival_at_destination": "03:38 pm BST",
+    "journey_duration": "01:00",
+    "operating_days": "Daily",
+    "source_city": "Mymensingh",
+    "destination_city": "Jamalpur Town",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Tarakandi"
+  },
+  {
+    "train_name": "BIJOY EXPRESS",
+    "train_number": 785,
+    "arrival_at_source": "04:23 pm BST",
+    "departure_from_source": "04:28 pm BST",
+    "arrival_at_destination": "06:00 pm BST",
+    "journey_duration": "01:32",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Mymensingh",
+    "destination_city": "Jamalpur Town",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Jamalpur_Town"
+  },
+  {
+    "train_name": "JAMUNA EXPRESS",
+    "train_number": 745,
+    "arrival_at_source": "08:32 pm BST",
+    "departure_from_source": "08:37 pm BST",
+    "arrival_at_destination": "10:05 pm BST",
+    "journey_duration": "01:28",
+    "operating_days": "Daily",
+    "source_city": "Mymensingh",
+    "destination_city": "Jamalpur Town",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Tarakandi"
+  },
+  {
+    "train_name": "BHRAMMAPUTRA EXPRESS",
+    "train_number": 743,
+    "arrival_at_source": "09:23 pm BST",
+    "departure_from_source": "09:28 pm BST",
+    "arrival_at_destination": "10:39 pm BST",
+    "journey_duration": "01:11",
+    "operating_days": "Daily",
+    "source_city": "Mymensingh",
+    "destination_city": "Jamalpur Town",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Dewanganj_Bazar"
+  },
+  {
+    "train_name": "TISTA EXPRESS",
+    "train_number": 707,
+    "arrival_at_source": "10:32 am BST",
+    "departure_from_source": "10:35 am BST",
+    "arrival_at_destination": "11:36 am BST",
+    "journey_duration": "01:01",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Mymensingh",
+    "destination_city": "Jamalpur Town",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Dewanganj_Bazar"
+  }
+]

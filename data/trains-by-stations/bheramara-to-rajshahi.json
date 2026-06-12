@@ -1,0 +1,54 @@
+[
+  {
+    "train_name": "SAGARDARI EXPRESS",
+    "train_number": 761,
+    "arrival_at_source": "07:45 pm BST",
+    "departure_from_source": "07:47 pm BST",
+    "arrival_at_destination": "10:00 pm BST",
+    "journey_duration": "02:13",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Bheramara",
+    "destination_city": "Rajshahi",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "MADHUMATI EXPRESS",
+    "train_number": 755,
+    "arrival_at_source": "08:32 pm BST",
+    "departure_from_source": "08:35 pm BST",
+    "arrival_at_destination": "10:30 pm BST",
+    "journey_duration": "01:55",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Bheramara",
+    "destination_city": "Rajshahi",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "KAPOTAKSHA EXPRESS",
+    "train_number": 715,
+    "arrival_at_source": "10:25 am BST",
+    "departure_from_source": "10:27 am BST",
+    "arrival_at_destination": "12:20 pm BST",
+    "journey_duration": "01:53",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Bheramara",
+    "destination_city": "Rajshahi",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "TUNGIPARA EXPRESS",
+    "train_number": 783,
+    "arrival_at_source": "11:17 am BST",
+    "departure_from_source": "11:20 am BST",
+    "arrival_at_destination": "01:15 pm BST",
+    "journey_duration": "01:55",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Bheramara",
+    "destination_city": "Rajshahi",
+    "main_source_city": "Gobra",
+    "main_destination_city": "Rajshahi"
+  }
+]

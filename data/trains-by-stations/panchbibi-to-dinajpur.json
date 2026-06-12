@@ -1,0 +1,41 @@
+[
+  {
+    "train_name": "DRUTOJAN EXPRESS",
+    "train_number": 757,
+    "arrival_at_source": "02:50 am BST",
+    "departure_from_source": "02:52 am BST",
+    "arrival_at_destination": "04:45 am BST",
+    "journey_duration": "01:53",
+    "operating_days": "Daily",
+    "source_city": "Panchbibi",
+    "destination_city": "Dinajpur",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "EKOTA EXPRESS",
+    "train_number": 705,
+    "arrival_at_source": "05:12 pm BST",
+    "departure_from_source": "05:14 pm BST",
+    "arrival_at_destination": "07:00 pm BST",
+    "journey_duration": "01:46",
+    "operating_days": "Daily",
+    "source_city": "Panchbibi",
+    "destination_city": "Dinajpur",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "BANGLABANDHA EXPRESS",
+    "train_number": 803,
+    "arrival_at_source": "12:15 am BST",
+    "departure_from_source": "12:17 am BST",
+    "arrival_at_destination": "02:25 am BST",
+    "journey_duration": "02:08",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Panchbibi",
+    "destination_city": "Dinajpur",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Panchagarh"
+  }
+]

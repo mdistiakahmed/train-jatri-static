@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 764,
+    "arrival_at_source": "10:47 pm BST",
+    "departure_from_source": "10:50 pm BST",
+    "arrival_at_destination": "11:45 pm BST",
+    "journey_duration": "00:55",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Boral Bridge",
+    "destination_city": "Ishwardi",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Khulna"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "LALMONI EXPRESS",
+    "train_number": 752,
+    "arrival_at_source": "12:41 pm BST",
+    "departure_from_source": "12:44 pm BST",
+    "arrival_at_destination": "05:10 pm BST",
+    "journey_duration": "04:26",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Bogura",
+    "destination_city": "Tangail",
+    "main_source_city": "Lalmonirhat",
+    "main_destination_city": "Dhaka"
+  }
+]

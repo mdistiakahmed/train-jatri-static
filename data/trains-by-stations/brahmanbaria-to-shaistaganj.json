@@ -1,0 +1,41 @@
+[
+  {
+    "train_name": "JAYENTIKA EXPRESS",
+    "train_number": 717,
+    "arrival_at_source": "01:11 pm BST",
+    "departure_from_source": "01:15 pm BST",
+    "arrival_at_destination": "03:21 pm BST",
+    "journey_duration": "02:06",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Brahmanbaria",
+    "destination_city": "Shaistaganj",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Sylhet"
+  },
+  {
+    "train_name": "KALNI EXPRESS",
+    "train_number": 773,
+    "arrival_at_source": "04:46 pm BST",
+    "departure_from_source": "04:49 pm BST",
+    "arrival_at_destination": "06:12 pm BST",
+    "journey_duration": "01:23",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Brahmanbaria",
+    "destination_city": "Shaistaganj",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Sylhet"
+  },
+  {
+    "train_name": "PARABAT EXPRESS",
+    "train_number": 709,
+    "arrival_at_source": "08:26 am BST",
+    "departure_from_source": "08:29 am BST",
+    "arrival_at_destination": "09:52 am BST",
+    "journey_duration": "01:23",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Brahmanbaria",
+    "destination_city": "Shaistaganj",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Sylhet"
+  }
+]

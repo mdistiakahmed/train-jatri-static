@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "PAHARIKA EXPRESS",
+    "train_number": 719,
+    "arrival_at_source": "10:26 am BST",
+    "departure_from_source": "10:28 am BST",
+    "arrival_at_destination": "02:06 pm BST",
+    "journey_duration": "03:38",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Cumilla",
+    "destination_city": "Shamshernagar",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Sylhet"
+  },
+  {
+    "train_name": "UDAYAN EXPRESS",
+    "train_number": 723,
+    "arrival_at_source": "12:09 am BST",
+    "departure_from_source": "12:12 am BST",
+    "arrival_at_destination": "03:38 am BST",
+    "journey_duration": "03:26",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Cumilla",
+    "destination_city": "Shamshernagar",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Sylhet"
+  }
+]

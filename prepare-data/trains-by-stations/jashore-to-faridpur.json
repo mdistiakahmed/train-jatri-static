@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "BENAPOLE EXPRESS",
+    "train_number": 795,
+    "arrival_at_source": "01:20 pm BST",
+    "departure_from_source": "01:40 pm BST",
+    "arrival_at_destination": "06:22 pm BST",
+    "journey_duration": "04:42",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Jashore",
+    "destination_city": "Faridpur",
+    "main_source_city": "Benapole",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "SUNDARBAN EXPRESS",
+    "train_number": 725,
+    "arrival_at_source": "10:53 pm BST",
+    "departure_from_source": "10:57 pm BST",
+    "arrival_at_destination": "03:12 am BST",
+    "journey_duration": "04:15",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Jashore",
+    "destination_city": "Faridpur",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  }
+]

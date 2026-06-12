@@ -1,0 +1,41 @@
+[
+  {
+    "train_name": "BURIMARI EXPRESS",
+    "train_number": 809,
+    "arrival_at_source": "08:53 am BST",
+    "departure_from_source": "08:58 am BST",
+    "arrival_at_destination": "03:00 pm BST",
+    "journey_duration": "06:02",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Bogura",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Burimari"
+  },
+  {
+    "train_name": "RANGPUR EXPRESS",
+    "train_number": 771,
+    "arrival_at_source": "09:33 am BST",
+    "departure_from_source": "09:38 am BST",
+    "arrival_at_destination": "03:36 pm BST",
+    "journey_duration": "05:58",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Bogura",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rangpur"
+  },
+  {
+    "train_name": "LALMONI EXPRESS",
+    "train_number": 751,
+    "arrival_at_source": "10:08 pm BST",
+    "departure_from_source": "10:13 pm BST",
+    "arrival_at_destination": "04:20 am BST",
+    "journey_duration": "06:07",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Bogura",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Lalmonirhat"
+  }
+]

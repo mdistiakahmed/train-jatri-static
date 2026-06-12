@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "SIMANTA EXPRESS",
+    "train_number": 748,
+    "arrival_at_source": "06:48 pm BST",
+    "departure_from_source": "06:51 pm BST",
+    "arrival_at_destination": "01:00 am BST",
+    "journey_duration": "06:09",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Domar",
+    "destination_city": "Chuadanga",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "RUPSHA EXPRESS",
+    "train_number": 728,
+    "arrival_at_source": "08:48 am BST",
+    "departure_from_source": "08:51 am BST",
+    "arrival_at_destination": "03:20 pm BST",
+    "journey_duration": "06:29",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Domar",
+    "destination_city": "Chuadanga",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Khulna"
+  }
+]

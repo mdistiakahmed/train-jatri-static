@@ -1,0 +1,80 @@
+[
+  {
+    "train_name": "KANCHON INTERCITY COMMUTER",
+    "train_number": 42,
+    "arrival_at_source": null,
+    "departure_from_source": "03:30 pm BST",
+    "arrival_at_destination": "04:23 pm BST",
+    "journey_duration": "00:53",
+    "operating_days": "Daily",
+    "source_city": "Panchagarh",
+    "destination_city": "Thakurgaon Road",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Parbatipur"
+  },
+  {
+    "train_name": "DOLONCHAPA EXPRESS",
+    "train_number": 768,
+    "arrival_at_source": null,
+    "departure_from_source": "06:00 am BST",
+    "arrival_at_destination": "06:51 am BST",
+    "journey_duration": "00:51",
+    "operating_days": "Daily",
+    "source_city": "Panchagarh",
+    "destination_city": "Thakurgaon Road",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Santahar"
+  },
+  {
+    "train_name": "DRUTOJAN EXPRESS",
+    "train_number": 758,
+    "arrival_at_source": null,
+    "departure_from_source": "07:20 am BST",
+    "arrival_at_destination": "08:02 am BST",
+    "journey_duration": "00:42",
+    "operating_days": "Daily",
+    "source_city": "Panchagarh",
+    "destination_city": "Thakurgaon Road",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "BANGLABANDHA EXPRESS",
+    "train_number": 804,
+    "arrival_at_source": null,
+    "departure_from_source": "09:00 am BST",
+    "arrival_at_destination": "09:47 am BST",
+    "journey_duration": "00:47",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Panchagarh",
+    "destination_city": "Thakurgaon Road",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "EKOTA EXPRESS",
+    "train_number": 706,
+    "arrival_at_source": null,
+    "departure_from_source": "09:10 pm BST",
+    "arrival_at_destination": "09:51 pm BST",
+    "journey_duration": "00:41",
+    "operating_days": "Daily",
+    "source_city": "Panchagarh",
+    "destination_city": "Thakurgaon Road",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "PANCHAGARH EXPRESS",
+    "train_number": 794,
+    "arrival_at_source": null,
+    "departure_from_source": "12:10 pm BST",
+    "arrival_at_destination": "12:50 pm BST",
+    "journey_duration": "00:40",
+    "operating_days": "Daily",
+    "source_city": "Panchagarh",
+    "destination_city": "Thakurgaon Road",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Dhaka"
+  }
+]

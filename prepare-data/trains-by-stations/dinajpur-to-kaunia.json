@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "DOLONCHAPA EXPRESS",
+    "train_number": 768,
+    "arrival_at_source": "08:21 am BST",
+    "departure_from_source": "08:31 am BST",
+    "arrival_at_destination": "11:05 am BST",
+    "journey_duration": "02:34",
+    "operating_days": "Daily",
+    "source_city": "Dinajpur",
+    "destination_city": "Kaunia",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Santahar"
+  },
+  {
+    "train_name": "LALMONI COMMUTER",
+    "train_number": 62,
+    "arrival_at_source": "11:03 am BST",
+    "departure_from_source": "11:08 am BST",
+    "arrival_at_destination": "02:04 pm BST",
+    "journey_duration": "02:56",
+    "operating_days": "Daily",
+    "source_city": "Dinajpur",
+    "destination_city": "Kaunia",
+    "main_source_city": "Birol",
+    "main_destination_city": "Lalmonirhat"
+  }
+]

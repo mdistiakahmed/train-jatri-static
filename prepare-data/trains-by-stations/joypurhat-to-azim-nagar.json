@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "CHILAHATI EXPRESS",
+    "train_number": 806,
+    "arrival_at_source": "08:32 am BST",
+    "departure_from_source": "08:35 am BST",
+    "arrival_at_destination": "10:28 am BST",
+    "journey_duration": "01:53",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Joypurhat",
+    "destination_city": "Azim Nagar",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Dhaka"
+  }
+]

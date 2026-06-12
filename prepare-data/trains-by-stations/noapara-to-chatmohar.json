@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 763,
+    "arrival_at_source": "09:33 am BST",
+    "departure_from_source": "09:36 am BST",
+    "arrival_at_destination": "01:48 pm BST",
+    "journey_duration": "04:12",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Noapara",
+    "destination_city": "Chatmohar",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "SAGARDARI EXPRESS",
+    "train_number": 761,
+    "arrival_at_source": "05:03 pm BST",
+    "departure_from_source": "05:08 pm BST",
+    "arrival_at_destination": "10:00 pm BST",
+    "journey_duration": "04:52",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Jashore",
+    "destination_city": "Rajshahi",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "KAPOTAKSHA EXPRESS",
+    "train_number": 715,
+    "arrival_at_source": "07:48 am BST",
+    "departure_from_source": "07:51 am BST",
+    "arrival_at_destination": "12:20 pm BST",
+    "journey_duration": "04:29",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Jashore",
+    "destination_city": "Rajshahi",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Rajshahi"
+  }
+]

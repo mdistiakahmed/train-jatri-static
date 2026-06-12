@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "RANGPUR EXPRESS",
+    "train_number": 772,
+    "arrival_at_source": "10:42 pm BST",
+    "departure_from_source": "10:44 pm BST",
+    "arrival_at_destination": "01:25 am BST",
+    "journey_duration": "02:41",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Sonatola",
+    "destination_city": "Natore",
+    "main_source_city": "Rangpur",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "LALMONI EXPRESS",
+    "train_number": 752,
+    "arrival_at_source": "12:09 pm BST",
+    "departure_from_source": "12:11 pm BST",
+    "arrival_at_destination": "02:18 pm BST",
+    "journey_duration": "02:07",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Sonatola",
+    "destination_city": "Natore",
+    "main_source_city": "Lalmonirhat",
+    "main_destination_city": "Dhaka"
+  }
+]

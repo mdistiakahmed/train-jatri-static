@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "DHALARCHAR EXPRESS",
+    "train_number": 780,
+    "arrival_at_source": null,
+    "departure_from_source": "05:20 pm BST",
+    "arrival_at_destination": "08:48 pm BST",
+    "journey_duration": "03:28",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Rajshahi",
+    "destination_city": "Badherhat",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhalarchar"
+  }
+]

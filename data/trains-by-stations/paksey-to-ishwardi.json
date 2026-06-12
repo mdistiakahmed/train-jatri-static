@@ -1,0 +1,54 @@
+[
+  {
+    "train_name": "SAGARDARI EXPRESS",
+    "train_number": 761,
+    "arrival_at_source": "07:59 pm BST",
+    "departure_from_source": "08:01 pm BST",
+    "arrival_at_destination": "08:10 pm BST",
+    "journey_duration": "00:09",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Paksey",
+    "destination_city": "Ishwardi",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "MADHUMATI EXPRESS",
+    "train_number": 755,
+    "arrival_at_source": "08:47 pm BST",
+    "departure_from_source": "08:49 pm BST",
+    "arrival_at_destination": "09:05 pm BST",
+    "journey_duration": "00:16",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Paksey",
+    "destination_city": "Ishwardi",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "KAPOTAKSHA EXPRESS",
+    "train_number": 715,
+    "arrival_at_source": "10:39 am BST",
+    "departure_from_source": "10:41 am BST",
+    "arrival_at_destination": "10:50 am BST",
+    "journey_duration": "00:09",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Paksey",
+    "destination_city": "Ishwardi",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "RUPSHA EXPRESS",
+    "train_number": 727,
+    "arrival_at_source": "11:14 am BST",
+    "departure_from_source": "11:16 am BST",
+    "arrival_at_destination": "11:25 am BST",
+    "journey_duration": "00:09",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Paksey",
+    "destination_city": "Ishwardi",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Chilahati"
+  }
+]

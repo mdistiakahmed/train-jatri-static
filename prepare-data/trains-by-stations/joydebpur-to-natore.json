@@ -1,0 +1,67 @@
+[
+  {
+    "train_name": "CHILAHATI EXPRESS",
+    "train_number": 805,
+    "arrival_at_source": "05:51 pm BST",
+    "departure_from_source": "05:54 pm BST",
+    "arrival_at_destination": "09:27 pm BST",
+    "journey_duration": "03:33",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Joydebpur",
+    "destination_city": "Natore",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chilahati"
+  },
+  {
+    "train_name": "NILSAGAR EXPRESS",
+    "train_number": 765,
+    "arrival_at_source": "07:36 am BST",
+    "departure_from_source": "07:39 am BST",
+    "arrival_at_destination": "10:57 am BST",
+    "journey_duration": "03:18",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Joydebpur",
+    "destination_city": "Natore",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chilahati"
+  },
+  {
+    "train_name": "DRUTOJAN EXPRESS",
+    "train_number": 757,
+    "arrival_at_source": "09:36 pm BST",
+    "departure_from_source": "09:38 pm BST",
+    "arrival_at_destination": "12:49 am BST",
+    "journey_duration": "03:11",
+    "operating_days": "Daily",
+    "source_city": "Joydebpur",
+    "destination_city": "Natore",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "LALMONI EXPRESS",
+    "train_number": 751,
+    "arrival_at_source": "10:36 pm BST",
+    "departure_from_source": "10:38 pm BST",
+    "arrival_at_destination": "02:36 am BST",
+    "journey_duration": "03:58",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Joydebpur",
+    "destination_city": "Natore",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Lalmonirhat"
+  },
+  {
+    "train_name": "EKOTA EXPRESS",
+    "train_number": 705,
+    "arrival_at_source": "11:06 am BST",
+    "departure_from_source": "11:09 am BST",
+    "arrival_at_destination": "02:53 pm BST",
+    "journey_duration": "03:44",
+    "operating_days": "Daily",
+    "source_city": "Joydebpur",
+    "destination_city": "Natore",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  }
+]

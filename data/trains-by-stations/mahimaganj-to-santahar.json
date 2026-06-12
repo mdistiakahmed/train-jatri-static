@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "KOROTOA EXPRESS",
+    "train_number": 714,
+    "arrival_at_source": "09:00 pm BST",
+    "departure_from_source": "09:02 pm BST",
+    "arrival_at_destination": "10:40 pm BST",
+    "journey_duration": "01:38",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Mahimaganj",
+    "destination_city": "Santahar",
+    "main_source_city": "Burimari",
+    "main_destination_city": "Santahar"
+  }
+]

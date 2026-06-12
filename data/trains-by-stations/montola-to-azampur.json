@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "JAYENTIKA EXPRESS",
+    "train_number": 718,
+    "arrival_at_source": "04:07 pm BST",
+    "departure_from_source": "04:09 pm BST",
+    "arrival_at_destination": "04:46 pm BST",
+    "journey_duration": "00:37",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Montola",
+    "destination_city": "Azampur",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  }
+]

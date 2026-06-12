@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "TUNGIPARA EXPRESS",
+    "train_number": 784,
+    "arrival_at_source": "09:06 pm BST",
+    "departure_from_source": "09:08 pm BST",
+    "arrival_at_destination": "09:19 pm BST",
+    "journey_duration": "00:11",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Choto Bahirbag",
+    "destination_city": "Chandradighalia",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Gobra"
+  }
+]

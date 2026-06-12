@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "HAWR EXPRESS",
+    "train_number": 778,
+    "arrival_at_source": null,
+    "departure_from_source": "08:00 am BST",
+    "arrival_at_destination": "12:53 pm BST",
+    "journey_duration": "04:53",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Mohanganj",
+    "destination_city": "Joydebpur",
+    "main_source_city": "Mohanganj",
+    "main_destination_city": "Dhaka"
+  }
+]

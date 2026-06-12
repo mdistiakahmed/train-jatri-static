@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "MADHUMATI EXPRESS",
+    "train_number": 756,
+    "arrival_at_source": "07:40 am BST",
+    "departure_from_source": "08:00 am BST",
+    "arrival_at_destination": "11:47 am BST",
+    "journey_duration": "03:47",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Ishwardi",
+    "destination_city": "Faridpur",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhaka"
+  }
+]

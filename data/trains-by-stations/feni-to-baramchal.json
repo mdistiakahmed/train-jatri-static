@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "PAHARIKA EXPRESS",
+    "train_number": 719,
+    "arrival_at_source": "09:14 am BST",
+    "departure_from_source": "09:16 am BST",
+    "arrival_at_destination": "02:48 pm BST",
+    "journey_duration": "05:32",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Feni",
+    "destination_city": "Baramchal",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Sylhet"
+  }
+]

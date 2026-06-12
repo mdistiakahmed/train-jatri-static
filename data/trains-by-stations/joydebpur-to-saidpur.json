@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "CHILAHATI EXPRESS",
+    "train_number": 805,
+    "arrival_at_source": "05:51 pm BST",
+    "departure_from_source": "05:54 pm BST",
+    "arrival_at_destination": "01:17 am BST",
+    "journey_duration": "07:23",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Joydebpur",
+    "destination_city": "Saidpur",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chilahati"
+  },
+  {
+    "train_name": "NILSAGAR EXPRESS",
+    "train_number": 765,
+    "arrival_at_source": "07:36 am BST",
+    "departure_from_source": "07:39 am BST",
+    "arrival_at_destination": "02:27 pm BST",
+    "journey_duration": "06:48",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Joydebpur",
+    "destination_city": "Saidpur",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chilahati"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "MEGHNA EXPRESS",
+    "train_number": 729,
+    "arrival_at_source": "05:40 pm BST",
+    "departure_from_source": "05:42 pm BST",
+    "arrival_at_destination": "08:10 pm BST",
+    "journey_duration": "02:28",
+    "operating_days": "Daily",
+    "source_city": "Kumira",
+    "destination_city": "Chitoshi Road",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Chandpur"
+  }
+]

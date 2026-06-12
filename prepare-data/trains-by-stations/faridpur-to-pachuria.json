@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "MADHUMATI EXPRESS",
+    "train_number": 755,
+    "arrival_at_source": "05:03 pm BST",
+    "departure_from_source": "05:06 pm BST",
+    "arrival_at_destination": "05:35 pm BST",
+    "journey_duration": "00:29",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Faridpur",
+    "destination_city": "Pachuria",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  }
+]

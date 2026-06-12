@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "JAHANABAD EXPRESS",
+    "train_number": 826,
+    "arrival_at_source": "10:03 pm BST",
+    "departure_from_source": "10:06 pm BST",
+    "arrival_at_destination": "10:34 pm BST",
+    "journey_duration": "00:28",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Narail",
+    "destination_city": "Singia",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Khulna"
+  }
+]

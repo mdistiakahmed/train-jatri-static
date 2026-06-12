@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "RUPSHA EXPRESS",
+    "train_number": 727,
+    "arrival_at_source": null,
+    "departure_from_source": "07:15 am BST",
+    "arrival_at_destination": "12:13 pm BST",
+    "journey_duration": "04:58",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Khulna",
+    "destination_city": "Natore",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Chilahati"
+  },
+  {
+    "train_name": "SIMANTA EXPRESS",
+    "train_number": 747,
+    "arrival_at_source": null,
+    "departure_from_source": "09:15 pm BST",
+    "arrival_at_destination": "02:07 am BST",
+    "journey_duration": "04:52",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Khulna",
+    "destination_city": "Natore",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Chilahati"
+  }
+]

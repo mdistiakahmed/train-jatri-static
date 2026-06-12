@@ -1,0 +1,67 @@
+[
+  {
+    "train_name": "DHUMKETU EXPRESS",
+    "train_number": 770,
+    "arrival_at_source": "01:05 am BST",
+    "departure_from_source": "01:08 am BST",
+    "arrival_at_destination": "02:16 am BST",
+    "journey_duration": "01:08",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Boral Bridge",
+    "destination_city": "Ibrahimabad",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 763,
+    "arrival_at_source": "02:06 pm BST",
+    "departure_from_source": "02:09 pm BST",
+    "arrival_at_destination": "03:29 pm BST",
+    "journey_duration": "01:20",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Boral Bridge",
+    "destination_city": "Ibrahimabad",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "LALMONI EXPRESS",
+    "train_number": 752,
+    "arrival_at_source": "03:37 pm BST",
+    "departure_from_source": "03:39 pm BST",
+    "arrival_at_destination": "04:43 pm BST",
+    "journey_duration": "01:04",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Boral Bridge",
+    "destination_city": "Ibrahimabad",
+    "main_source_city": "Lalmonirhat",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "PADMA EXPRESS",
+    "train_number": 760,
+    "arrival_at_source": "05:38 pm BST",
+    "departure_from_source": "05:40 pm BST",
+    "arrival_at_destination": "06:38 pm BST",
+    "journey_duration": "00:58",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Boral Bridge",
+    "destination_city": "Ibrahimabad",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "SILKCITY EXPRESS",
+    "train_number": 754,
+    "arrival_at_source": "09:14 am BST",
+    "departure_from_source": "09:17 am BST",
+    "arrival_at_destination": "10:20 am BST",
+    "journey_duration": "01:03",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Boral Bridge",
+    "destination_city": "Ibrahimabad",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhaka"
+  }
+]

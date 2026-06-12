@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "RUPOSHI BANGLA EXPRESS",
+    "train_number": 827,
+    "arrival_at_source": "04:43 pm BST",
+    "departure_from_source": "04:46 pm BST",
+    "arrival_at_destination": "07:00 pm BST",
+    "journey_duration": "02:14",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Narail",
+    "destination_city": "Dhaka",
+    "main_source_city": "Benapole",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "JAHANABAD EXPRESS",
+    "train_number": 825,
+    "arrival_at_source": "07:13 am BST",
+    "departure_from_source": "07:16 am BST",
+    "arrival_at_destination": "09:45 am BST",
+    "journey_duration": "02:29",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Narail",
+    "destination_city": "Dhaka",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  }
+]

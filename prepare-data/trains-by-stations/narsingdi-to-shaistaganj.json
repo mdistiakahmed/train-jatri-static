@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "UPABAN EXPRESS",
+    "train_number": 739,
+    "arrival_at_source": "11:09 pm BST",
+    "departure_from_source": "11:11 pm BST",
+    "arrival_at_destination": "01:22 am BST",
+    "journey_duration": "02:11",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Narsingdi",
+    "destination_city": "Shaistaganj",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Sylhet"
+  }
+]

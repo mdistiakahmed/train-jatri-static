@@ -1,0 +1,67 @@
+[
+  {
+    "train_name": "NILSAGAR EXPRESS",
+    "train_number": 765,
+    "arrival_at_source": "08:54 am BST",
+    "departure_from_source": "09:03 am BST",
+    "arrival_at_destination": "11:55 am BST",
+    "journey_duration": "02:52",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Ibrahimabad",
+    "destination_city": "Santahar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chilahati"
+  },
+  {
+    "train_name": "DRUTOJAN EXPRESS",
+    "train_number": 757,
+    "arrival_at_source": "10:54 pm BST",
+    "departure_from_source": "10:56 pm BST",
+    "arrival_at_destination": "01:55 am BST",
+    "journey_duration": "02:59",
+    "operating_days": "Daily",
+    "source_city": "Ibrahimabad",
+    "destination_city": "Santahar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "RANGPUR EXPRESS",
+    "train_number": 771,
+    "arrival_at_source": "11:33 am BST",
+    "departure_from_source": "11:35 am BST",
+    "arrival_at_destination": "02:45 pm BST",
+    "journey_duration": "03:10",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Ibrahimabad",
+    "destination_city": "Santahar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rangpur"
+  },
+  {
+    "train_name": "LALMONI EXPRESS",
+    "train_number": 751,
+    "arrival_at_source": "11:54 pm BST",
+    "departure_from_source": "11:56 pm BST",
+    "arrival_at_destination": "03:35 am BST",
+    "journey_duration": "03:39",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Ibrahimabad",
+    "destination_city": "Santahar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Lalmonirhat"
+  },
+  {
+    "train_name": "EKOTA EXPRESS",
+    "train_number": 705,
+    "arrival_at_source": "12:25 pm BST",
+    "departure_from_source": "12:27 pm BST",
+    "arrival_at_destination": "04:00 pm BST",
+    "journey_duration": "03:33",
+    "operating_days": "Daily",
+    "source_city": "Ibrahimabad",
+    "destination_city": "Santahar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  }
+]

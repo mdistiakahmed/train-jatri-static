@@ -1,0 +1,54 @@
+[
+  {
+    "train_name": "MOHANAGAR EXPRESS",
+    "train_number": 721,
+    "arrival_at_source": "01:57 pm BST",
+    "departure_from_source": "01:59 pm BST",
+    "arrival_at_destination": "02:24 pm BST",
+    "journey_duration": "00:25",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Feni",
+    "destination_city": "Nangolkot",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "MEGHNA EXPRESS",
+    "train_number": 729,
+    "arrival_at_source": "06:40 pm BST",
+    "departure_from_source": "06:43 pm BST",
+    "arrival_at_destination": "07:15 pm BST",
+    "journey_duration": "00:32",
+    "operating_days": "Daily",
+    "source_city": "Feni",
+    "destination_city": "Nangolkot",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Chandpur"
+  },
+  {
+    "train_name": "CHATTALA EXPRESS",
+    "train_number": 801,
+    "arrival_at_source": "07:28 am BST",
+    "departure_from_source": "07:31 am BST",
+    "arrival_at_destination": "08:02 am BST",
+    "journey_duration": "00:31",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Feni",
+    "destination_city": "Nangolkot",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "PAHARIKA EXPRESS",
+    "train_number": 719,
+    "arrival_at_source": "09:14 am BST",
+    "departure_from_source": "09:16 am BST",
+    "arrival_at_destination": "09:43 am BST",
+    "journey_duration": "00:27",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Feni",
+    "destination_city": "Nangolkot",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Sylhet"
+  }
+]

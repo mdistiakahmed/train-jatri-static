@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "SIRAJGANJ EXPRESS",
+    "train_number": 775,
+    "arrival_at_source": "06:53 am BST",
+    "departure_from_source": "06:56 am BST",
+    "arrival_at_destination": "08:31 am BST",
+    "journey_duration": "01:35",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "SH M Monsur Ali",
+    "destination_city": "Hi-Tech City",
+    "main_source_city": "Sirajganj_Bazar",
+    "main_destination_city": "Dhaka"
+  }
+]

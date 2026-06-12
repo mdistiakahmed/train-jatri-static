@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "MADHUMATI EXPRESS",
+    "train_number": 756,
+    "arrival_at_source": "08:24 am BST",
+    "departure_from_source": "08:27 am BST",
+    "arrival_at_destination": "01:14 pm BST",
+    "journey_duration": "04:47",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Bheramara",
+    "destination_city": "Mawa",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhaka"
+  }
+]

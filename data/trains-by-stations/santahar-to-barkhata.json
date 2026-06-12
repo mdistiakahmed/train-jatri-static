@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "BURIMARI EXPRESS",
+    "train_number": 809,
+    "arrival_at_source": "02:15 pm BST",
+    "departure_from_source": "02:20 pm BST",
+    "arrival_at_destination": "08:48 pm BST",
+    "journey_duration": "06:28",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Santahar",
+    "destination_city": "Barkhata",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Burimari"
+  },
+  {
+    "train_name": "KOROTOA EXPRESS",
+    "train_number": 713,
+    "arrival_at_source": null,
+    "departure_from_source": "09:25 am BST",
+    "arrival_at_destination": "03:16 pm BST",
+    "journey_duration": "05:51",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Santahar",
+    "destination_city": "Barkhata",
+    "main_source_city": "Santahar",
+    "main_destination_city": "Burimari"
+  }
+]

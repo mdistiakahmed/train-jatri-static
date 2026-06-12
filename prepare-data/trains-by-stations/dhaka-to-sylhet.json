@@ -1,0 +1,54 @@
+[
+  {
+    "train_name": "KALNI EXPRESS",
+    "train_number": 773,
+    "arrival_at_source": null,
+    "departure_from_source": "02:55 pm BST",
+    "arrival_at_destination": "09:30 pm BST",
+    "journey_duration": "06:35",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Dhaka",
+    "destination_city": "Sylhet",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Sylhet"
+  },
+  {
+    "train_name": "PARABAT EXPRESS",
+    "train_number": 709,
+    "arrival_at_source": null,
+    "departure_from_source": "06:30 am BST",
+    "arrival_at_destination": "01:00 pm BST",
+    "journey_duration": "06:30",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Dhaka",
+    "destination_city": "Sylhet",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Sylhet"
+  },
+  {
+    "train_name": "UPABAN EXPRESS",
+    "train_number": 739,
+    "arrival_at_source": null,
+    "departure_from_source": "10:00 pm BST",
+    "arrival_at_destination": "05:00 am BST",
+    "journey_duration": "07:00",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Dhaka",
+    "destination_city": "Sylhet",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Sylhet"
+  },
+  {
+    "train_name": "JAYENTIKA EXPRESS",
+    "train_number": 717,
+    "arrival_at_source": null,
+    "departure_from_source": "11:15 am BST",
+    "arrival_at_destination": "07:00 pm BST",
+    "journey_duration": "07:45",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Dhaka",
+    "destination_city": "Sylhet",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Sylhet"
+  }
+]

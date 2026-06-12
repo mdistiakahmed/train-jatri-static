@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "EKOTA EXPRESS",
+    "train_number": 705,
+    "arrival_at_source": "12:43 pm BST",
+    "departure_from_source": "12:45 pm BST",
+    "arrival_at_destination": "06:15 pm BST",
+    "journey_duration": "05:30",
+    "operating_days": "Daily",
+    "source_city": "SH M Monsur Ali",
+    "destination_city": "Parbatipur",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  }
+]

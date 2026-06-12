@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "DRUTOJAN EXPRESS",
+    "train_number": 758,
+    "arrival_at_source": "07:46 am BST",
+    "departure_from_source": "07:48 am BST",
+    "arrival_at_destination": "02:26 pm BST",
+    "journey_duration": "06:38",
+    "operating_days": "Daily",
+    "source_city": "Ruhia",
+    "destination_city": "Ishwardi Bypass",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Dhaka"
+  }
+]

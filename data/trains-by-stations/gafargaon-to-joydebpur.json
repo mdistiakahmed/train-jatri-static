@@ -1,0 +1,54 @@
+[
+  {
+    "train_name": "JAMUNA EXPRESS",
+    "train_number": 746,
+    "arrival_at_source": "05:16 am BST",
+    "departure_from_source": "05:18 am BST",
+    "arrival_at_destination": "06:55 am BST",
+    "journey_duration": "01:37",
+    "operating_days": "Daily",
+    "source_city": "Gafargaon",
+    "destination_city": "Joydebpur",
+    "main_source_city": "Tarakandi",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "TISTA EXPRESS",
+    "train_number": 708,
+    "arrival_at_source": "05:52 pm BST",
+    "departure_from_source": "05:54 pm BST",
+    "arrival_at_destination": "07:16 pm BST",
+    "journey_duration": "01:22",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Gafargaon",
+    "destination_city": "Joydebpur",
+    "main_source_city": "Dewanganj_Bazar",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "JAMALPUR EXPRESS",
+    "train_number": 800,
+    "arrival_at_source": "09:37 pm BST",
+    "departure_from_source": "09:39 pm BST",
+    "arrival_at_destination": "10:56 pm BST",
+    "journey_duration": "01:17",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Gafargaon",
+    "destination_city": "Joydebpur",
+    "main_source_city": "Bhuapur",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "HAWR EXPRESS",
+    "train_number": 778,
+    "arrival_at_source": "11:19 am BST",
+    "departure_from_source": "11:22 am BST",
+    "arrival_at_destination": "12:53 pm BST",
+    "journey_duration": "01:31",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Gafargaon",
+    "destination_city": "Joydebpur",
+    "main_source_city": "Mohanganj",
+    "main_destination_city": "Dhaka"
+  }
+]

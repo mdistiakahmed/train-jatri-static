@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "KANCHON INTERCITY COMMUTER",
+    "train_number": 41,
+    "arrival_at_source": "09:35 am BST",
+    "departure_from_source": "09:37 am BST",
+    "arrival_at_destination": "09:46 am BST",
+    "journey_duration": "00:09",
+    "operating_days": "Daily",
+    "source_city": "Setabganj",
+    "destination_city": "Sultanpur",
+    "main_source_city": "Parbatipur",
+    "main_destination_city": "Panchagarh"
+  }
+]

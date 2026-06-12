@@ -1,0 +1,41 @@
+[
+  {
+    "train_name": "SUNDARBAN EXPRESS",
+    "train_number": 725,
+    "arrival_at_source": "03:12 am BST",
+    "departure_from_source": "03:15 am BST",
+    "arrival_at_destination": "05:10 am BST",
+    "journey_duration": "01:55",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Faridpur",
+    "destination_city": "Dhaka",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "BENAPOLE EXPRESS",
+    "train_number": 795,
+    "arrival_at_source": "06:22 pm BST",
+    "departure_from_source": "06:25 pm BST",
+    "arrival_at_destination": "08:30 pm BST",
+    "journey_duration": "02:05",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Faridpur",
+    "destination_city": "Dhaka",
+    "main_source_city": "Benapole",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "MADHUMATI EXPRESS",
+    "train_number": 756,
+    "arrival_at_source": "11:47 am BST",
+    "departure_from_source": "11:49 am BST",
+    "arrival_at_destination": "02:00 pm BST",
+    "journey_duration": "02:11",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Faridpur",
+    "destination_city": "Dhaka",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhaka"
+  }
+]

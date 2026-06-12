@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "SIMANTA EXPRESS",
+    "train_number": 748,
+    "arrival_at_source": "07:50 pm BST",
+    "departure_from_source": "08:10 pm BST",
+    "arrival_at_destination": "11:20 pm BST",
+    "journey_duration": "03:10",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Parbatipur",
+    "destination_city": "Ishwardi",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "RUPSHA EXPRESS",
+    "train_number": 728,
+    "arrival_at_source": "09:55 am BST",
+    "departure_from_source": "10:15 am BST",
+    "arrival_at_destination": "01:40 pm BST",
+    "journey_duration": "03:25",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Parbatipur",
+    "destination_city": "Ishwardi",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Khulna"
+  }
+]

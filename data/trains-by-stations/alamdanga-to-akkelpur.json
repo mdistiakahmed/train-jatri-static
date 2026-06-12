@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "RUPSHA EXPRESS",
+    "train_number": 727,
+    "arrival_at_source": "10:21 am BST",
+    "departure_from_source": "10:23 am BST",
+    "arrival_at_destination": "01:50 pm BST",
+    "journey_duration": "03:27",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Alamdanga",
+    "destination_city": "Akkelpur",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Chilahati"
+  },
+  {
+    "train_name": "SIMANTA EXPRESS",
+    "train_number": 747,
+    "arrival_at_source": "12:16 am BST",
+    "departure_from_source": "12:18 am BST",
+    "arrival_at_destination": "03:30 am BST",
+    "journey_duration": "03:12",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Alamdanga",
+    "destination_city": "Akkelpur",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Chilahati"
+  }
+]

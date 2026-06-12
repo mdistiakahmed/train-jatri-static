@@ -1,0 +1,67 @@
+[
+  {
+    "train_name": "BANGLABANDHA EXPRESS",
+    "train_number": 803,
+    "arrival_at_source": "01:30 am BST",
+    "departure_from_source": "01:50 am BST",
+    "arrival_at_destination": "04:15 am BST",
+    "journey_duration": "02:25",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Parbatipur",
+    "destination_city": "Kismat",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "DRUTOJAN EXPRESS",
+    "train_number": 757,
+    "arrival_at_source": "03:50 am BST",
+    "departure_from_source": "04:10 am BST",
+    "arrival_at_destination": "06:47 am BST",
+    "journey_duration": "02:37",
+    "operating_days": "Daily",
+    "source_city": "Parbatipur",
+    "destination_city": "Kismat",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "DOLONCHAPA EXPRESS",
+    "train_number": 767,
+    "arrival_at_source": "04:55 pm BST",
+    "departure_from_source": "05:20 pm BST",
+    "arrival_at_destination": "08:12 pm BST",
+    "journey_duration": "02:52",
+    "operating_days": "Daily",
+    "source_city": "Parbatipur",
+    "destination_city": "Kismat",
+    "main_source_city": "Santahar",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "EKOTA EXPRESS",
+    "train_number": 705,
+    "arrival_at_source": "06:15 pm BST",
+    "departure_from_source": "06:25 pm BST",
+    "arrival_at_destination": "08:42 pm BST",
+    "journey_duration": "02:17",
+    "operating_days": "Daily",
+    "source_city": "Parbatipur",
+    "destination_city": "Kismat",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "KANCHON INTERCITY COMMUTER",
+    "train_number": 41,
+    "arrival_at_source": null,
+    "departure_from_source": "07:40 am BST",
+    "arrival_at_destination": "11:28 am BST",
+    "journey_duration": "03:48",
+    "operating_days": "Daily",
+    "source_city": "Parbatipur",
+    "destination_city": "Kismat",
+    "main_source_city": "Parbatipur",
+    "main_destination_city": "Panchagarh"
+  }
+]

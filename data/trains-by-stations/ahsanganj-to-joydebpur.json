@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "DRUTOJAN EXPRESS",
+    "train_number": 758,
+    "arrival_at_source": "01:14 pm BST",
+    "departure_from_source": "01:16 pm BST",
+    "arrival_at_destination": "05:48 pm BST",
+    "journey_duration": "04:32",
+    "operating_days": "Daily",
+    "source_city": "Ahsanganj",
+    "destination_city": "Joydebpur",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "NILSAGAR EXPRESS",
+    "train_number": 766,
+    "arrival_at_source": "11:47 pm BST",
+    "departure_from_source": "11:49 pm BST",
+    "arrival_at_destination": "04:11 am BST",
+    "journey_duration": "04:22",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Ahsanganj",
+    "destination_city": "Joydebpur",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Dhaka"
+  }
+]

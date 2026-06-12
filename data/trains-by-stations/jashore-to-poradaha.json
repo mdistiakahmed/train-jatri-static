@@ -1,0 +1,93 @@
+[
+  {
+    "train_name": "BENAPOLE EXPRESS",
+    "train_number": 795,
+    "arrival_at_source": "01:20 pm BST",
+    "departure_from_source": "01:40 pm BST",
+    "arrival_at_destination": "03:57 pm BST",
+    "journey_duration": "02:17",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Jashore",
+    "destination_city": "Poradaha",
+    "main_source_city": "Benapole",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "SAGARDARI EXPRESS",
+    "train_number": 761,
+    "arrival_at_source": "05:03 pm BST",
+    "departure_from_source": "05:08 pm BST",
+    "arrival_at_destination": "07:20 pm BST",
+    "journey_duration": "02:12",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Jashore",
+    "destination_city": "Poradaha",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "KAPOTAKSHA EXPRESS",
+    "train_number": 715,
+    "arrival_at_source": "07:48 am BST",
+    "departure_from_source": "07:51 am BST",
+    "arrival_at_destination": "10:00 am BST",
+    "journey_duration": "02:09",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Jashore",
+    "destination_city": "Poradaha",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "RUPSHA EXPRESS",
+    "train_number": 727,
+    "arrival_at_source": "08:19 am BST",
+    "departure_from_source": "08:23 am BST",
+    "arrival_at_destination": "10:39 am BST",
+    "journey_duration": "02:16",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Jashore",
+    "destination_city": "Poradaha",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Chilahati"
+  },
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 763,
+    "arrival_at_source": "10:04 am BST",
+    "departure_from_source": "10:08 am BST",
+    "arrival_at_destination": "12:27 pm BST",
+    "journey_duration": "02:19",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Jashore",
+    "destination_city": "Poradaha",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "SIMANTA EXPRESS",
+    "train_number": 747,
+    "arrival_at_source": "10:23 pm BST",
+    "departure_from_source": "10:27 pm BST",
+    "arrival_at_destination": "12:34 am BST",
+    "journey_duration": "02:07",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Jashore",
+    "destination_city": "Poradaha",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Chilahati"
+  },
+  {
+    "train_name": "SUNDARBAN EXPRESS",
+    "train_number": 725,
+    "arrival_at_source": "10:53 pm BST",
+    "departure_from_source": "10:57 pm BST",
+    "arrival_at_destination": "12:58 am BST",
+    "journey_duration": "02:01",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Jashore",
+    "destination_city": "Poradaha",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  }
+]

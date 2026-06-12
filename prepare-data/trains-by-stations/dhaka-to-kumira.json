@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "CHATTALA EXPRESS",
+    "train_number": 802,
+    "arrival_at_source": null,
+    "departure_from_source": "02:15 pm BST",
+    "arrival_at_destination": "07:56 pm BST",
+    "journey_duration": "05:41",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Dhaka",
+    "destination_city": "Kumira",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "MOHANAGAR EXPRESS",
+    "train_number": 722,
+    "arrival_at_source": null,
+    "departure_from_source": "09:20 pm BST",
+    "arrival_at_destination": "02:55 am BST",
+    "journey_duration": "05:35",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Dhaka",
+    "destination_city": "Kumira",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chattogram"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "SIRAJGANJ EXPRESS",
+    "train_number": 775,
+    "arrival_at_source": "06:25 am BST",
+    "departure_from_source": "06:45 am BST",
+    "arrival_at_destination": "07:03 am BST",
+    "journey_duration": "00:18",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Jamtail",
+    "destination_city": "SOYDABAD",
+    "main_source_city": "Sirajganj_Bazar",
+    "main_destination_city": "Dhaka"
+  }
+]

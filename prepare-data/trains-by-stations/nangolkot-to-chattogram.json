@@ -1,0 +1,54 @@
+[
+  {
+    "train_name": "MOHANAGAR EXPRESS",
+    "train_number": 722,
+    "arrival_at_source": "01:26 am BST",
+    "departure_from_source": "01:28 am BST",
+    "arrival_at_destination": "03:30 am BST",
+    "journey_duration": "02:02",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Nangolkot",
+    "destination_city": "Chattogram",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "PAHARIKA EXPRESS",
+    "train_number": 720,
+    "arrival_at_source": "04:55 pm BST",
+    "departure_from_source": "04:57 pm BST",
+    "arrival_at_destination": "06:55 pm BST",
+    "journey_duration": "01:58",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Nangolkot",
+    "destination_city": "Chattogram",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "CHATTALA EXPRESS",
+    "train_number": 802,
+    "arrival_at_source": "06:21 pm BST",
+    "departure_from_source": "06:23 pm BST",
+    "arrival_at_destination": "08:30 pm BST",
+    "journey_duration": "02:07",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Nangolkot",
+    "destination_city": "Chattogram",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "MEGHNA EXPRESS",
+    "train_number": 730,
+    "arrival_at_source": "06:54 am BST",
+    "departure_from_source": "06:56 am BST",
+    "arrival_at_destination": "09:00 am BST",
+    "journey_duration": "02:04",
+    "operating_days": "Daily",
+    "source_city": "Nangolkot",
+    "destination_city": "Chattogram",
+    "main_source_city": "Chandpur",
+    "main_destination_city": "Chattogram"
+  }
+]

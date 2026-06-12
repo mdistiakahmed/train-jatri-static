@@ -1,0 +1,41 @@
+[
+  {
+    "train_name": "BARENDRA EXPRESS",
+    "train_number": 731,
+    "arrival_at_source": "03:40 pm BST",
+    "departure_from_source": "04:00 pm BST",
+    "arrival_at_destination": "06:28 pm BST",
+    "journey_duration": "02:28",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Abdulpur",
+    "destination_city": "Panchbibi",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Chilahati"
+  },
+  {
+    "train_name": "TITUMIR EXPRESS",
+    "train_number": 733,
+    "arrival_at_source": "07:00 am BST",
+    "departure_from_source": "07:20 am BST",
+    "arrival_at_destination": "09:44 am BST",
+    "journey_duration": "02:24",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Abdulpur",
+    "destination_city": "Panchbibi",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Chilahati"
+  },
+  {
+    "train_name": "BANGLABANDHA EXPRESS",
+    "train_number": 803,
+    "arrival_at_source": "09:40 pm BST",
+    "departure_from_source": "10:00 pm BST",
+    "arrival_at_destination": "12:15 am BST",
+    "journey_duration": "02:15",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Abdulpur",
+    "destination_city": "Panchbibi",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Panchagarh"
+  }
+]

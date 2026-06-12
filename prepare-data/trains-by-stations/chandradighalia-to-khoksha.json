@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "TUNGIPARA EXPRESS",
+    "train_number": 783,
+    "arrival_at_source": "07:05 am BST",
+    "departure_from_source": "07:07 am BST",
+    "arrival_at_destination": "09:36 am BST",
+    "journey_duration": "02:29",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Chandradighalia",
+    "destination_city": "Khoksha",
+    "main_source_city": "Gobra",
+    "main_destination_city": "Rajshahi"
+  }
+]

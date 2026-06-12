@@ -1,0 +1,93 @@
+[
+  {
+    "train_name": "EGAROSINDHUR GODHULI",
+    "train_number": 750,
+    "arrival_at_source": "02:40 pm BST",
+    "departure_from_source": "03:00 pm BST",
+    "arrival_at_destination": "04:12 pm BST",
+    "journey_duration": "01:12",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Bhairab Bazar",
+    "destination_city": "Biman Bandar",
+    "main_source_city": "Kishorganj",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "UPABAN EXPRESS",
+    "train_number": 740,
+    "arrival_at_source": "04:03 am BST",
+    "departure_from_source": "04:06 am BST",
+    "arrival_at_destination": "05:12 am BST",
+    "journey_duration": "01:06",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Bhairab Bazar",
+    "destination_city": "Biman Bandar",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "KISHORGANJ EXPRESS",
+    "train_number": 782,
+    "arrival_at_source": "05:28 pm BST",
+    "departure_from_source": "05:48 pm BST",
+    "arrival_at_destination": "07:20 pm BST",
+    "journey_duration": "01:32",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Bhairab Bazar",
+    "destination_city": "Biman Bandar",
+    "main_source_city": "Kishorganj",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "EGAROSINDHUR PROVATI",
+    "train_number": 738,
+    "arrival_at_source": "08:00 am BST",
+    "departure_from_source": "08:20 am BST",
+    "arrival_at_destination": "09:53 am BST",
+    "journey_duration": "01:33",
+    "operating_days": "Daily",
+    "source_city": "Bhairab Bazar",
+    "destination_city": "Biman Bandar",
+    "main_source_city": "Kishorganj",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "PARABAT EXPRESS",
+    "train_number": 710,
+    "arrival_at_source": "08:55 pm BST",
+    "departure_from_source": "08:58 pm BST",
+    "arrival_at_destination": "10:12 pm BST",
+    "journey_duration": "01:14",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Bhairab Bazar",
+    "destination_city": "Biman Bandar",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "CHATTALA EXPRESS",
+    "train_number": 801,
+    "arrival_at_source": "10:50 am BST",
+    "departure_from_source": "10:53 am BST",
+    "arrival_at_destination": "12:10 pm BST",
+    "journey_duration": "01:17",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Bhairab Bazar",
+    "destination_city": "Biman Bandar",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "KALNI EXPRESS",
+    "train_number": 774,
+    "arrival_at_source": "11:10 am BST",
+    "departure_from_source": "11:13 am BST",
+    "arrival_at_destination": "12:24 pm BST",
+    "journey_duration": "01:11",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Bhairab Bazar",
+    "destination_city": "Biman Bandar",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  }
+]

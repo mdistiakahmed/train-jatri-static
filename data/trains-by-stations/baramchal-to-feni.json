@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "UDAYAN EXPRESS",
+    "train_number": 724,
+    "arrival_at_source": "10:58 pm BST",
+    "departure_from_source": "11:00 pm BST",
+    "arrival_at_destination": "04:07 am BST",
+    "journey_duration": "05:07",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Baramchal",
+    "destination_city": "Feni",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Chattogram"
+  }
+]

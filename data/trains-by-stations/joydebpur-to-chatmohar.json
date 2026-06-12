@@ -1,0 +1,67 @@
+[
+  {
+    "train_name": "SILKCITY EXPRESS",
+    "train_number": 753,
+    "arrival_at_source": "03:21 pm BST",
+    "departure_from_source": "03:24 pm BST",
+    "arrival_at_destination": "06:23 pm BST",
+    "journey_duration": "02:59",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Joydebpur",
+    "destination_city": "Chatmohar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "DHUMKETU EXPRESS",
+    "train_number": 769,
+    "arrival_at_source": "06:51 am BST",
+    "departure_from_source": "06:53 am BST",
+    "arrival_at_destination": "09:44 am BST",
+    "journey_duration": "02:51",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Joydebpur",
+    "destination_city": "Chatmohar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 764,
+    "arrival_at_source": "08:21 pm BST",
+    "departure_from_source": "08:23 pm BST",
+    "arrival_at_destination": "11:04 pm BST",
+    "journey_duration": "02:41",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Joydebpur",
+    "destination_city": "Chatmohar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "DRUTOJAN EXPRESS",
+    "train_number": 757,
+    "arrival_at_source": "09:36 pm BST",
+    "departure_from_source": "09:38 pm BST",
+    "arrival_at_destination": "11:56 pm BST",
+    "journey_duration": "02:18",
+    "operating_days": "Daily",
+    "source_city": "Joydebpur",
+    "destination_city": "Chatmohar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "PADMA EXPRESS",
+    "train_number": 759,
+    "arrival_at_source": "11:36 pm BST",
+    "departure_from_source": "11:38 pm BST",
+    "arrival_at_destination": "02:07 am BST",
+    "journey_duration": "02:29",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Joydebpur",
+    "destination_city": "Chatmohar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  }
+]

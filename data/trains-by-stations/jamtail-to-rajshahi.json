@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "SILKCITY EXPRESS",
+    "train_number": 753,
+    "arrival_at_source": "05:17 pm BST",
+    "departure_from_source": "05:19 pm BST",
+    "arrival_at_destination": "08:20 pm BST",
+    "journey_duration": "03:01",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Jamtail",
+    "destination_city": "Rajshahi",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "DHUMKETU EXPRESS",
+    "train_number": 769,
+    "arrival_at_source": "08:38 am BST",
+    "departure_from_source": "08:44 am BST",
+    "arrival_at_destination": "11:40 am BST",
+    "journey_duration": "02:56",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Jamtail",
+    "destination_city": "Rajshahi",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  }
+]

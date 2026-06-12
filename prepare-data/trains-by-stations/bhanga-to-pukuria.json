@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "MADHUMATI EXPRESS",
+    "train_number": 755,
+    "arrival_at_source": "04:28 pm BST",
+    "departure_from_source": "04:30 pm BST",
+    "arrival_at_destination": "04:45 pm BST",
+    "journey_duration": "00:15",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Bhanga",
+    "destination_city": "Pukuria",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  }
+]

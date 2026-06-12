@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "RUPOSHI BANGLA EXPRESS",
+    "train_number": 828,
+    "arrival_at_source": "12:42 pm BST",
+    "departure_from_source": "12:45 pm BST",
+    "arrival_at_destination": "02:25 pm BST",
+    "journey_duration": "01:40",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Narail",
+    "destination_city": "Benapole",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Benapole"
+  }
+]

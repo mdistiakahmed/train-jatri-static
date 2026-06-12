@@ -1,0 +1,54 @@
+[
+  {
+    "train_name": "KURIGRAM EXPRESS",
+    "train_number": 798,
+    "arrival_at_source": "07:50 am BST",
+    "departure_from_source": "07:53 am BST",
+    "arrival_at_destination": "12:19 pm BST",
+    "journey_duration": "04:26",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Kaunia",
+    "destination_city": "Natore",
+    "main_source_city": "Kurigram",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "RANGPUR EXPRESS",
+    "train_number": 772,
+    "arrival_at_source": "08:20 pm BST",
+    "departure_from_source": "08:40 pm BST",
+    "arrival_at_destination": "01:25 am BST",
+    "journey_duration": "04:45",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Kaunia",
+    "destination_city": "Natore",
+    "main_source_city": "Rangpur",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "BURIMARI EXPRESS",
+    "train_number": 810,
+    "arrival_at_source": "09:33 pm BST",
+    "departure_from_source": "09:36 pm BST",
+    "arrival_at_destination": "02:03 am BST",
+    "journey_duration": "04:27",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Kaunia",
+    "destination_city": "Natore",
+    "main_source_city": "Lalmonirhat",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "LALMONI EXPRESS",
+    "train_number": 752,
+    "arrival_at_source": "10:15 am BST",
+    "departure_from_source": "10:18 am BST",
+    "arrival_at_destination": "02:18 pm BST",
+    "journey_duration": "04:00",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Kaunia",
+    "destination_city": "Natore",
+    "main_source_city": "Lalmonirhat",
+    "main_destination_city": "Dhaka"
+  }
+]

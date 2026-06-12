@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "KURIGRAM EXPRESS",
+    "train_number": 798,
+    "arrival_at_source": "08:13 am BST",
+    "departure_from_source": "08:23 am BST",
+    "arrival_at_destination": "10:42 am BST",
+    "journey_duration": "02:19",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Rangpur",
+    "destination_city": "Joypurhat",
+    "main_source_city": "Kurigram",
+    "main_destination_city": "Dhaka"
+  }
+]

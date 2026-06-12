@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "DRUTOJAN EXPRESS",
+    "train_number": 757,
+    "arrival_at_source": "10:32 pm BST",
+    "departure_from_source": "10:34 pm BST",
+    "arrival_at_destination": "05:36 am BST",
+    "journey_duration": "07:02",
+    "operating_days": "Daily",
+    "source_city": "Tangail",
+    "destination_city": "Pirganj",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "EKOTA EXPRESS",
+    "train_number": 705,
+    "arrival_at_source": "12:03 pm BST",
+    "departure_from_source": "12:05 pm BST",
+    "arrival_at_destination": "07:51 pm BST",
+    "journey_duration": "07:46",
+    "operating_days": "Daily",
+    "source_city": "Tangail",
+    "destination_city": "Pirganj",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  }
+]

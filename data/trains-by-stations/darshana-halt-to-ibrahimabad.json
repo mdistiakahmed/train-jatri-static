@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 763,
+    "arrival_at_source": "11:28 am BST",
+    "departure_from_source": "11:31 am BST",
+    "arrival_at_destination": "03:29 pm BST",
+    "journey_duration": "03:58",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Darshana Halt",
+    "destination_city": "Ibrahimabad",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  }
+]

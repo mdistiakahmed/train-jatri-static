@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "DHALARCHAR EXPRESS",
+    "train_number": 780,
+    "arrival_at_source": "07:23 pm BST",
+    "departure_from_source": "07:25 pm BST",
+    "arrival_at_destination": "08:12 pm BST",
+    "journey_duration": "00:47",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Pabna",
+    "destination_city": "Sathia Rajapur",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhalarchar"
+  }
+]

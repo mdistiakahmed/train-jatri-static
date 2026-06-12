@@ -1,0 +1,41 @@
+[
+  {
+    "train_name": "SILKCITY EXPRESS",
+    "train_number": 753,
+    "arrival_at_source": "04:26 pm BST",
+    "departure_from_source": "04:28 pm BST",
+    "arrival_at_destination": "07:06 pm BST",
+    "journey_duration": "02:38",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Tangail",
+    "destination_city": "Abdulpur",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "DHUMKETU EXPRESS",
+    "train_number": 769,
+    "arrival_at_source": "07:47 am BST",
+    "departure_from_source": "07:49 am BST",
+    "arrival_at_destination": "10:33 am BST",
+    "journey_duration": "02:44",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Tangail",
+    "destination_city": "Abdulpur",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "PADMA EXPRESS",
+    "train_number": 759,
+    "arrival_at_source": "12:32 am BST",
+    "departure_from_source": "12:34 am BST",
+    "arrival_at_destination": "02:48 am BST",
+    "journey_duration": "02:14",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Tangail",
+    "destination_city": "Abdulpur",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  }
+]

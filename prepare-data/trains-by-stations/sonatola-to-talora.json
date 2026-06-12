@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "DOLONCHAPA EXPRESS",
+    "train_number": 768,
+    "arrival_at_source": "02:10 pm BST",
+    "departure_from_source": "02:12 pm BST",
+    "arrival_at_destination": "03:43 pm BST",
+    "journey_duration": "01:31",
+    "operating_days": "Daily",
+    "source_city": "Sonatola",
+    "destination_city": "Talora",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Santahar"
+  },
+  {
+    "train_name": "RANGPUR EXPRESS",
+    "train_number": 772,
+    "arrival_at_source": "10:42 pm BST",
+    "departure_from_source": "10:44 pm BST",
+    "arrival_at_destination": "11:40 pm BST",
+    "journey_duration": "00:56",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Sonatola",
+    "destination_city": "Talora",
+    "main_source_city": "Rangpur",
+    "main_destination_city": "Dhaka"
+  }
+]

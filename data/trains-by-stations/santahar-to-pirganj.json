@@ -1,0 +1,67 @@
+[
+  {
+    "train_name": "DRUTOJAN EXPRESS",
+    "train_number": 757,
+    "arrival_at_source": "01:55 am BST",
+    "departure_from_source": "02:00 am BST",
+    "arrival_at_destination": "05:36 am BST",
+    "journey_duration": "03:36",
+    "operating_days": "Daily",
+    "source_city": "Santahar",
+    "destination_city": "Pirganj",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "EKOTA EXPRESS",
+    "train_number": 705,
+    "arrival_at_source": "04:00 pm BST",
+    "departure_from_source": "04:05 pm BST",
+    "arrival_at_destination": "07:51 pm BST",
+    "journey_duration": "03:46",
+    "operating_days": "Daily",
+    "source_city": "Santahar",
+    "destination_city": "Pirganj",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "PANCHAGARH EXPRESS",
+    "train_number": 793,
+    "arrival_at_source": "04:25 am BST",
+    "departure_from_source": "04:30 am BST",
+    "arrival_at_destination": "08:05 am BST",
+    "journey_duration": "03:35",
+    "operating_days": "Daily",
+    "source_city": "Santahar",
+    "destination_city": "Pirganj",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "DOLONCHAPA EXPRESS",
+    "train_number": 767,
+    "arrival_at_source": null,
+    "departure_from_source": "11:00 am BST",
+    "arrival_at_destination": "07:06 pm BST",
+    "journey_duration": "08:06",
+    "operating_days": "Daily",
+    "source_city": "Santahar",
+    "destination_city": "Pirganj",
+    "main_source_city": "Santahar",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "BANGLABANDHA EXPRESS",
+    "train_number": 803,
+    "arrival_at_source": "11:21 pm BST",
+    "departure_from_source": "11:25 pm BST",
+    "arrival_at_destination": "03:17 am BST",
+    "journey_duration": "03:52",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Santahar",
+    "destination_city": "Pirganj",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Panchagarh"
+  }
+]

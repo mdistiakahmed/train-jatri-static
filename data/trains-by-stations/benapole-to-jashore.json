@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "RUPOSHI BANGLA EXPRESS",
+    "train_number": 827,
+    "arrival_at_source": null,
+    "departure_from_source": "03:25 pm BST",
+    "arrival_at_destination": "04:12 pm BST",
+    "journey_duration": "00:47",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Benapole",
+    "destination_city": "Jashore",
+    "main_source_city": "Benapole",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "BENAPOLE EXPRESS",
+    "train_number": 795,
+    "arrival_at_source": null,
+    "departure_from_source": "12:25 pm BST",
+    "arrival_at_destination": "01:20 pm BST",
+    "journey_duration": "00:55",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Benapole",
+    "destination_city": "Jashore",
+    "main_source_city": "Benapole",
+    "main_destination_city": "Dhaka"
+  }
+]

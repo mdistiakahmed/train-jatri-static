@@ -1,0 +1,54 @@
+[
+  {
+    "train_name": "EGAROSINDHUR GODHULI",
+    "train_number": 750,
+    "arrival_at_source": "01:52 pm BST",
+    "departure_from_source": "01:54 pm BST",
+    "arrival_at_destination": "02:40 pm BST",
+    "journey_duration": "00:46",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Sararchar",
+    "destination_city": "Bhairab Bazar",
+    "main_source_city": "Kishorganj",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "KISHORGANJ EXPRESS",
+    "train_number": 782,
+    "arrival_at_source": "04:45 pm BST",
+    "departure_from_source": "04:47 pm BST",
+    "arrival_at_destination": "05:28 pm BST",
+    "journey_duration": "00:41",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Sararchar",
+    "destination_city": "Bhairab Bazar",
+    "main_source_city": "Kishorganj",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "EGAROSINDHUR PROVATI",
+    "train_number": 738,
+    "arrival_at_source": "07:15 am BST",
+    "departure_from_source": "07:17 am BST",
+    "arrival_at_destination": "08:00 am BST",
+    "journey_duration": "00:43",
+    "operating_days": "Daily",
+    "source_city": "Sararchar",
+    "destination_city": "Bhairab Bazar",
+    "main_source_city": "Kishorganj",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "BIJOY EXPRESS",
+    "train_number": 786,
+    "arrival_at_source": "11:59 pm BST",
+    "departure_from_source": "12:01 am BST",
+    "arrival_at_destination": "12:30 am BST",
+    "journey_duration": "00:29",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Sararchar",
+    "destination_city": "Bhairab Bazar",
+    "main_source_city": "Jamalpur_Town",
+    "main_destination_city": "Chattogram"
+  }
+]

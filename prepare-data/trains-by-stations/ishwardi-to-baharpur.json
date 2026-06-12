@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "TUNGIPARA EXPRESS",
+    "train_number": 784,
+    "arrival_at_source": "04:30 pm BST",
+    "departure_from_source": "04:40 pm BST",
+    "arrival_at_destination": "07:26 pm BST",
+    "journey_duration": "02:46",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Ishwardi",
+    "destination_city": "Baharpur",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Gobra"
+  }
+]

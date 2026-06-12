@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "LALMONI EXPRESS",
+    "train_number": 751,
+    "arrival_at_source": "12:53 am BST",
+    "departure_from_source": "12:55 am BST",
+    "arrival_at_destination": "05:11 am BST",
+    "journey_duration": "04:16",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Boral Bridge",
+    "destination_city": "Bonar Para",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Lalmonirhat"
+  }
+]

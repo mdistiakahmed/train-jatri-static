@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "KAPOTAKSHA EXPRESS",
+    "train_number": 716,
+    "arrival_at_source": "03:16 pm BST",
+    "departure_from_source": "03:18 pm BST",
+    "arrival_at_destination": "07:38 pm BST",
+    "journey_duration": "04:20",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Azim Nagar",
+    "destination_city": "Noapara",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "SAGARDARI EXPRESS",
+    "train_number": 762,
+    "arrival_at_source": "06:51 am BST",
+    "departure_from_source": "06:53 am BST",
+    "arrival_at_destination": "11:07 am BST",
+    "journey_duration": "04:14",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Azim Nagar",
+    "destination_city": "Noapara",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Khulna"
+  }
+]

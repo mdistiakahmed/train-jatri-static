@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "PADMA EXPRESS",
+    "train_number": 759,
+    "arrival_at_source": "01:30 am BST",
+    "departure_from_source": "01:33 am BST",
+    "arrival_at_destination": "03:16 am BST",
+    "journey_duration": "01:43",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Ullapara",
+    "destination_city": "Sardah Road",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  }
+]

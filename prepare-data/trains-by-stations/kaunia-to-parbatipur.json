@@ -1,0 +1,41 @@
+[
+  {
+    "train_name": "DOLONCHAPA EXPRESS",
+    "train_number": 767,
+    "arrival_at_source": "03:05 pm BST",
+    "departure_from_source": "03:25 pm BST",
+    "arrival_at_destination": "04:55 pm BST",
+    "journey_duration": "01:30",
+    "operating_days": "Daily",
+    "source_city": "Kaunia",
+    "destination_city": "Parbatipur",
+    "main_source_city": "Santahar",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "LALMONI COMMUTER",
+    "train_number": 61,
+    "arrival_at_source": "07:06 am BST",
+    "departure_from_source": "07:09 am BST",
+    "arrival_at_destination": "08:35 am BST",
+    "journey_duration": "01:26",
+    "operating_days": "Daily",
+    "source_city": "Kaunia",
+    "destination_city": "Parbatipur",
+    "main_source_city": "Lalmonirhat",
+    "main_destination_city": "Birol"
+  },
+  {
+    "train_name": "KURIGRAM EXPRESS",
+    "train_number": 798,
+    "arrival_at_source": "07:50 am BST",
+    "departure_from_source": "07:53 am BST",
+    "arrival_at_destination": "09:25 am BST",
+    "journey_duration": "01:32",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Kaunia",
+    "destination_city": "Parbatipur",
+    "main_source_city": "Kurigram",
+    "main_destination_city": "Dhaka"
+  }
+]

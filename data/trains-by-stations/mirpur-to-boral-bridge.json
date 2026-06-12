@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 763,
+    "arrival_at_source": "12:40 pm BST",
+    "departure_from_source": "12:42 pm BST",
+    "arrival_at_destination": "02:06 pm BST",
+    "journey_duration": "01:24",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Mirpur",
+    "destination_city": "Boral Bridge",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  }
+]

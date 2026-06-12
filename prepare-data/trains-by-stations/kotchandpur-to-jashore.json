@@ -1,0 +1,93 @@
+[
+  {
+    "train_name": "SUNDARBAN EXPRESS",
+    "train_number": 726,
+    "arrival_at_source": "01:16 pm BST",
+    "departure_from_source": "01:18 pm BST",
+    "arrival_at_destination": "02:04 pm BST",
+    "journey_duration": "00:46",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Kotchandpur",
+    "destination_city": "Jashore",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "SIMANTA EXPRESS",
+    "train_number": 748,
+    "arrival_at_source": "01:50 am BST",
+    "departure_from_source": "01:52 am BST",
+    "arrival_at_destination": "02:41 am BST",
+    "journey_duration": "00:49",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Kotchandpur",
+    "destination_city": "Jashore",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 764,
+    "arrival_at_source": "02:16 am BST",
+    "departure_from_source": "02:18 am BST",
+    "arrival_at_destination": "03:07 am BST",
+    "journey_duration": "00:49",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Kotchandpur",
+    "destination_city": "Jashore",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "RUPSHA EXPRESS",
+    "train_number": 728,
+    "arrival_at_source": "04:14 pm BST",
+    "departure_from_source": "04:16 pm BST",
+    "arrival_at_destination": "04:58 pm BST",
+    "journey_duration": "00:42",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Kotchandpur",
+    "destination_city": "Jashore",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "BENAPOLE EXPRESS",
+    "train_number": 796,
+    "arrival_at_source": "04:52 am BST",
+    "departure_from_source": "04:54 am BST",
+    "arrival_at_destination": "05:40 am BST",
+    "journey_duration": "00:46",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Kotchandpur",
+    "destination_city": "Jashore",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Benapole"
+  },
+  {
+    "train_name": "KAPOTAKSHA EXPRESS",
+    "train_number": 716,
+    "arrival_at_source": "06:14 pm BST",
+    "departure_from_source": "06:16 pm BST",
+    "arrival_at_destination": "07:05 pm BST",
+    "journey_duration": "00:49",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Kotchandpur",
+    "destination_city": "Jashore",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "SAGARDARI EXPRESS",
+    "train_number": 762,
+    "arrival_at_source": "09:51 am BST",
+    "departure_from_source": "09:53 am BST",
+    "arrival_at_destination": "10:35 am BST",
+    "journey_duration": "00:42",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Kotchandpur",
+    "destination_city": "Jashore",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Khulna"
+  }
+]

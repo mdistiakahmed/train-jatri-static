@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "SILKCITY EXPRESS",
+    "train_number": 753,
+    "arrival_at_source": "03:57 pm BST",
+    "departure_from_source": "03:59 pm BST",
+    "arrival_at_destination": "06:48 pm BST",
+    "journey_duration": "02:49",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Mirzapur",
+    "destination_city": "Ishwardi Bypass",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  }
+]

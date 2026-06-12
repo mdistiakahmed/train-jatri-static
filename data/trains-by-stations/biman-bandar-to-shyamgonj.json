@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "MOHONGANJ EXPRESS",
+    "train_number": 789,
+    "arrival_at_source": "01:37 pm BST",
+    "departure_from_source": "01:42 pm BST",
+    "arrival_at_destination": "05:11 pm BST",
+    "journey_duration": "03:29",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Shyamgonj",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Mohanganj"
+  },
+  {
+    "train_name": "HAWR EXPRESS",
+    "train_number": 777,
+    "arrival_at_source": "10:38 pm BST",
+    "departure_from_source": "10:43 pm BST",
+    "arrival_at_destination": "02:18 am BST",
+    "journey_duration": "03:35",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Shyamgonj",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Mohanganj"
+  }
+]

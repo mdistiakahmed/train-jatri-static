@@ -1,0 +1,80 @@
+[
+  {
+    "train_name": "BANGLABANDHA EXPRESS",
+    "train_number": 803,
+    "arrival_at_source": "03:17 am BST",
+    "departure_from_source": "03:19 am BST",
+    "arrival_at_destination": "04:40 am BST",
+    "journey_duration": "01:21",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Pirganj",
+    "destination_city": "Panchagarh",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "DRUTOJAN EXPRESS",
+    "train_number": 757,
+    "arrival_at_source": "05:36 am BST",
+    "departure_from_source": "05:39 am BST",
+    "arrival_at_destination": "07:10 am BST",
+    "journey_duration": "01:31",
+    "operating_days": "Daily",
+    "source_city": "Pirganj",
+    "destination_city": "Panchagarh",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "DOLONCHAPA EXPRESS",
+    "train_number": 767,
+    "arrival_at_source": "07:06 pm BST",
+    "departure_from_source": "07:08 pm BST",
+    "arrival_at_destination": "08:40 pm BST",
+    "journey_duration": "01:32",
+    "operating_days": "Daily",
+    "source_city": "Pirganj",
+    "destination_city": "Panchagarh",
+    "main_source_city": "Santahar",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "EKOTA EXPRESS",
+    "train_number": 705,
+    "arrival_at_source": "07:51 pm BST",
+    "departure_from_source": "07:53 pm BST",
+    "arrival_at_destination": "09:00 pm BST",
+    "journey_duration": "01:07",
+    "operating_days": "Daily",
+    "source_city": "Pirganj",
+    "destination_city": "Panchagarh",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "PANCHAGARH EXPRESS",
+    "train_number": 793,
+    "arrival_at_source": "08:05 am BST",
+    "departure_from_source": "08:08 am BST",
+    "arrival_at_destination": "09:50 am BST",
+    "journey_duration": "01:42",
+    "operating_days": "Daily",
+    "source_city": "Pirganj",
+    "destination_city": "Panchagarh",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "KANCHON INTERCITY COMMUTER",
+    "train_number": 41,
+    "arrival_at_source": "10:00 am BST",
+    "departure_from_source": "10:20 am BST",
+    "arrival_at_destination": "12:00 pm BST",
+    "journey_duration": "01:40",
+    "operating_days": "Daily",
+    "source_city": "Pirganj",
+    "destination_city": "Panchagarh",
+    "main_source_city": "Parbatipur",
+    "main_destination_city": "Panchagarh"
+  }
+]

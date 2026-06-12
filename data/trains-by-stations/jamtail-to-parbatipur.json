@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "DRUTOJAN EXPRESS",
+    "train_number": 757,
+    "arrival_at_source": "11:17 pm BST",
+    "departure_from_source": "11:19 pm BST",
+    "arrival_at_destination": "03:50 am BST",
+    "journey_duration": "04:31",
+    "operating_days": "Daily",
+    "source_city": "Jamtail",
+    "destination_city": "Parbatipur",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  }
+]

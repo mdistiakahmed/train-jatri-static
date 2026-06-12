@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "KANCHON INTERCITY COMMUTER",
+    "train_number": 41,
+    "arrival_at_source": "10:00 am BST",
+    "departure_from_source": "10:20 am BST",
+    "arrival_at_destination": "11:05 am BST",
+    "journey_duration": "00:45",
+    "operating_days": "Daily",
+    "source_city": "Pirganj",
+    "destination_city": "Akhanagar",
+    "main_source_city": "Parbatipur",
+    "main_destination_city": "Panchagarh"
+  }
+]

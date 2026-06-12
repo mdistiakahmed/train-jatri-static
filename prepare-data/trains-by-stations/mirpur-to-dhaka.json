@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "MADHUMATI EXPRESS",
+    "train_number": 756,
+    "arrival_at_source": "08:37 am BST",
+    "departure_from_source": "08:39 am BST",
+    "arrival_at_destination": "02:00 pm BST",
+    "journey_duration": "05:21",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Mirpur",
+    "destination_city": "Dhaka",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 763,
+    "arrival_at_source": "12:40 pm BST",
+    "departure_from_source": "12:42 pm BST",
+    "arrival_at_destination": "06:05 pm BST",
+    "journey_duration": "05:23",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Mirpur",
+    "destination_city": "Dhaka",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  }
+]

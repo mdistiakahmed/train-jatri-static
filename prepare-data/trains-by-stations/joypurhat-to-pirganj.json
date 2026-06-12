@@ -1,0 +1,54 @@
+[
+  {
+    "train_name": "DRUTOJAN EXPRESS",
+    "train_number": 757,
+    "arrival_at_source": "02:37 am BST",
+    "departure_from_source": "02:39 am BST",
+    "arrival_at_destination": "05:36 am BST",
+    "journey_duration": "02:57",
+    "operating_days": "Daily",
+    "source_city": "Joypurhat",
+    "destination_city": "Pirganj",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "EKOTA EXPRESS",
+    "train_number": 705,
+    "arrival_at_source": "04:50 pm BST",
+    "departure_from_source": "04:53 pm BST",
+    "arrival_at_destination": "07:51 pm BST",
+    "journey_duration": "02:58",
+    "operating_days": "Daily",
+    "source_city": "Joypurhat",
+    "destination_city": "Pirganj",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "PANCHAGARH EXPRESS",
+    "train_number": 793,
+    "arrival_at_source": "05:01 am BST",
+    "departure_from_source": "05:04 am BST",
+    "arrival_at_destination": "08:05 am BST",
+    "journey_duration": "03:01",
+    "operating_days": "Daily",
+    "source_city": "Joypurhat",
+    "destination_city": "Pirganj",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "BANGLABANDHA EXPRESS",
+    "train_number": 803,
+    "arrival_at_source": "12:02 am BST",
+    "departure_from_source": "12:04 am BST",
+    "arrival_at_destination": "03:17 am BST",
+    "journey_duration": "03:13",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Joypurhat",
+    "destination_city": "Pirganj",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Panchagarh"
+  }
+]

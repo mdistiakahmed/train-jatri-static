@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "JAHANABAD EXPRESS",
+    "train_number": 825,
+    "arrival_at_source": null,
+    "departure_from_source": "06:00 am BST",
+    "arrival_at_destination": "07:29 am BST",
+    "journey_duration": "01:29",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Khulna",
+    "destination_city": "Lohagora",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  }
+]

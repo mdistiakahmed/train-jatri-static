@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "PADMA EXPRESS",
+    "train_number": 759,
+    "arrival_at_source": "03:16 am BST",
+    "departure_from_source": "03:18 am BST",
+    "arrival_at_destination": "04:00 am BST",
+    "journey_duration": "00:42",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Sardah Road",
+    "destination_city": "Rajshahi",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "DHALARCHAR EXPRESS",
+    "train_number": 779,
+    "arrival_at_source": "09:56 am BST",
+    "departure_from_source": "09:58 am BST",
+    "arrival_at_destination": "10:25 am BST",
+    "journey_duration": "00:27",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Sardah Road",
+    "destination_city": "Rajshahi",
+    "main_source_city": "Dhalarchar",
+    "main_destination_city": "Rajshahi"
+  }
+]

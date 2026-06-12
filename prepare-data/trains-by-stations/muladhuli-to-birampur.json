@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "NILSAGAR EXPRESS",
+    "train_number": 765,
+    "arrival_at_source": "10:16 am BST",
+    "departure_from_source": "10:18 am BST",
+    "arrival_at_destination": "01:25 pm BST",
+    "journey_duration": "03:07",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Muladhuli",
+    "destination_city": "Birampur",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chilahati"
+  }
+]

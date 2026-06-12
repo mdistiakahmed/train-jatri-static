@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "JAYENTIKA EXPRESS",
+    "train_number": 718,
+    "arrival_at_source": "01:17 pm BST",
+    "departure_from_source": "01:20 pm BST",
+    "arrival_at_destination": "04:07 pm BST",
+    "journey_duration": "02:47",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Kulaura",
+    "destination_city": "Montola",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  }
+]

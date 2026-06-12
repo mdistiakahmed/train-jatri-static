@@ -1,0 +1,93 @@
+[
+  {
+    "train_name": "BENAPOLE EXPRESS",
+    "train_number": 795,
+    "arrival_at_source": "03:21 pm BST",
+    "departure_from_source": "03:23 pm BST",
+    "arrival_at_destination": "03:39 pm BST",
+    "journey_duration": "00:16",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Chuadanga",
+    "destination_city": "Alamdanga",
+    "main_source_city": "Benapole",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "SAGARDARI EXPRESS",
+    "train_number": 761,
+    "arrival_at_source": "06:43 pm BST",
+    "departure_from_source": "06:46 pm BST",
+    "arrival_at_destination": "07:02 pm BST",
+    "journey_duration": "00:16",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Chuadanga",
+    "destination_city": "Alamdanga",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "KAPOTAKSHA EXPRESS",
+    "train_number": 715,
+    "arrival_at_source": "09:24 am BST",
+    "departure_from_source": "09:27 am BST",
+    "arrival_at_destination": "09:42 am BST",
+    "journey_duration": "00:15",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Chuadanga",
+    "destination_city": "Alamdanga",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "RUPSHA EXPRESS",
+    "train_number": 727,
+    "arrival_at_source": "10:03 am BST",
+    "departure_from_source": "10:06 am BST",
+    "arrival_at_destination": "10:21 am BST",
+    "journey_duration": "00:15",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Chuadanga",
+    "destination_city": "Alamdanga",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Chilahati"
+  },
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 763,
+    "arrival_at_source": "11:50 am BST",
+    "departure_from_source": "11:53 am BST",
+    "arrival_at_destination": "12:09 pm BST",
+    "journey_duration": "00:16",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Chuadanga",
+    "destination_city": "Alamdanga",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "SIMANTA EXPRESS",
+    "train_number": 747,
+    "arrival_at_source": "11:57 pm BST",
+    "departure_from_source": "12:00 am BST",
+    "arrival_at_destination": "12:16 am BST",
+    "journey_duration": "00:16",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Chuadanga",
+    "destination_city": "Alamdanga",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Chilahati"
+  },
+  {
+    "train_name": "SUNDARBAN EXPRESS",
+    "train_number": 725,
+    "arrival_at_source": "12:21 am BST",
+    "departure_from_source": "12:24 am BST",
+    "arrival_at_destination": "12:40 am BST",
+    "journey_duration": "00:16",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Chuadanga",
+    "destination_city": "Alamdanga",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  }
+]

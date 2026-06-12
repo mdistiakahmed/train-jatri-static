@@ -1,0 +1,54 @@
+[
+  {
+    "train_name": "PAHARIKA EXPRESS",
+    "train_number": 719,
+    "arrival_at_source": "02:06 pm BST",
+    "departure_from_source": "02:08 pm BST",
+    "arrival_at_destination": "02:32 pm BST",
+    "journey_duration": "00:24",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Shamshernagar",
+    "destination_city": "Kulaura",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Sylhet"
+  },
+  {
+    "train_name": "UPABAN EXPRESS",
+    "train_number": 739,
+    "arrival_at_source": "02:41 am BST",
+    "departure_from_source": "02:43 am BST",
+    "arrival_at_destination": "03:08 am BST",
+    "journey_duration": "00:25",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Shamshernagar",
+    "destination_city": "Kulaura",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Sylhet"
+  },
+  {
+    "train_name": "UDAYAN EXPRESS",
+    "train_number": 723,
+    "arrival_at_source": "03:38 am BST",
+    "departure_from_source": "03:40 am BST",
+    "arrival_at_destination": "04:04 am BST",
+    "journey_duration": "00:24",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Shamshernagar",
+    "destination_city": "Kulaura",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Sylhet"
+  },
+  {
+    "train_name": "KALNI EXPRESS",
+    "train_number": 773,
+    "arrival_at_source": "07:22 pm BST",
+    "departure_from_source": "07:26 pm BST",
+    "arrival_at_destination": "07:49 pm BST",
+    "journey_duration": "00:23",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Shamshernagar",
+    "destination_city": "Kulaura",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Sylhet"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "TUNGIPARA EXPRESS",
+    "train_number": 784,
+    "arrival_at_source": null,
+    "departure_from_source": "03:30 pm BST",
+    "arrival_at_destination": "09:49 pm BST",
+    "journey_duration": "06:19",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Rajshahi",
+    "destination_city": "Borashi",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Gobra"
+  }
+]

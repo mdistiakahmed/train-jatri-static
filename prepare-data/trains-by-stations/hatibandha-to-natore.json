@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "BURIMARI EXPRESS",
+    "train_number": 810,
+    "arrival_at_source": "07:02 pm BST",
+    "departure_from_source": "07:05 pm BST",
+    "arrival_at_destination": "02:03 am BST",
+    "journey_duration": "06:58",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Hatibandha",
+    "destination_city": "Natore",
+    "main_source_city": "Lalmonirhat",
+    "main_destination_city": "Dhaka"
+  }
+]

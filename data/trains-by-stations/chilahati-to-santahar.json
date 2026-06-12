@@ -1,0 +1,80 @@
+[
+  {
+    "train_name": "TITUMIR EXPRESS",
+    "train_number": 734,
+    "arrival_at_source": null,
+    "departure_from_source": "03:00 pm BST",
+    "arrival_at_destination": "06:55 pm BST",
+    "journey_duration": "03:55",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Chilahati",
+    "destination_city": "Santahar",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "BARENDRA EXPRESS",
+    "train_number": 732,
+    "arrival_at_source": null,
+    "departure_from_source": "05:00 am BST",
+    "arrival_at_destination": "08:40 am BST",
+    "journey_duration": "03:40",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Chilahati",
+    "destination_city": "Santahar",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "CHILAHATI EXPRESS",
+    "train_number": 806,
+    "arrival_at_source": null,
+    "departure_from_source": "06:00 am BST",
+    "arrival_at_destination": "09:15 am BST",
+    "journey_duration": "03:15",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Chilahati",
+    "destination_city": "Santahar",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "SIMANTA EXPRESS",
+    "train_number": 748,
+    "arrival_at_source": null,
+    "departure_from_source": "06:30 pm BST",
+    "arrival_at_destination": "09:55 pm BST",
+    "journey_duration": "03:25",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Chilahati",
+    "destination_city": "Santahar",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "NILSAGAR EXPRESS",
+    "train_number": 766,
+    "arrival_at_source": null,
+    "departure_from_source": "08:00 pm BST",
+    "arrival_at_destination": "11:20 pm BST",
+    "journey_duration": "03:20",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Chilahati",
+    "destination_city": "Santahar",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "RUPSHA EXPRESS",
+    "train_number": 728,
+    "arrival_at_source": null,
+    "departure_from_source": "08:30 am BST",
+    "arrival_at_destination": "12:00 pm BST",
+    "journey_duration": "03:30",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Chilahati",
+    "destination_city": "Santahar",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Khulna"
+  }
+]

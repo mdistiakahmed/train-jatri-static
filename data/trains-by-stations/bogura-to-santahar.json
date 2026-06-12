@@ -1,0 +1,67 @@
+[
+  {
+    "train_name": "DOLONCHAPA EXPRESS",
+    "train_number": 768,
+    "arrival_at_source": "02:49 pm BST",
+    "departure_from_source": "03:05 pm BST",
+    "arrival_at_destination": "04:15 pm BST",
+    "journey_duration": "01:10",
+    "operating_days": "Daily",
+    "source_city": "Bogura",
+    "destination_city": "Santahar",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Santahar"
+  },
+  {
+    "train_name": "KOROTOA EXPRESS",
+    "train_number": 714,
+    "arrival_at_source": "09:45 pm BST",
+    "departure_from_source": "09:50 pm BST",
+    "arrival_at_destination": "10:40 pm BST",
+    "journey_duration": "00:50",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Bogura",
+    "destination_city": "Santahar",
+    "main_source_city": "Burimari",
+    "main_destination_city": "Santahar"
+  },
+  {
+    "train_name": "RANGPUR EXPRESS",
+    "train_number": 772,
+    "arrival_at_source": "11:15 pm BST",
+    "departure_from_source": "11:20 pm BST",
+    "arrival_at_destination": "12:10 am BST",
+    "journey_duration": "00:50",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Bogura",
+    "destination_city": "Santahar",
+    "main_source_city": "Rangpur",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "BURIMARI EXPRESS",
+    "train_number": 810,
+    "arrival_at_source": "12:03 am BST",
+    "departure_from_source": "12:08 am BST",
+    "arrival_at_destination": "01:00 am BST",
+    "journey_duration": "00:52",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Bogura",
+    "destination_city": "Santahar",
+    "main_source_city": "Lalmonirhat",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "LALMONI EXPRESS",
+    "train_number": 752,
+    "arrival_at_source": "12:41 pm BST",
+    "departure_from_source": "12:44 pm BST",
+    "arrival_at_destination": "01:30 pm BST",
+    "journey_duration": "00:46",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Bogura",
+    "destination_city": "Santahar",
+    "main_source_city": "Lalmonirhat",
+    "main_destination_city": "Dhaka"
+  }
+]

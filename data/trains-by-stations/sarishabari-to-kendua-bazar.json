@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "AGHNIBINA EXPRESS",
+    "train_number": 736,
+    "arrival_at_source": "05:45 pm BST",
+    "departure_from_source": "05:47 pm BST",
+    "arrival_at_destination": "06:17 pm BST",
+    "journey_duration": "00:30",
+    "operating_days": "Daily",
+    "source_city": "Sarishabari",
+    "destination_city": "Kendua Bazar",
+    "main_source_city": "Tarakandi",
+    "main_destination_city": "Dhaka"
+  }
+]

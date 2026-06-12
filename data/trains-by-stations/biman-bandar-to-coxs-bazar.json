@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "PARJOTAK EXPRESS",
+    "train_number": 816,
+    "arrival_at_source": "06:38 am BST",
+    "departure_from_source": "06:43 am BST",
+    "arrival_at_destination": "02:40 pm BST",
+    "journey_duration": "07:57",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Cox's Bazar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Cox's Bazar"
+  },
+  {
+    "train_name": "COXS BAZAR EXPRESS",
+    "train_number": 814,
+    "arrival_at_source": "11:23 pm BST",
+    "departure_from_source": "11:28 pm BST",
+    "arrival_at_destination": "07:20 am BST",
+    "journey_duration": "07:52",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Cox's Bazar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Cox's Bazar"
+  }
+]

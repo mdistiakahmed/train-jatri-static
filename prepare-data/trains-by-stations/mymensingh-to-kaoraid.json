@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "JAMUNA EXPRESS",
+    "train_number": 746,
+    "arrival_at_source": "04:25 am BST",
+    "departure_from_source": "04:30 am BST",
+    "arrival_at_destination": "05:42 am BST",
+    "journey_duration": "01:12",
+    "operating_days": "Daily",
+    "source_city": "Mymensingh",
+    "destination_city": "Kaoraid",
+    "main_source_city": "Tarakandi",
+    "main_destination_city": "Dhaka"
+  }
+]

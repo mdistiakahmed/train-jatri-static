@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 763,
+    "arrival_at_source": "11:28 am BST",
+    "departure_from_source": "11:31 am BST",
+    "arrival_at_destination": "02:06 pm BST",
+    "journey_duration": "02:35",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Darshana Halt",
+    "destination_city": "Boral Bridge",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  }
+]

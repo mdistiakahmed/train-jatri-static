@@ -1,0 +1,67 @@
+[
+  {
+    "train_name": "TURNA",
+    "train_number": 742,
+    "arrival_at_source": "01:12 am BST",
+    "departure_from_source": "01:16 am BST",
+    "arrival_at_destination": "02:33 am BST",
+    "journey_duration": "01:17",
+    "operating_days": "Daily",
+    "source_city": "Brahmanbaria",
+    "destination_city": "Cumilla",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "CHATTALA EXPRESS",
+    "train_number": 802,
+    "arrival_at_source": "04:19 pm BST",
+    "departure_from_source": "04:23 pm BST",
+    "arrival_at_destination": "05:40 pm BST",
+    "journey_duration": "01:17",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Brahmanbaria",
+    "destination_city": "Cumilla",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "UPAKUL EXPRESS",
+    "train_number": 712,
+    "arrival_at_source": "05:17 pm BST",
+    "departure_from_source": "05:21 pm BST",
+    "arrival_at_destination": "06:38 pm BST",
+    "journey_duration": "01:17",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Brahmanbaria",
+    "destination_city": "Cumilla",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Noakhali"
+  },
+  {
+    "train_name": "MAHANAGAR PROVATI",
+    "train_number": 704,
+    "arrival_at_source": "09:40 am BST",
+    "departure_from_source": "09:43 am BST",
+    "arrival_at_destination": "10:51 am BST",
+    "journey_duration": "01:08",
+    "operating_days": "Daily",
+    "source_city": "Brahmanbaria",
+    "destination_city": "Cumilla",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "MOHANAGAR EXPRESS",
+    "train_number": 722,
+    "arrival_at_source": "11:28 pm BST",
+    "departure_from_source": "11:31 pm BST",
+    "arrival_at_destination": "12:46 am BST",
+    "journey_duration": "01:15",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Brahmanbaria",
+    "destination_city": "Cumilla",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chattogram"
+  }
+]

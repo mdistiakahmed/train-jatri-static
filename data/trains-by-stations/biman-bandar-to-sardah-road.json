@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "PADMA EXPRESS",
+    "train_number": 759,
+    "arrival_at_source": "11:08 pm BST",
+    "departure_from_source": "11:13 pm BST",
+    "arrival_at_destination": "03:16 am BST",
+    "journey_duration": "04:03",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Sardah Road",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "KANCHON INTERCITY COMMUTER",
+    "train_number": 42,
+    "arrival_at_source": "05:19 pm BST",
+    "departure_from_source": "05:21 pm BST",
+    "arrival_at_destination": "06:54 pm BST",
+    "journey_duration": "01:33",
+    "operating_days": "Daily",
+    "source_city": "Setabganj",
+    "destination_city": "Manmathapur",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Parbatipur"
+  }
+]

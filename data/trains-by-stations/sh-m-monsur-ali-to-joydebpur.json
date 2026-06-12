@@ -1,0 +1,80 @@
+[
+  {
+    "train_name": "DHUMKETU EXPRESS",
+    "train_number": 770,
+    "arrival_at_source": "01:57 am BST",
+    "departure_from_source": "01:59 am BST",
+    "arrival_at_destination": "03:32 am BST",
+    "journey_duration": "01:33",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "SH M Monsur Ali",
+    "destination_city": "Joydebpur",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 763,
+    "arrival_at_source": "02:45 pm BST",
+    "departure_from_source": "02:48 pm BST",
+    "arrival_at_destination": "05:04 pm BST",
+    "journey_duration": "02:16",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "SH M Monsur Ali",
+    "destination_city": "Joydebpur",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "LALMONI EXPRESS",
+    "train_number": 752,
+    "arrival_at_source": "04:22 pm BST",
+    "departure_from_source": "04:25 pm BST",
+    "arrival_at_destination": "06:36 pm BST",
+    "journey_duration": "02:11",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "SH M Monsur Ali",
+    "destination_city": "Joydebpur",
+    "main_source_city": "Lalmonirhat",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "PADMA EXPRESS",
+    "train_number": 760,
+    "arrival_at_source": "06:18 pm BST",
+    "departure_from_source": "06:21 pm BST",
+    "arrival_at_destination": "08:14 pm BST",
+    "journey_duration": "01:53",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "SH M Monsur Ali",
+    "destination_city": "Joydebpur",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "SIRAJGANJ EXPRESS",
+    "train_number": 775,
+    "arrival_at_source": "06:53 am BST",
+    "departure_from_source": "06:56 am BST",
+    "arrival_at_destination": "09:14 am BST",
+    "journey_duration": "02:18",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "SH M Monsur Ali",
+    "destination_city": "Joydebpur",
+    "main_source_city": "Sirajganj_Bazar",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "SILKCITY EXPRESS",
+    "train_number": 754,
+    "arrival_at_source": "10:01 am BST",
+    "departure_from_source": "10:04 am BST",
+    "arrival_at_destination": "12:05 pm BST",
+    "journey_duration": "02:01",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "SH M Monsur Ali",
+    "destination_city": "Joydebpur",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhaka"
+  }
+]

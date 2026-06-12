@@ -1,0 +1,41 @@
+[
+  {
+    "train_name": "MOHANAGAR EXPRESS",
+    "train_number": 721,
+    "arrival_at_source": "02:24 pm BST",
+    "departure_from_source": "02:26 pm BST",
+    "arrival_at_destination": "03:06 pm BST",
+    "journey_duration": "00:40",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Nangolkot",
+    "destination_city": "Cumilla",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "CHATTALA EXPRESS",
+    "train_number": 801,
+    "arrival_at_source": "08:02 am BST",
+    "departure_from_source": "08:04 am BST",
+    "arrival_at_destination": "08:41 am BST",
+    "journey_duration": "00:37",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Nangolkot",
+    "destination_city": "Cumilla",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "PAHARIKA EXPRESS",
+    "train_number": 719,
+    "arrival_at_source": "09:43 am BST",
+    "departure_from_source": "09:45 am BST",
+    "arrival_at_destination": "10:26 am BST",
+    "journey_duration": "00:41",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Nangolkot",
+    "destination_city": "Cumilla",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Sylhet"
+  }
+]

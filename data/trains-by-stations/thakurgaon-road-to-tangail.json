@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "DRUTOJAN EXPRESS",
+    "train_number": 758,
+    "arrival_at_source": "08:02 am BST",
+    "departure_from_source": "08:05 am BST",
+    "arrival_at_destination": "04:18 pm BST",
+    "journey_duration": "08:13",
+    "operating_days": "Daily",
+    "source_city": "Thakurgaon Road",
+    "destination_city": "Tangail",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "EKOTA EXPRESS",
+    "train_number": 706,
+    "arrival_at_source": "09:51 pm BST",
+    "departure_from_source": "09:54 pm BST",
+    "arrival_at_destination": "05:12 am BST",
+    "journey_duration": "07:18",
+    "operating_days": "Daily",
+    "source_city": "Thakurgaon Road",
+    "destination_city": "Tangail",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Dhaka"
+  }
+]

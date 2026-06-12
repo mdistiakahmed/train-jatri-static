@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "DRUTOJAN EXPRESS",
+    "train_number": 757,
+    "arrival_at_source": "09:08 pm BST",
+    "departure_from_source": "09:13 pm BST",
+    "arrival_at_destination": "06:47 am BST",
+    "journey_duration": "09:34",
+    "operating_days": "Daily",
+    "source_city": "Biman Bandar",
+    "destination_city": "Kismat",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "EKOTA EXPRESS",
+    "train_number": 705,
+    "arrival_at_source": "10:38 am BST",
+    "departure_from_source": "10:43 am BST",
+    "arrival_at_destination": "08:42 pm BST",
+    "journey_duration": "09:59",
+    "operating_days": "Daily",
+    "source_city": "Biman Bandar",
+    "destination_city": "Kismat",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  }
+]

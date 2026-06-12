@@ -1,0 +1,41 @@
+[
+  {
+    "train_name": "KOROTOA EXPRESS",
+    "train_number": 714,
+    "arrival_at_source": "07:10 pm BST",
+    "departure_from_source": "07:13 pm BST",
+    "arrival_at_destination": "09:00 pm BST",
+    "journey_duration": "01:47",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Kaunia",
+    "destination_city": "Mahimaganj",
+    "main_source_city": "Burimari",
+    "main_destination_city": "Santahar"
+  },
+  {
+    "train_name": "BURIMARI EXPRESS",
+    "train_number": 810,
+    "arrival_at_source": "09:33 pm BST",
+    "departure_from_source": "09:36 pm BST",
+    "arrival_at_destination": "11:22 pm BST",
+    "journey_duration": "01:46",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Kaunia",
+    "destination_city": "Mahimaganj",
+    "main_source_city": "Lalmonirhat",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "DOLONCHAPA EXPRESS",
+    "train_number": 768,
+    "arrival_at_source": "11:05 am BST",
+    "departure_from_source": "11:25 am BST",
+    "arrival_at_destination": "01:57 pm BST",
+    "journey_duration": "02:32",
+    "operating_days": "Daily",
+    "source_city": "Kaunia",
+    "destination_city": "Mahimaganj",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Santahar"
+  }
+]

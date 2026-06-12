@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "DOLONCHAPA EXPRESS",
+    "train_number": 768,
+    "arrival_at_source": "12:52 pm BST",
+    "departure_from_source": "12:57 pm BST",
+    "arrival_at_destination": "01:13 pm BST",
+    "journey_duration": "00:16",
+    "operating_days": "Daily",
+    "source_city": "Gaibandha",
+    "destination_city": "Badiakhali",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Santahar"
+  }
+]

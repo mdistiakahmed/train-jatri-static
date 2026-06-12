@@ -1,0 +1,41 @@
+[
+  {
+    "train_name": "RANGPUR EXPRESS",
+    "train_number": 772,
+    "arrival_at_source": "09:47 pm BST",
+    "departure_from_source": "09:52 pm BST",
+    "arrival_at_destination": "06:00 am BST",
+    "journey_duration": "08:08",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Gaibandha",
+    "destination_city": "Dhaka",
+    "main_source_city": "Rangpur",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "BURIMARI EXPRESS",
+    "train_number": 810,
+    "arrival_at_source": "10:42 pm BST",
+    "departure_from_source": "10:47 pm BST",
+    "arrival_at_destination": "06:30 am BST",
+    "journey_duration": "07:43",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Gaibandha",
+    "destination_city": "Dhaka",
+    "main_source_city": "Lalmonirhat",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "LALMONI EXPRESS",
+    "train_number": 752,
+    "arrival_at_source": "11:24 am BST",
+    "departure_from_source": "11:27 am BST",
+    "arrival_at_destination": "07:45 pm BST",
+    "journey_duration": "08:18",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Gaibandha",
+    "destination_city": "Dhaka",
+    "main_source_city": "Lalmonirhat",
+    "main_destination_city": "Dhaka"
+  }
+]

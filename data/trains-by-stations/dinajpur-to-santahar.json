@@ -1,0 +1,67 @@
+[
+  {
+    "train_name": "PANCHAGARH EXPRESS",
+    "train_number": 794,
+    "arrival_at_source": "02:12 pm BST",
+    "departure_from_source": "02:20 pm BST",
+    "arrival_at_destination": "04:50 pm BST",
+    "journey_duration": "02:30",
+    "operating_days": "Daily",
+    "source_city": "Dinajpur",
+    "destination_city": "Santahar",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "DOLONCHAPA EXPRESS",
+    "train_number": 768,
+    "arrival_at_source": "08:21 am BST",
+    "departure_from_source": "08:31 am BST",
+    "arrival_at_destination": "04:15 pm BST",
+    "journey_duration": "07:44",
+    "operating_days": "Daily",
+    "source_city": "Dinajpur",
+    "destination_city": "Santahar",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Santahar"
+  },
+  {
+    "train_name": "DRUTOJAN EXPRESS",
+    "train_number": 758,
+    "arrival_at_source": "09:36 am BST",
+    "departure_from_source": "09:46 am BST",
+    "arrival_at_destination": "12:35 pm BST",
+    "journey_duration": "02:49",
+    "operating_days": "Daily",
+    "source_city": "Dinajpur",
+    "destination_city": "Santahar",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "EKOTA EXPRESS",
+    "train_number": 706,
+    "arrival_at_source": "11:05 pm BST",
+    "departure_from_source": "11:13 pm BST",
+    "arrival_at_destination": "01:55 am BST",
+    "journey_duration": "02:42",
+    "operating_days": "Daily",
+    "source_city": "Dinajpur",
+    "destination_city": "Santahar",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "BANGLABANDHA EXPRESS",
+    "train_number": 804,
+    "arrival_at_source": "11:07 am BST",
+    "departure_from_source": "11:15 am BST",
+    "arrival_at_destination": "02:40 pm BST",
+    "journey_duration": "03:25",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Dinajpur",
+    "destination_city": "Santahar",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Rajshahi"
+  }
+]

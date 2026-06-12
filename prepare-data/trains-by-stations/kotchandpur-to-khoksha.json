@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "BENAPOLE EXPRESS",
+    "train_number": 795,
+    "arrival_at_source": "02:33 pm BST",
+    "departure_from_source": "02:35 pm BST",
+    "arrival_at_destination": "04:49 pm BST",
+    "journey_duration": "02:14",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Kotchandpur",
+    "destination_city": "Khoksha",
+    "main_source_city": "Benapole",
+    "main_destination_city": "Dhaka"
+  }
+]

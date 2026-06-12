@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "PAHARIKA EXPRESS",
+    "train_number": 720,
+    "arrival_at_source": "02:17 pm BST",
+    "departure_from_source": "02:19 pm BST",
+    "arrival_at_destination": "02:39 pm BST",
+    "journey_duration": "00:20",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Nayapara",
+    "destination_city": "Harashpur",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "JAYENTIKA EXPRESS",
+    "train_number": 718,
+    "arrival_at_source": "03:50 pm BST",
+    "departure_from_source": "03:52 pm BST",
+    "arrival_at_destination": "04:18 pm BST",
+    "journey_duration": "00:26",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Nayapara",
+    "destination_city": "Harashpur",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  }
+]

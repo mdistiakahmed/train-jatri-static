@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "PARABAT EXPRESS",
+    "train_number": 709,
+    "arrival_at_source": "06:53 am BST",
+    "departure_from_source": "06:58 am BST",
+    "arrival_at_destination": "09:30 am BST",
+    "journey_duration": "02:32",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Nayapara",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Sylhet"
+  },
+  {
+    "train_name": "JAYENTIKA EXPRESS",
+    "train_number": 717,
+    "arrival_at_source": "11:38 am BST",
+    "departure_from_source": "11:43 am BST",
+    "arrival_at_destination": "02:47 pm BST",
+    "journey_duration": "03:04",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Nayapara",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Sylhet"
+  }
+]

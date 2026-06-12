@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "RUPOSHI BANGLA EXPRESS",
+    "train_number": 827,
+    "arrival_at_source": "04:12 pm BST",
+    "departure_from_source": "04:15 pm BST",
+    "arrival_at_destination": "05:08 pm BST",
+    "journey_duration": "00:53",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Jashore",
+    "destination_city": "Kashiani",
+    "main_source_city": "Benapole",
+    "main_destination_city": "Dhaka"
+  }
+]

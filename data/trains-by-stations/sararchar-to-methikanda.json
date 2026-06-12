@@ -1,0 +1,41 @@
+[
+  {
+    "train_name": "EGAROSINDHUR GODHULI",
+    "train_number": 750,
+    "arrival_at_source": "01:52 pm BST",
+    "departure_from_source": "01:54 pm BST",
+    "arrival_at_destination": "03:13 pm BST",
+    "journey_duration": "01:19",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Sararchar",
+    "destination_city": "Methikanda",
+    "main_source_city": "Kishorganj",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "KISHORGANJ EXPRESS",
+    "train_number": 782,
+    "arrival_at_source": "04:45 pm BST",
+    "departure_from_source": "04:47 pm BST",
+    "arrival_at_destination": "06:04 pm BST",
+    "journey_duration": "01:17",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Sararchar",
+    "destination_city": "Methikanda",
+    "main_source_city": "Kishorganj",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "EGAROSINDHUR PROVATI",
+    "train_number": 738,
+    "arrival_at_source": "07:15 am BST",
+    "departure_from_source": "07:17 am BST",
+    "arrival_at_destination": "08:38 am BST",
+    "journey_duration": "01:21",
+    "operating_days": "Daily",
+    "source_city": "Sararchar",
+    "destination_city": "Methikanda",
+    "main_source_city": "Kishorganj",
+    "main_destination_city": "Dhaka"
+  }
+]

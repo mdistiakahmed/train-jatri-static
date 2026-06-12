@@ -1,0 +1,93 @@
+[
+  {
+    "train_name": "AGHNIBINA EXPRESS",
+    "train_number": 735,
+    "arrival_at_source": "01:45 pm BST",
+    "departure_from_source": "01:47 pm BST",
+    "arrival_at_destination": "02:35 pm BST",
+    "journey_duration": "00:48",
+    "operating_days": "Daily",
+    "source_city": "Gafargaon",
+    "destination_city": "Mymensingh",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Tarakandi"
+  },
+  {
+    "train_name": "MOHONGANJ EXPRESS",
+    "train_number": 789,
+    "arrival_at_source": "03:21 pm BST",
+    "departure_from_source": "03:24 pm BST",
+    "arrival_at_destination": "04:10 pm BST",
+    "journey_duration": "00:46",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Gafargaon",
+    "destination_city": "Mymensingh",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Mohanganj"
+  },
+  {
+    "train_name": "JAMUNA EXPRESS",
+    "train_number": 745,
+    "arrival_at_source": "07:22 pm BST",
+    "departure_from_source": "07:25 pm BST",
+    "arrival_at_destination": "08:32 pm BST",
+    "journey_duration": "01:07",
+    "operating_days": "Daily",
+    "source_city": "Gafargaon",
+    "destination_city": "Mymensingh",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Tarakandi"
+  },
+  {
+    "train_name": "BHRAMMAPUTRA EXPRESS",
+    "train_number": 743,
+    "arrival_at_source": "08:35 pm BST",
+    "departure_from_source": "08:37 pm BST",
+    "arrival_at_destination": "09:23 pm BST",
+    "journey_duration": "00:46",
+    "operating_days": "Daily",
+    "source_city": "Gafargaon",
+    "destination_city": "Mymensingh",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Dewanganj_Bazar"
+  },
+  {
+    "train_name": "TISTA EXPRESS",
+    "train_number": 707,
+    "arrival_at_source": "09:44 am BST",
+    "departure_from_source": "09:47 am BST",
+    "arrival_at_destination": "10:32 am BST",
+    "journey_duration": "00:45",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Gafargaon",
+    "destination_city": "Mymensingh",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Dewanganj_Bazar"
+  },
+  {
+    "train_name": "JAMALPUR EXPRESS",
+    "train_number": 799,
+    "arrival_at_source": "12:14 pm BST",
+    "departure_from_source": "12:17 pm BST",
+    "arrival_at_destination": "01:05 pm BST",
+    "journey_duration": "00:48",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Gafargaon",
+    "destination_city": "Mymensingh",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Bhuapur"
+  },
+  {
+    "train_name": "HAWR EXPRESS",
+    "train_number": 777,
+    "arrival_at_source": "12:27 am BST",
+    "departure_from_source": "12:29 am BST",
+    "arrival_at_destination": "01:15 am BST",
+    "journey_duration": "00:46",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Gafargaon",
+    "destination_city": "Mymensingh",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Mohanganj"
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "train_name": "CHATTALA EXPRESS",
+    "train_number": 802,
+    "arrival_at_source": "02:38 pm BST",
+    "departure_from_source": "02:43 pm BST",
+    "arrival_at_destination": "04:42 pm BST",
+    "journey_duration": "01:59",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Akhaura",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "UPAKUL EXPRESS",
+    "train_number": 712,
+    "arrival_at_source": "03:33 pm BST",
+    "departure_from_source": "03:38 pm BST",
+    "arrival_at_destination": "05:47 pm BST",
+    "journey_duration": "02:09",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Akhaura",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Noakhali"
+  },
+  {
+    "train_name": "MAHANAGAR PROVATI",
+    "train_number": 704,
+    "arrival_at_source": "08:07 am BST",
+    "departure_from_source": "08:12 am BST",
+    "arrival_at_destination": "10:05 am BST",
+    "journey_duration": "01:53",
+    "operating_days": "Daily",
+    "source_city": "Biman Bandar",
+    "destination_city": "Akhaura",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "MOHANAGAR EXPRESS",
+    "train_number": 722,
+    "arrival_at_source": "09:43 pm BST",
+    "departure_from_source": "09:48 pm BST",
+    "arrival_at_destination": "11:55 pm BST",
+    "journey_duration": "02:07",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Akhaura",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "TURNA",
+    "train_number": 742,
+    "arrival_at_source": "11:38 pm BST",
+    "departure_from_source": "11:43 pm BST",
+    "arrival_at_destination": "01:47 am BST",
+    "journey_duration": "02:04",
+    "operating_days": "Daily",
+    "source_city": "Biman Bandar",
+    "destination_city": "Akhaura",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chattogram"
+  }
+]

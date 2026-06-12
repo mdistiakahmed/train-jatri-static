@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "MADHUMATI EXPRESS",
+    "train_number": 756,
+    "arrival_at_source": "10:29 am BST",
+    "departure_from_source": "10:31 am BST",
+    "arrival_at_destination": "11:32 am BST",
+    "journey_duration": "01:01",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Kalukhali",
+    "destination_city": "Amirabad",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhaka"
+  }
+]

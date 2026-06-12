@@ -1,0 +1,41 @@
+[
+  {
+    "train_name": "SAGARDARI EXPRESS",
+    "train_number": 761,
+    "arrival_at_source": "08:43 pm BST",
+    "departure_from_source": "08:45 pm BST",
+    "arrival_at_destination": "08:53 pm BST",
+    "journey_duration": "00:08",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Azim Nagar",
+    "destination_city": "Abdulpur",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "DHALARCHAR EXPRESS",
+    "train_number": 779,
+    "arrival_at_source": "09:12 am BST",
+    "departure_from_source": "09:15 am BST",
+    "arrival_at_destination": "09:24 am BST",
+    "journey_duration": "00:09",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Azim Nagar",
+    "destination_city": "Abdulpur",
+    "main_source_city": "Dhalarchar",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "KAPOTAKSHA EXPRESS",
+    "train_number": 715,
+    "arrival_at_source": "11:22 am BST",
+    "departure_from_source": "11:24 am BST",
+    "arrival_at_destination": "11:45 am BST",
+    "journey_duration": "00:21",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Azim Nagar",
+    "destination_city": "Abdulpur",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Rajshahi"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 764,
+    "arrival_at_source": "09:26 pm BST",
+    "departure_from_source": "09:28 pm BST",
+    "arrival_at_destination": "01:24 am BST",
+    "journey_duration": "03:56",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Tangail",
+    "destination_city": "Chuadanga",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Khulna"
+  }
+]

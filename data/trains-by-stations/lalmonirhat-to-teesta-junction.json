@@ -1,0 +1,41 @@
+[
+  {
+    "train_name": "LALMONI COMMUTER",
+    "train_number": 61,
+    "arrival_at_source": null,
+    "departure_from_source": "06:30 am BST",
+    "arrival_at_destination": "06:50 am BST",
+    "journey_duration": "00:20",
+    "operating_days": "Daily",
+    "source_city": "Lalmonirhat",
+    "destination_city": "Teesta Junction",
+    "main_source_city": "Lalmonirhat",
+    "main_destination_city": "Birol"
+  },
+  {
+    "train_name": "KOROTOA EXPRESS",
+    "train_number": 714,
+    "arrival_at_source": "06:25 pm BST",
+    "departure_from_source": "06:45 pm BST",
+    "arrival_at_destination": "07:01 pm BST",
+    "journey_duration": "00:16",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Lalmonirhat",
+    "destination_city": "Teesta Junction",
+    "main_source_city": "Burimari",
+    "main_destination_city": "Santahar"
+  },
+  {
+    "train_name": "LALMONI EXPRESS",
+    "train_number": 752,
+    "arrival_at_source": null,
+    "departure_from_source": "09:50 am BST",
+    "arrival_at_destination": "10:06 am BST",
+    "journey_duration": "00:16",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Lalmonirhat",
+    "destination_city": "Teesta Junction",
+    "main_source_city": "Lalmonirhat",
+    "main_destination_city": "Dhaka"
+  }
+]

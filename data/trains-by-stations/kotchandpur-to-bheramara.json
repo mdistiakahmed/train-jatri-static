@@ -1,0 +1,67 @@
+[
+  {
+    "train_name": "SAGARDARI EXPRESS",
+    "train_number": 761,
+    "arrival_at_source": "05:49 pm BST",
+    "departure_from_source": "05:51 pm BST",
+    "arrival_at_destination": "07:45 pm BST",
+    "journey_duration": "01:54",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Kotchandpur",
+    "destination_city": "Bheramara",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "KAPOTAKSHA EXPRESS",
+    "train_number": 715,
+    "arrival_at_source": "08:31 am BST",
+    "departure_from_source": "08:33 am BST",
+    "arrival_at_destination": "10:25 am BST",
+    "journey_duration": "01:52",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Kotchandpur",
+    "destination_city": "Bheramara",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "RUPSHA EXPRESS",
+    "train_number": 727,
+    "arrival_at_source": "09:03 am BST",
+    "departure_from_source": "09:05 am BST",
+    "arrival_at_destination": "10:59 am BST",
+    "journey_duration": "01:54",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Kotchandpur",
+    "destination_city": "Bheramara",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Chilahati"
+  },
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 763,
+    "arrival_at_source": "11:02 am BST",
+    "departure_from_source": "11:04 am BST",
+    "arrival_at_destination": "12:52 pm BST",
+    "journey_duration": "01:48",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Kotchandpur",
+    "destination_city": "Bheramara",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "SIMANTA EXPRESS",
+    "train_number": 747,
+    "arrival_at_source": "11:08 pm BST",
+    "departure_from_source": "11:10 pm BST",
+    "arrival_at_destination": "12:54 am BST",
+    "journey_duration": "01:44",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Kotchandpur",
+    "destination_city": "Bheramara",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Chilahati"
+  }
+]

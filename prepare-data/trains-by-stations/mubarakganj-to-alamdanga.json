@@ -1,0 +1,93 @@
+[
+  {
+    "train_name": "BENAPOLE EXPRESS",
+    "train_number": 795,
+    "arrival_at_source": "02:19 pm BST",
+    "departure_from_source": "02:21 pm BST",
+    "arrival_at_destination": "03:39 pm BST",
+    "journey_duration": "01:18",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Mubarakganj",
+    "destination_city": "Alamdanga",
+    "main_source_city": "Benapole",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "SAGARDARI EXPRESS",
+    "train_number": 761,
+    "arrival_at_source": "05:35 pm BST",
+    "departure_from_source": "05:37 pm BST",
+    "arrival_at_destination": "07:02 pm BST",
+    "journey_duration": "01:25",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Mubarakganj",
+    "destination_city": "Alamdanga",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "KAPOTAKSHA EXPRESS",
+    "train_number": 715,
+    "arrival_at_source": "08:18 am BST",
+    "departure_from_source": "08:20 am BST",
+    "arrival_at_destination": "09:42 am BST",
+    "journey_duration": "01:22",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Mubarakganj",
+    "destination_city": "Alamdanga",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "RUPSHA EXPRESS",
+    "train_number": 727,
+    "arrival_at_source": "08:50 am BST",
+    "departure_from_source": "08:52 am BST",
+    "arrival_at_destination": "10:21 am BST",
+    "journey_duration": "01:29",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Mubarakganj",
+    "destination_city": "Alamdanga",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Chilahati"
+  },
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 763,
+    "arrival_at_source": "10:49 am BST",
+    "departure_from_source": "10:51 am BST",
+    "arrival_at_destination": "12:09 pm BST",
+    "journey_duration": "01:18",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Mubarakganj",
+    "destination_city": "Alamdanga",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "SIMANTA EXPRESS",
+    "train_number": 747,
+    "arrival_at_source": "10:54 pm BST",
+    "departure_from_source": "10:56 pm BST",
+    "arrival_at_destination": "12:16 am BST",
+    "journey_duration": "01:20",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Mubarakganj",
+    "destination_city": "Alamdanga",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Chilahati"
+  },
+  {
+    "train_name": "SUNDARBAN EXPRESS",
+    "train_number": 725,
+    "arrival_at_source": "11:24 pm BST",
+    "departure_from_source": "11:26 pm BST",
+    "arrival_at_destination": "12:40 am BST",
+    "journey_duration": "01:14",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Mubarakganj",
+    "destination_city": "Alamdanga",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "KOROTOA EXPRESS",
+    "train_number": 713,
+    "arrival_at_source": "10:09 am BST",
+    "departure_from_source": "10:19 am BST",
+    "arrival_at_destination": "03:27 pm BST",
+    "journey_duration": "05:08",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Bogura",
+    "destination_city": "Baura",
+    "main_source_city": "Santahar",
+    "main_destination_city": "Burimari"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "SHAIKAT EXPRESS",
+    "train_number": 824,
+    "arrival_at_source": "09:12 pm BST",
+    "departure_from_source": "09:14 pm BST",
+    "arrival_at_destination": "11:50 pm BST",
+    "journey_duration": "02:36",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Chakaria",
+    "destination_city": "Chattogram",
+    "main_source_city": "Cox's Bazar",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "PROBAL EXPRESS",
+    "train_number": 822,
+    "arrival_at_source": "11:15 am BST",
+    "departure_from_source": "11:17 am BST",
+    "arrival_at_destination": "02:10 pm BST",
+    "journey_duration": "02:53",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Chakaria",
+    "destination_city": "Chattogram",
+    "main_source_city": "Cox's Bazar",
+    "main_destination_city": "Chattogram"
+  }
+]

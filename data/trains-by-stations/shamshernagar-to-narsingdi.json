@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "UPABAN EXPRESS",
+    "train_number": 740,
+    "arrival_at_source": "01:09 am BST",
+    "departure_from_source": "01:11 am BST",
+    "arrival_at_destination": "04:34 am BST",
+    "journey_duration": "03:23",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Shamshernagar",
+    "destination_city": "Narsingdi",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "KALNI EXPRESS",
+    "train_number": 774,
+    "arrival_at_source": "07:50 am BST",
+    "departure_from_source": "07:52 am BST",
+    "arrival_at_destination": "11:43 am BST",
+    "journey_duration": "03:51",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Shamshernagar",
+    "destination_city": "Narsingdi",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  }
+]

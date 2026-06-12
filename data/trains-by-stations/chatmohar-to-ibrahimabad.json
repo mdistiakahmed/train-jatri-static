@@ -1,0 +1,67 @@
+[
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 763,
+    "arrival_at_source": "01:48 pm BST",
+    "departure_from_source": "01:51 pm BST",
+    "arrival_at_destination": "03:29 pm BST",
+    "journey_duration": "01:38",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Chatmohar",
+    "destination_city": "Ibrahimabad",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "DRUTOJAN EXPRESS",
+    "train_number": 758,
+    "arrival_at_source": "02:48 pm BST",
+    "departure_from_source": "02:51 pm BST",
+    "arrival_at_destination": "03:56 pm BST",
+    "journey_duration": "01:05",
+    "operating_days": "Daily",
+    "source_city": "Chatmohar",
+    "destination_city": "Ibrahimabad",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "PADMA EXPRESS",
+    "train_number": 760,
+    "arrival_at_source": "05:22 pm BST",
+    "departure_from_source": "05:25 pm BST",
+    "arrival_at_destination": "06:38 pm BST",
+    "journey_duration": "01:13",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Chatmohar",
+    "destination_city": "Ibrahimabad",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "SILKCITY EXPRESS",
+    "train_number": 754,
+    "arrival_at_source": "08:58 am BST",
+    "departure_from_source": "09:01 am BST",
+    "arrival_at_destination": "10:20 am BST",
+    "journey_duration": "01:19",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Chatmohar",
+    "destination_city": "Ibrahimabad",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "DHUMKETU EXPRESS",
+    "train_number": 770,
+    "arrival_at_source": "12:45 am BST",
+    "departure_from_source": "12:48 am BST",
+    "arrival_at_destination": "02:16 am BST",
+    "journey_duration": "01:28",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Chatmohar",
+    "destination_city": "Ibrahimabad",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhaka"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "BURIMARI COMMUTER",
+    "train_number": 66,
+    "arrival_at_source": "11:24 am BST",
+    "departure_from_source": "11:26 am BST",
+    "arrival_at_destination": "11:57 am BST",
+    "journey_duration": "00:31",
+    "operating_days": "Daily",
+    "source_city": "Barkhata",
+    "destination_city": "Bhotmari",
+    "main_source_city": "Burimari",
+    "main_destination_city": "Lalmonirhat"
+  }
+]

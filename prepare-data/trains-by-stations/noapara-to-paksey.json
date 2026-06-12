@@ -1,0 +1,41 @@
+[
+  {
+    "train_name": "SAGARDARI EXPRESS",
+    "train_number": 761,
+    "arrival_at_source": "04:33 pm BST",
+    "departure_from_source": "04:36 pm BST",
+    "arrival_at_destination": "07:59 pm BST",
+    "journey_duration": "03:23",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Noapara",
+    "destination_city": "Paksey",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "KAPOTAKSHA EXPRESS",
+    "train_number": 715,
+    "arrival_at_source": "07:18 am BST",
+    "departure_from_source": "07:20 am BST",
+    "arrival_at_destination": "10:39 am BST",
+    "journey_duration": "03:19",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Noapara",
+    "destination_city": "Paksey",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "RUPSHA EXPRESS",
+    "train_number": 727,
+    "arrival_at_source": "07:48 am BST",
+    "departure_from_source": "07:51 am BST",
+    "arrival_at_destination": "11:14 am BST",
+    "journey_duration": "03:23",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Noapara",
+    "destination_city": "Paksey",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Chilahati"
+  }
+]

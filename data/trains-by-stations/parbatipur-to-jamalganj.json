@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "TITUMIR EXPRESS",
+    "train_number": 734,
+    "arrival_at_source": "04:35 pm BST",
+    "departure_from_source": "04:55 pm BST",
+    "arrival_at_destination": "06:23 pm BST",
+    "journey_duration": "01:28",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Parbatipur",
+    "destination_city": "Jamalganj",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Rajshahi"
+  }
+]

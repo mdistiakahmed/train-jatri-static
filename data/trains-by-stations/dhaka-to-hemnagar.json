@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "JAMALPUR EXPRESS",
+    "train_number": 799,
+    "arrival_at_source": null,
+    "departure_from_source": "10:00 am BST",
+    "arrival_at_destination": "04:16 pm BST",
+    "journey_duration": "06:16",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Dhaka",
+    "destination_city": "Hemnagar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Bhuapur"
+  }
+]

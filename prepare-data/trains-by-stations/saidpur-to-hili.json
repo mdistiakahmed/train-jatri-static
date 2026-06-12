@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "BARENDRA EXPRESS",
+    "train_number": 732,
+    "arrival_at_source": "06:04 am BST",
+    "departure_from_source": "06:08 am BST",
+    "arrival_at_destination": "07:33 am BST",
+    "journey_duration": "01:25",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Saidpur",
+    "destination_city": "Hili",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Rajshahi"
+  }
+]

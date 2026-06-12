@@ -1,0 +1,67 @@
+[
+  {
+    "train_name": "SAGARDARI EXPRESS",
+    "train_number": 761,
+    "arrival_at_source": "06:21 pm BST",
+    "departure_from_source": "06:24 pm BST",
+    "arrival_at_destination": "07:45 pm BST",
+    "journey_duration": "01:21",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Darshana Halt",
+    "destination_city": "Bheramara",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "KAPOTAKSHA EXPRESS",
+    "train_number": 715,
+    "arrival_at_source": "09:02 am BST",
+    "departure_from_source": "09:05 am BST",
+    "arrival_at_destination": "10:25 am BST",
+    "journey_duration": "01:20",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Darshana Halt",
+    "destination_city": "Bheramara",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "RUPSHA EXPRESS",
+    "train_number": 727,
+    "arrival_at_source": "09:41 am BST",
+    "departure_from_source": "09:44 am BST",
+    "arrival_at_destination": "10:59 am BST",
+    "journey_duration": "01:15",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Darshana Halt",
+    "destination_city": "Bheramara",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Chilahati"
+  },
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 763,
+    "arrival_at_source": "11:28 am BST",
+    "departure_from_source": "11:31 am BST",
+    "arrival_at_destination": "12:52 pm BST",
+    "journey_duration": "01:21",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Darshana Halt",
+    "destination_city": "Bheramara",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "SIMANTA EXPRESS",
+    "train_number": 747,
+    "arrival_at_source": "11:35 pm BST",
+    "departure_from_source": "11:38 pm BST",
+    "arrival_at_destination": "12:54 am BST",
+    "journey_duration": "01:16",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Darshana Halt",
+    "destination_city": "Bheramara",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Chilahati"
+  }
+]

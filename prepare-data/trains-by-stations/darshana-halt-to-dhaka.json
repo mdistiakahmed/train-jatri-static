@@ -1,0 +1,41 @@
+[
+  {
+    "train_name": "BENAPOLE EXPRESS",
+    "train_number": 795,
+    "arrival_at_source": "02:59 pm BST",
+    "departure_from_source": "03:02 pm BST",
+    "arrival_at_destination": "08:30 pm BST",
+    "journey_duration": "05:28",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Darshana Halt",
+    "destination_city": "Dhaka",
+    "main_source_city": "Benapole",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 763,
+    "arrival_at_source": "11:28 am BST",
+    "departure_from_source": "11:31 am BST",
+    "arrival_at_destination": "06:05 pm BST",
+    "journey_duration": "06:34",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Darshana Halt",
+    "destination_city": "Dhaka",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "SUNDARBAN EXPRESS",
+    "train_number": 725,
+    "arrival_at_source": "12:05 am BST",
+    "departure_from_source": "12:07 am BST",
+    "arrival_at_destination": "05:10 am BST",
+    "journey_duration": "05:03",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Darshana Halt",
+    "destination_city": "Dhaka",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  }
+]

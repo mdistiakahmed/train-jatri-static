@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "SIMANTA EXPRESS",
+    "train_number": 747,
+    "arrival_at_source": "09:27 pm BST",
+    "departure_from_source": "09:29 pm BST",
+    "arrival_at_destination": "05:41 am BST",
+    "journey_duration": "08:12",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Daulatpur",
+    "destination_city": "Nilphamari",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Chilahati"
+  }
+]

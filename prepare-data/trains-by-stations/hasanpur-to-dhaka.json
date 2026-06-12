@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "CHATTALA EXPRESS",
+    "train_number": 801,
+    "arrival_at_source": "07:52 am BST",
+    "departure_from_source": "07:54 am BST",
+    "arrival_at_destination": "12:40 pm BST",
+    "journey_duration": "04:46",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Hasanpur",
+    "destination_city": "Dhaka",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Dhaka"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "LALMONI EXPRESS",
+    "train_number": 751,
+    "arrival_at_source": "10:08 pm BST",
+    "departure_from_source": "10:13 pm BST",
+    "arrival_at_destination": "06:58 am BST",
+    "journey_duration": "08:45",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Teesta Junction",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Lalmonirhat"
+  }
+]

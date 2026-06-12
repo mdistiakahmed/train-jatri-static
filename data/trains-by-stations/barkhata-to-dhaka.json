@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "BURIMARI EXPRESS",
+    "train_number": 810,
+    "arrival_at_source": "06:47 pm BST",
+    "departure_from_source": "06:50 pm BST",
+    "arrival_at_destination": "06:30 am BST",
+    "journey_duration": "11:40",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Barkhata",
+    "destination_city": "Dhaka",
+    "main_source_city": "Lalmonirhat",
+    "main_destination_city": "Dhaka"
+  }
+]

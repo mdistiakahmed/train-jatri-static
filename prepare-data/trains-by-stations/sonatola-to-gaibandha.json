@@ -1,0 +1,54 @@
+[
+  {
+    "train_name": "RANGPUR EXPRESS",
+    "train_number": 771,
+    "arrival_at_source": "04:11 pm BST",
+    "departure_from_source": "04:13 pm BST",
+    "arrival_at_destination": "05:03 pm BST",
+    "journey_duration": "00:50",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Sonatola",
+    "destination_city": "Gaibandha",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rangpur"
+  },
+  {
+    "train_name": "LALMONI EXPRESS",
+    "train_number": 751,
+    "arrival_at_source": "04:53 am BST",
+    "departure_from_source": "04:55 am BST",
+    "arrival_at_destination": "05:37 am BST",
+    "journey_duration": "00:42",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Sonatola",
+    "destination_city": "Gaibandha",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Lalmonirhat"
+  },
+  {
+    "train_name": "KOROTOA EXPRESS",
+    "train_number": 713,
+    "arrival_at_source": "10:51 am BST",
+    "departure_from_source": "10:53 am BST",
+    "arrival_at_destination": "11:59 am BST",
+    "journey_duration": "01:06",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Sonatola",
+    "destination_city": "Gaibandha",
+    "main_source_city": "Santahar",
+    "main_destination_city": "Burimari"
+  },
+  {
+    "train_name": "DOLONCHAPA EXPRESS",
+    "train_number": 767,
+    "arrival_at_source": "12:50 pm BST",
+    "departure_from_source": "12:52 pm BST",
+    "arrival_at_destination": "01:45 pm BST",
+    "journey_duration": "00:53",
+    "operating_days": "Daily",
+    "source_city": "Sonatola",
+    "destination_city": "Gaibandha",
+    "main_source_city": "Santahar",
+    "main_destination_city": "Panchagarh"
+  }
+]

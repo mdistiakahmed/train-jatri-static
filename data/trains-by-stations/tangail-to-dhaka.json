@@ -1,0 +1,93 @@
+[
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 763,
+    "arrival_at_source": "03:52 pm BST",
+    "departure_from_source": "03:54 pm BST",
+    "arrival_at_destination": "06:05 pm BST",
+    "journey_duration": "02:11",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Tangail",
+    "destination_city": "Dhaka",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "DRUTOJAN EXPRESS",
+    "train_number": 758,
+    "arrival_at_source": "04:18 pm BST",
+    "departure_from_source": "04:28 pm BST",
+    "arrival_at_destination": "06:55 pm BST",
+    "journey_duration": "02:27",
+    "operating_days": "Daily",
+    "source_city": "Tangail",
+    "destination_city": "Dhaka",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "EKOTA EXPRESS",
+    "train_number": 706,
+    "arrival_at_source": "05:12 am BST",
+    "departure_from_source": "05:14 am BST",
+    "arrival_at_destination": "07:20 am BST",
+    "journey_duration": "02:06",
+    "operating_days": "Daily",
+    "source_city": "Tangail",
+    "destination_city": "Dhaka",
+    "main_source_city": "Panchagarh",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "LALMONI EXPRESS",
+    "train_number": 752,
+    "arrival_at_source": "05:10 pm BST",
+    "departure_from_source": "05:18 pm BST",
+    "arrival_at_destination": "07:45 pm BST",
+    "journey_duration": "02:27",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Tangail",
+    "destination_city": "Dhaka",
+    "main_source_city": "Lalmonirhat",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "PADMA EXPRESS",
+    "train_number": 760,
+    "arrival_at_source": "07:00 pm BST",
+    "departure_from_source": "07:02 pm BST",
+    "arrival_at_destination": "09:15 pm BST",
+    "journey_duration": "02:13",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Tangail",
+    "destination_city": "Dhaka",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "SIRAJGANJ EXPRESS",
+    "train_number": 775,
+    "arrival_at_source": "07:40 am BST",
+    "departure_from_source": "07:48 am BST",
+    "arrival_at_destination": "10:15 am BST",
+    "journey_duration": "02:27",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Tangail",
+    "destination_city": "Dhaka",
+    "main_source_city": "Sirajganj_Bazar",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "SILKCITY EXPRESS",
+    "train_number": 754,
+    "arrival_at_source": "10:42 am BST",
+    "departure_from_source": "10:44 am BST",
+    "arrival_at_destination": "01:10 pm BST",
+    "journey_duration": "02:26",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Tangail",
+    "destination_city": "Dhaka",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhaka"
+  }
+]

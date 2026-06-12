@@ -1,15 +1,15 @@
 import fs from "fs";
 import path from "path";
 import fetch from "node-fetch"; // If you're using node-fetch
-import { trainNameOptions } from "./trainNames.mjs"; // Corrected import
-import { fileURLToPath } from 'url';
+import { trainNameOptions } from "./trainNames.js"; // Corrected import
+import { fileURLToPath } from "url";
 
 async function fetchTrainRoutes(trainName, trainNumber) {
   try {
     const apiUrl = "https://railspaapi.shohoz.com/v1.0/web/train-routes";
     const payload = {
       model: trainNumber.toString(),
-      departure_date_time: "2025-06-19",
+      departure_date_time: "2026-06-08",
     };
 
     const response = await fetch(apiUrl, {
@@ -29,7 +29,7 @@ async function fetchTrainRoutes(trainName, trainNumber) {
   } catch (error) {
     console.error(
       `Error fetching routes for <span class="math-inline">\{trainName\} \(</span>{trainNumber}):`,
-      error
+      error,
     );
     return null;
   }
@@ -38,7 +38,7 @@ async function fetchTrainRoutes(trainName, trainNumber) {
 async function processTrainData() {
   const __filename = fileURLToPath(import.meta.url);
   const __dirname = path.dirname(__filename);
-  const trainDetailsDir = path.join(__dirname, 'train_details');
+  const trainDetailsDir = path.join(__dirname, "train_details");
 
   // Create the 'train_details' directory if it doesn't exist
   if (!fs.existsSync(trainDetailsDir)) {
@@ -77,12 +77,12 @@ async function processTrainData() {
         const fileContent = `export const trainRouteData = ${JSON.stringify(
           formattedData,
           null,
-          2
+          2,
         )};`;
 
         fs.writeFileSync(filePath, fileContent);
         console.log(
-          `Data for ${trainName} (${trainNumber}) saved to ${fileName}`
+          `Data for ${trainName} (${trainNumber}) saved to ${fileName}`,
         );
       }
     } else {

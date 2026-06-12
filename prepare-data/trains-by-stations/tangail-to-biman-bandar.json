@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 763,
+    "arrival_at_source": "03:52 pm BST",
+    "departure_from_source": "03:54 pm BST",
+    "arrival_at_destination": "05:33 pm BST",
+    "journey_duration": "01:39",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Tangail",
+    "destination_city": "Biman Bandar",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "SIRAJGANJ EXPRESS",
+    "train_number": 775,
+    "arrival_at_source": "07:40 am BST",
+    "departure_from_source": "07:48 am BST",
+    "arrival_at_destination": "09:43 am BST",
+    "journey_duration": "01:55",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Tangail",
+    "destination_city": "Biman Bandar",
+    "main_source_city": "Sirajganj_Bazar",
+    "main_destination_city": "Dhaka"
+  }
+]

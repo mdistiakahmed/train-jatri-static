@@ -1,0 +1,54 @@
+[
+  {
+    "train_name": "KALNI EXPRESS",
+    "train_number": 773,
+    "arrival_at_source": "03:17 pm BST",
+    "departure_from_source": "03:22 pm BST",
+    "arrival_at_destination": "07:49 pm BST",
+    "journey_duration": "04:27",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Kulaura",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Sylhet"
+  },
+  {
+    "train_name": "PARABAT EXPRESS",
+    "train_number": 709,
+    "arrival_at_source": "06:53 am BST",
+    "departure_from_source": "06:58 am BST",
+    "arrival_at_destination": "11:25 am BST",
+    "journey_duration": "04:27",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Kulaura",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Sylhet"
+  },
+  {
+    "train_name": "UPABAN EXPRESS",
+    "train_number": 739,
+    "arrival_at_source": "10:23 pm BST",
+    "departure_from_source": "10:28 pm BST",
+    "arrival_at_destination": "03:08 am BST",
+    "journey_duration": "04:40",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Kulaura",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Sylhet"
+  },
+  {
+    "train_name": "JAYENTIKA EXPRESS",
+    "train_number": 717,
+    "arrival_at_source": "11:38 am BST",
+    "departure_from_source": "11:43 am BST",
+    "arrival_at_destination": "05:05 pm BST",
+    "journey_duration": "05:22",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Kulaura",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Sylhet"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "TITUMIR EXPRESS",
+    "train_number": 734,
+    "arrival_at_source": "03:21 pm BST",
+    "departure_from_source": "03:24 pm BST",
+    "arrival_at_destination": "05:59 pm BST",
+    "journey_duration": "02:35",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Domar",
+    "destination_city": "Panchbibi",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "BARENDRA EXPRESS",
+    "train_number": 732,
+    "arrival_at_source": "05:18 am BST",
+    "departure_from_source": "05:21 am BST",
+    "arrival_at_destination": "07:45 am BST",
+    "journey_duration": "02:24",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Domar",
+    "destination_city": "Panchbibi",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Rajshahi"
+  }
+]

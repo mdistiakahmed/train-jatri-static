@@ -1,0 +1,80 @@
+[
+  {
+    "train_name": "TITUMIR EXPRESS",
+    "train_number": 734,
+    "arrival_at_source": "04:15 pm BST",
+    "departure_from_source": "04:19 pm BST",
+    "arrival_at_destination": "06:12 pm BST",
+    "journey_duration": "01:53",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Saidpur",
+    "destination_city": "Joypurhat",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "BARENDRA EXPRESS",
+    "train_number": 732,
+    "arrival_at_source": "06:04 am BST",
+    "departure_from_source": "06:08 am BST",
+    "arrival_at_destination": "07:58 am BST",
+    "journey_duration": "01:50",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Saidpur",
+    "destination_city": "Joypurhat",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "CHILAHATI EXPRESS",
+    "train_number": 806,
+    "arrival_at_source": "06:59 am BST",
+    "departure_from_source": "07:04 am BST",
+    "arrival_at_destination": "08:32 am BST",
+    "journey_duration": "01:28",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Saidpur",
+    "destination_city": "Joypurhat",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "SIMANTA EXPRESS",
+    "train_number": 748,
+    "arrival_at_source": "07:29 pm BST",
+    "departure_from_source": "07:34 pm BST",
+    "arrival_at_destination": "09:14 pm BST",
+    "journey_duration": "01:40",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Saidpur",
+    "destination_city": "Joypurhat",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "NILSAGAR EXPRESS",
+    "train_number": 766,
+    "arrival_at_source": "08:59 pm BST",
+    "departure_from_source": "09:04 pm BST",
+    "arrival_at_destination": "10:43 pm BST",
+    "journey_duration": "01:39",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Saidpur",
+    "destination_city": "Joypurhat",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "RUPSHA EXPRESS",
+    "train_number": 728,
+    "arrival_at_source": "09:30 am BST",
+    "departure_from_source": "09:35 am BST",
+    "arrival_at_destination": "11:22 am BST",
+    "journey_duration": "01:47",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Saidpur",
+    "destination_city": "Joypurhat",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Khulna"
+  }
+]

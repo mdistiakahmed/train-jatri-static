@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "DOLONCHAPA EXPRESS",
+    "train_number": 767,
+    "arrival_at_source": "02:42 pm BST",
+    "departure_from_source": "02:45 pm BST",
+    "arrival_at_destination": "03:48 pm BST",
+    "journey_duration": "01:03",
+    "operating_days": "Daily",
+    "source_city": "Pirgacha",
+    "destination_city": "Rangpur",
+    "main_source_city": "Santahar",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "RANGPUR EXPRESS",
+    "train_number": 771,
+    "arrival_at_source": "05:58 pm BST",
+    "departure_from_source": "06:00 pm BST",
+    "arrival_at_destination": "07:00 pm BST",
+    "journey_duration": "01:00",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Pirgacha",
+    "destination_city": "Rangpur",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rangpur"
+  }
+]

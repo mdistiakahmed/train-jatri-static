@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "JAYENTIKA EXPRESS",
+    "train_number": 717,
+    "arrival_at_source": "02:30 pm BST",
+    "departure_from_source": "02:33 pm BST",
+    "arrival_at_destination": "04:23 pm BST",
+    "journey_duration": "01:50",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Montola",
+    "destination_city": "Bhanugach",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Sylhet"
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "train_name": "TURNA",
+    "train_number": 741,
+    "arrival_at_source": "01:30 am BST",
+    "departure_from_source": "01:32 am BST",
+    "arrival_at_destination": "05:10 am BST",
+    "journey_duration": "03:38",
+    "operating_days": "Daily",
+    "source_city": "Laksam",
+    "destination_city": "Dhaka",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "MOHANAGAR EXPRESS",
+    "train_number": 721,
+    "arrival_at_source": "02:42 pm BST",
+    "departure_from_source": "02:44 pm BST",
+    "arrival_at_destination": "06:40 pm BST",
+    "journey_duration": "03:56",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Laksam",
+    "destination_city": "Dhaka",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "MAHANAGAR GODHULI",
+    "train_number": 703,
+    "arrival_at_source": "05:04 pm BST",
+    "departure_from_source": "05:06 pm BST",
+    "arrival_at_destination": "08:45 pm BST",
+    "journey_duration": "03:39",
+    "operating_days": "Daily",
+    "source_city": "Laksam",
+    "destination_city": "Dhaka",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "UPAKUL EXPRESS",
+    "train_number": 711,
+    "arrival_at_source": "07:25 am BST",
+    "departure_from_source": "07:30 am BST",
+    "arrival_at_destination": "11:20 am BST",
+    "journey_duration": "03:50",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Laksam",
+    "destination_city": "Dhaka",
+    "main_source_city": "Noakhali",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "CHATTALA EXPRESS",
+    "train_number": 801,
+    "arrival_at_source": "08:17 am BST",
+    "departure_from_source": "08:20 am BST",
+    "arrival_at_destination": "12:40 pm BST",
+    "journey_duration": "04:20",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Laksam",
+    "destination_city": "Dhaka",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Dhaka"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "SIMANTA EXPRESS",
+    "train_number": 748,
+    "arrival_at_source": "07:29 pm BST",
+    "departure_from_source": "07:34 pm BST",
+    "arrival_at_destination": "12:00 am BST",
+    "journey_duration": "04:26",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Saidpur",
+    "destination_city": "Bheramara",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "RUPSHA EXPRESS",
+    "train_number": 728,
+    "arrival_at_source": "09:30 am BST",
+    "departure_from_source": "09:35 am BST",
+    "arrival_at_destination": "02:24 pm BST",
+    "journey_duration": "04:49",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Saidpur",
+    "destination_city": "Bheramara",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Khulna"
+  }
+]

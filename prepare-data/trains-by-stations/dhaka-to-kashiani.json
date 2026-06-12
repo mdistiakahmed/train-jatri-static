@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "JAHANABAD EXPRESS",
+    "train_number": 826,
+    "arrival_at_source": null,
+    "departure_from_source": "08:00 pm BST",
+    "arrival_at_destination": "09:34 pm BST",
+    "journey_duration": "01:34",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Dhaka",
+    "destination_city": "Kashiani",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "RUPOSHI BANGLA EXPRESS",
+    "train_number": 828,
+    "arrival_at_source": null,
+    "departure_from_source": "10:45 am BST",
+    "arrival_at_destination": "12:19 pm BST",
+    "journey_duration": "01:34",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Dhaka",
+    "destination_city": "Kashiani",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Benapole"
+  }
+]

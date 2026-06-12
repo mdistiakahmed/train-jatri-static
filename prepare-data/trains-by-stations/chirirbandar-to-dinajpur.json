@@ -1,0 +1,80 @@
+[
+  {
+    "train_name": "BANGLABANDHA EXPRESS",
+    "train_number": 803,
+    "arrival_at_source": "02:05 am BST",
+    "departure_from_source": "02:07 am BST",
+    "arrival_at_destination": "02:25 am BST",
+    "journey_duration": "00:18",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Chirirbandar",
+    "destination_city": "Dinajpur",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "DRUTOJAN EXPRESS",
+    "train_number": 757,
+    "arrival_at_source": "04:25 am BST",
+    "departure_from_source": "04:27 am BST",
+    "arrival_at_destination": "04:45 am BST",
+    "journey_duration": "00:18",
+    "operating_days": "Daily",
+    "source_city": "Chirirbandar",
+    "destination_city": "Dinajpur",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "DOLONCHAPA EXPRESS",
+    "train_number": 767,
+    "arrival_at_source": "05:40 pm BST",
+    "departure_from_source": "05:43 pm BST",
+    "arrival_at_destination": "06:05 pm BST",
+    "journey_duration": "00:22",
+    "operating_days": "Daily",
+    "source_city": "Chirirbandar",
+    "destination_city": "Dinajpur",
+    "main_source_city": "Santahar",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "EKOTA EXPRESS",
+    "train_number": 705,
+    "arrival_at_source": "06:40 pm BST",
+    "departure_from_source": "06:42 pm BST",
+    "arrival_at_destination": "07:00 pm BST",
+    "journey_duration": "00:18",
+    "operating_days": "Daily",
+    "source_city": "Chirirbandar",
+    "destination_city": "Dinajpur",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "KANCHON INTERCITY COMMUTER",
+    "train_number": 41,
+    "arrival_at_source": "08:02 am BST",
+    "departure_from_source": "08:05 am BST",
+    "arrival_at_destination": "08:26 am BST",
+    "journey_duration": "00:21",
+    "operating_days": "Daily",
+    "source_city": "Chirirbandar",
+    "destination_city": "Dinajpur",
+    "main_source_city": "Parbatipur",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "LALMONI COMMUTER",
+    "train_number": 61,
+    "arrival_at_source": "09:23 am BST",
+    "departure_from_source": "09:25 am BST",
+    "arrival_at_destination": "09:45 am BST",
+    "journey_duration": "00:20",
+    "operating_days": "Daily",
+    "source_city": "Chirirbandar",
+    "destination_city": "Dinajpur",
+    "main_source_city": "Lalmonirhat",
+    "main_destination_city": "Birol"
+  }
+]

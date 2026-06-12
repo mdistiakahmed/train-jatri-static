@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "PAHARIKA EXPRESS",
+    "train_number": 720,
+    "arrival_at_source": "01:54 pm BST",
+    "departure_from_source": "01:57 pm BST",
+    "arrival_at_destination": "04:38 pm BST",
+    "journey_duration": "02:41",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Shaistaganj",
+    "destination_city": "Laksam",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "UDAYAN EXPRESS",
+    "train_number": 724,
+    "arrival_at_source": "12:50 am BST",
+    "departure_from_source": "12:53 am BST",
+    "arrival_at_destination": "03:27 am BST",
+    "journey_duration": "02:34",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Shaistaganj",
+    "destination_city": "Laksam",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Chattogram"
+  }
+]

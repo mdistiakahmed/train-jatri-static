@@ -1,0 +1,54 @@
+[
+  {
+    "train_name": "SILKCITY EXPRESS",
+    "train_number": 753,
+    "arrival_at_source": "04:26 pm BST",
+    "departure_from_source": "04:28 pm BST",
+    "arrival_at_destination": "06:48 pm BST",
+    "journey_duration": "02:20",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Tangail",
+    "destination_city": "Ishwardi Bypass",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "DHUMKETU EXPRESS",
+    "train_number": 769,
+    "arrival_at_source": "07:47 am BST",
+    "departure_from_source": "07:49 am BST",
+    "arrival_at_destination": "10:12 am BST",
+    "journey_duration": "02:23",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Tangail",
+    "destination_city": "Ishwardi Bypass",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "EKOTA EXPRESS",
+    "train_number": 705,
+    "arrival_at_source": "12:03 pm BST",
+    "departure_from_source": "12:05 pm BST",
+    "arrival_at_destination": "02:09 pm BST",
+    "journey_duration": "02:04",
+    "operating_days": "Daily",
+    "source_city": "Tangail",
+    "destination_city": "Ishwardi Bypass",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "PADMA EXPRESS",
+    "train_number": 759,
+    "arrival_at_source": "12:32 am BST",
+    "departure_from_source": "12:34 am BST",
+    "arrival_at_destination": "02:30 am BST",
+    "journey_duration": "01:56",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Tangail",
+    "destination_city": "Ishwardi Bypass",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "RUPSHA EXPRESS",
+    "train_number": 728,
+    "arrival_at_source": "12:55 pm BST",
+    "departure_from_source": "01:00 pm BST",
+    "arrival_at_destination": "02:10 pm BST",
+    "journey_duration": "01:10",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Natore",
+    "destination_city": "Paksey",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Khulna"
+  }
+]

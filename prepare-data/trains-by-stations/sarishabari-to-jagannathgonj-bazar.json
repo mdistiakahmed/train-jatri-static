@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "JAMALPUR EXPRESS",
+    "train_number": 799,
+    "arrival_at_source": "03:21 pm BST",
+    "departure_from_source": "03:24 pm BST",
+    "arrival_at_destination": "03:56 pm BST",
+    "journey_duration": "00:32",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Sarishabari",
+    "destination_city": "Jagannathgonj Bazar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Bhuapur"
+  }
+]

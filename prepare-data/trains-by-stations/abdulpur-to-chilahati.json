@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "BARENDRA EXPRESS",
+    "train_number": 731,
+    "arrival_at_source": "03:40 pm BST",
+    "departure_from_source": "04:00 pm BST",
+    "arrival_at_destination": "09:30 pm BST",
+    "journey_duration": "05:30",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Abdulpur",
+    "destination_city": "Chilahati",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Chilahati"
+  },
+  {
+    "train_name": "TITUMIR EXPRESS",
+    "train_number": 733,
+    "arrival_at_source": "07:00 am BST",
+    "departure_from_source": "07:20 am BST",
+    "arrival_at_destination": "01:00 pm BST",
+    "journey_duration": "05:40",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Abdulpur",
+    "destination_city": "Chilahati",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Chilahati"
+  }
+]

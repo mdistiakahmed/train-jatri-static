@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "MOHONGANJ EXPRESS",
+    "train_number": 790,
+    "arrival_at_source": "11:29 pm BST",
+    "departure_from_source": "11:32 pm BST",
+    "arrival_at_destination": "12:15 am BST",
+    "journey_duration": "00:43",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Thakrokona",
+    "destination_city": "Shyamgonj",
+    "main_source_city": "Mohanganj",
+    "main_destination_city": "Dhaka"
+  }
+]

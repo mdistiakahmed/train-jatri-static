@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "DOLONCHAPA EXPRESS",
+    "train_number": 767,
+    "arrival_at_source": "11:53 am BST",
+    "departure_from_source": "12:01 pm BST",
+    "arrival_at_destination": "06:48 pm BST",
+    "journey_duration": "06:47",
+    "operating_days": "Daily",
+    "source_city": "Bogura",
+    "destination_city": "Setabganj",
+    "main_source_city": "Santahar",
+    "main_destination_city": "Panchagarh"
+  }
+]

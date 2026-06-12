@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "RANGPUR EXPRESS",
+    "train_number": 771,
+    "arrival_at_source": "09:33 am BST",
+    "departure_from_source": "09:38 am BST",
+    "arrival_at_destination": "04:11 pm BST",
+    "journey_duration": "06:33",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Sonatola",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rangpur"
+  },
+  {
+    "train_name": "LALMONI EXPRESS",
+    "train_number": 751,
+    "arrival_at_source": "10:08 pm BST",
+    "departure_from_source": "10:13 pm BST",
+    "arrival_at_destination": "04:53 am BST",
+    "journey_duration": "06:40",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Sonatola",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Lalmonirhat"
+  }
+]

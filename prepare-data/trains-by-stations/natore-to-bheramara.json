@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "RUPSHA EXPRESS",
+    "train_number": 728,
+    "arrival_at_source": "12:55 pm BST",
+    "departure_from_source": "01:00 pm BST",
+    "arrival_at_destination": "02:24 pm BST",
+    "journey_duration": "01:24",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Natore",
+    "destination_city": "Bheramara",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "SIMANTA EXPRESS",
+    "train_number": 748,
+    "arrival_at_source": "10:40 pm BST",
+    "departure_from_source": "10:43 pm BST",
+    "arrival_at_destination": "12:00 am BST",
+    "journey_duration": "01:17",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Natore",
+    "destination_city": "Bheramara",
+    "main_source_city": "Chilahati",
+    "main_destination_city": "Khulna"
+  }
+]

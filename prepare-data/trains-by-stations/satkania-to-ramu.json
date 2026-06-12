@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "PROBAL EXPRESS",
+    "train_number": 823,
+    "arrival_at_source": "04:35 pm BST",
+    "departure_from_source": "04:37 pm BST",
+    "arrival_at_destination": "06:34 pm BST",
+    "journey_duration": "01:57",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Satkania",
+    "destination_city": "Ramu",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Cox's Bazar"
+  },
+  {
+    "train_name": "SHAIKAT EXPRESS",
+    "train_number": 821,
+    "arrival_at_source": "07:17 am BST",
+    "departure_from_source": "07:19 am BST",
+    "arrival_at_destination": "09:06 am BST",
+    "journey_duration": "01:47",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Satkania",
+    "destination_city": "Ramu",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Cox's Bazar"
+  }
+]

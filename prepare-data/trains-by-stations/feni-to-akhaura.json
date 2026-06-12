@@ -1,0 +1,93 @@
+[
+  {
+    "train_name": "MOHANAGAR EXPRESS",
+    "train_number": 721,
+    "arrival_at_source": "01:57 pm BST",
+    "departure_from_source": "01:59 pm BST",
+    "arrival_at_destination": "04:05 pm BST",
+    "journey_duration": "02:06",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Feni",
+    "destination_city": "Akhaura",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "MAHANAGAR GODHULI",
+    "train_number": 703,
+    "arrival_at_source": "04:20 pm BST",
+    "departure_from_source": "04:22 pm BST",
+    "arrival_at_destination": "06:20 pm BST",
+    "journey_duration": "01:58",
+    "operating_days": "Daily",
+    "source_city": "Feni",
+    "destination_city": "Akhaura",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "CHATTALA EXPRESS",
+    "train_number": 801,
+    "arrival_at_source": "07:28 am BST",
+    "departure_from_source": "07:31 am BST",
+    "arrival_at_destination": "10:05 am BST",
+    "journey_duration": "02:34",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Feni",
+    "destination_city": "Akhaura",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "PAHARIKA EXPRESS",
+    "train_number": 719,
+    "arrival_at_source": "09:14 am BST",
+    "departure_from_source": "09:16 am BST",
+    "arrival_at_destination": "11:30 am BST",
+    "journey_duration": "02:14",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Feni",
+    "destination_city": "Akhaura",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Sylhet"
+  },
+  {
+    "train_name": "BIJOY EXPRESS",
+    "train_number": 785,
+    "arrival_at_source": "10:39 am BST",
+    "departure_from_source": "10:41 am BST",
+    "arrival_at_destination": "12:35 pm BST",
+    "journey_duration": "01:54",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Feni",
+    "destination_city": "Akhaura",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Jamalpur_Town"
+  },
+  {
+    "train_name": "UDAYAN EXPRESS",
+    "train_number": 723,
+    "arrival_at_source": "11:04 pm BST",
+    "departure_from_source": "11:07 pm BST",
+    "arrival_at_destination": "01:05 am BST",
+    "journey_duration": "01:58",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Feni",
+    "destination_city": "Akhaura",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Sylhet"
+  },
+  {
+    "train_name": "TURNA",
+    "train_number": 741,
+    "arrival_at_source": "12:50 am BST",
+    "departure_from_source": "12:52 am BST",
+    "arrival_at_destination": "02:47 am BST",
+    "journey_duration": "01:55",
+    "operating_days": "Daily",
+    "source_city": "Feni",
+    "destination_city": "Akhaura",
+    "main_source_city": "Chattogram",
+    "main_destination_city": "Dhaka"
+  }
+]

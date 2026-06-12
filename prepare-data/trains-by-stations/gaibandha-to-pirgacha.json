@@ -1,0 +1,54 @@
+[
+  {
+    "train_name": "DOLONCHAPA EXPRESS",
+    "train_number": 767,
+    "arrival_at_source": "01:45 pm BST",
+    "departure_from_source": "01:50 pm BST",
+    "arrival_at_destination": "02:42 pm BST",
+    "journey_duration": "00:52",
+    "operating_days": "Daily",
+    "source_city": "Gaibandha",
+    "destination_city": "Pirgacha",
+    "main_source_city": "Santahar",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "RANGPUR EXPRESS",
+    "train_number": 771,
+    "arrival_at_source": "05:03 pm BST",
+    "departure_from_source": "05:08 pm BST",
+    "arrival_at_destination": "05:58 pm BST",
+    "journey_duration": "00:50",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Gaibandha",
+    "destination_city": "Pirgacha",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rangpur"
+  },
+  {
+    "train_name": "LALMONI EXPRESS",
+    "train_number": 751,
+    "arrival_at_source": "05:37 am BST",
+    "departure_from_source": "05:40 am BST",
+    "arrival_at_destination": "06:29 am BST",
+    "journey_duration": "00:49",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Gaibandha",
+    "destination_city": "Pirgacha",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Lalmonirhat"
+  },
+  {
+    "train_name": "KOROTOA EXPRESS",
+    "train_number": 713,
+    "arrival_at_source": "11:59 am BST",
+    "departure_from_source": "12:04 pm BST",
+    "arrival_at_destination": "12:53 pm BST",
+    "journey_duration": "00:49",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Gaibandha",
+    "destination_city": "Pirgacha",
+    "main_source_city": "Santahar",
+    "main_destination_city": "Burimari"
+  }
+]

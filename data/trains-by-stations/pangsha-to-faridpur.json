@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "SUNDARBAN EXPRESS",
+    "train_number": 725,
+    "arrival_at_source": "01:51 am BST",
+    "departure_from_source": "01:53 am BST",
+    "arrival_at_destination": "03:12 am BST",
+    "journey_duration": "01:19",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Pangsha",
+    "destination_city": "Faridpur",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "MADHUMATI EXPRESS",
+    "train_number": 756,
+    "arrival_at_source": "10:18 am BST",
+    "departure_from_source": "10:20 am BST",
+    "arrival_at_destination": "11:47 am BST",
+    "journey_duration": "01:27",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Pangsha",
+    "destination_city": "Faridpur",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhaka"
+  }
+]

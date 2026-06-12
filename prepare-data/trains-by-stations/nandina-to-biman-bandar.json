@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "BHRAMMAPUTRA EXPRESS",
+    "train_number": 744,
+    "arrival_at_source": "07:54 am BST",
+    "departure_from_source": "07:56 am BST",
+    "arrival_at_destination": "11:40 am BST",
+    "journey_duration": "03:44",
+    "operating_days": "Daily",
+    "source_city": "Nandina",
+    "destination_city": "Biman Bandar",
+    "main_source_city": "Dewanganj_Bazar",
+    "main_destination_city": "Dhaka"
+  }
+]

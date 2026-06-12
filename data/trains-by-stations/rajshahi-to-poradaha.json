@@ -1,0 +1,54 @@
+[
+  {
+    "train_name": "KAPOTAKSHA EXPRESS",
+    "train_number": 716,
+    "arrival_at_source": null,
+    "departure_from_source": "02:30 pm BST",
+    "arrival_at_destination": "04:34 pm BST",
+    "journey_duration": "02:04",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Rajshahi",
+    "destination_city": "Poradaha",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "TUNGIPARA EXPRESS",
+    "train_number": 784,
+    "arrival_at_source": null,
+    "departure_from_source": "03:30 pm BST",
+    "arrival_at_destination": "05:20 pm BST",
+    "journey_duration": "01:50",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Rajshahi",
+    "destination_city": "Poradaha",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Gobra"
+  },
+  {
+    "train_name": "SAGARDARI EXPRESS",
+    "train_number": 762,
+    "arrival_at_source": null,
+    "departure_from_source": "06:00 am BST",
+    "arrival_at_destination": "08:19 am BST",
+    "journey_duration": "02:19",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Rajshahi",
+    "destination_city": "Poradaha",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Khulna"
+  },
+  {
+    "train_name": "MADHUMATI EXPRESS",
+    "train_number": 756,
+    "arrival_at_source": null,
+    "departure_from_source": "06:40 am BST",
+    "arrival_at_destination": "08:50 am BST",
+    "journey_duration": "02:10",
+    "operating_days": "Fri, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Rajshahi",
+    "destination_city": "Poradaha",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Dhaka"
+  }
+]

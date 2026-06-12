@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "BANALATA EXPRESS",
+    "train_number": 792,
+    "arrival_at_source": null,
+    "departure_from_source": "06:00 am BST",
+    "arrival_at_destination": "11:35 am BST",
+    "journey_duration": "05:35",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Chapainawabganj",
+    "destination_city": "Dhaka",
+    "main_source_city": "Chapainawabganj",
+    "main_destination_city": "Dhaka"
+  }
+]

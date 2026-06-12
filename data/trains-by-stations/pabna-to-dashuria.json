@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "DHALARCHAR EXPRESS",
+    "train_number": 779,
+    "arrival_at_source": "08:01 am BST",
+    "departure_from_source": "08:04 am BST",
+    "arrival_at_destination": "08:30 am BST",
+    "journey_duration": "00:26",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Pabna",
+    "destination_city": "Dashuria",
+    "main_source_city": "Dhalarchar",
+    "main_destination_city": "Rajshahi"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "KURIGRAM EXPRESS",
+    "train_number": 797,
+    "arrival_at_source": "08:23 pm BST",
+    "departure_from_source": "08:28 pm BST",
+    "arrival_at_destination": "12:31 am BST",
+    "journey_duration": "04:03",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Biman Bandar",
+    "destination_city": "Madhnagar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Kurigram"
+  }
+]

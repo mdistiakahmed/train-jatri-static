@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "CHITRA EXPRESS",
+    "train_number": 763,
+    "arrival_at_source": "10:49 am BST",
+    "departure_from_source": "10:51 am BST",
+    "arrival_at_destination": "01:48 pm BST",
+    "journey_duration": "02:57",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Mubarakganj",
+    "destination_city": "Chatmohar",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Dhaka"
+  }
+]

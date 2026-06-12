@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "RANGPUR EXPRESS",
+    "train_number": 771,
+    "arrival_at_source": "04:30 pm BST",
+    "departure_from_source": "04:40 pm BST",
+    "arrival_at_destination": "07:20 pm BST",
+    "journey_duration": "02:40",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Bonar Para",
+    "destination_city": "Kurigram",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rangpur"
+  }
+]

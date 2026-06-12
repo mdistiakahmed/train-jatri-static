@@ -1,0 +1,80 @@
+[
+  {
+    "train_name": "PARABAT EXPRESS",
+    "train_number": 710,
+    "arrival_at_source": null,
+    "departure_from_source": "04:00 pm BST",
+    "arrival_at_destination": "05:06 pm BST",
+    "journey_duration": "01:06",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Sylhet",
+    "destination_city": "Kulaura",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "KALNI EXPRESS",
+    "train_number": 774,
+    "arrival_at_source": null,
+    "departure_from_source": "06:15 am BST",
+    "arrival_at_destination": "07:23 am BST",
+    "journey_duration": "01:08",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Sylhet",
+    "destination_city": "Kulaura",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "UDAYAN EXPRESS",
+    "train_number": 724,
+    "arrival_at_source": null,
+    "departure_from_source": "10:00 pm BST",
+    "arrival_at_destination": "11:13 pm BST",
+    "journey_duration": "01:13",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Sylhet",
+    "destination_city": "Kulaura",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "PAHARIKA EXPRESS",
+    "train_number": 720,
+    "arrival_at_source": null,
+    "departure_from_source": "10:30 am BST",
+    "arrival_at_destination": "11:55 am BST",
+    "journey_duration": "01:25",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Sylhet",
+    "destination_city": "Kulaura",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "UPABAN EXPRESS",
+    "train_number": 740,
+    "arrival_at_source": null,
+    "departure_from_source": "11:30 pm BST",
+    "arrival_at_destination": "12:43 am BST",
+    "journey_duration": "01:13",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Sylhet",
+    "destination_city": "Kulaura",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "JAYENTIKA EXPRESS",
+    "train_number": 718,
+    "arrival_at_source": null,
+    "departure_from_source": "12:00 pm BST",
+    "arrival_at_destination": "01:17 pm BST",
+    "journey_duration": "01:17",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Sylhet",
+    "destination_city": "Kulaura",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  }
+]

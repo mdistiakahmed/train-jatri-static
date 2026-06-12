@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "MOHANAGAR EXPRESS",
+    "train_number": 722,
+    "arrival_at_source": "11:11 pm BST",
+    "departure_from_source": "11:13 pm BST",
+    "arrival_at_destination": "02:55 am BST",
+    "journey_duration": "03:42",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Ashuganj",
+    "destination_city": "Kumira",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Chattogram"
+  }
+]

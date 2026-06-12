@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "AGHNIBINA EXPRESS",
+    "train_number": 735,
+    "arrival_at_source": "03:16 pm BST",
+    "departure_from_source": "03:18 pm BST",
+    "arrival_at_destination": "03:38 pm BST",
+    "journey_duration": "00:20",
+    "operating_days": "Daily",
+    "source_city": "Narundi",
+    "destination_city": "Jamalpur Town",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Tarakandi"
+  },
+  {
+    "train_name": "JAMUNA EXPRESS",
+    "train_number": 745,
+    "arrival_at_source": "09:41 pm BST",
+    "departure_from_source": "09:43 pm BST",
+    "arrival_at_destination": "10:05 pm BST",
+    "journey_duration": "00:22",
+    "operating_days": "Daily",
+    "source_city": "Narundi",
+    "destination_city": "Jamalpur Town",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Tarakandi"
+  }
+]

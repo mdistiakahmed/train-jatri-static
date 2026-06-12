@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "BANGLABANDHA EXPRESS",
+    "train_number": 803,
+    "arrival_at_source": "03:34 am BST",
+    "departure_from_source": "03:36 am BST",
+    "arrival_at_destination": "04:02 am BST",
+    "journey_duration": "00:26",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Shibganj",
+    "destination_city": "Ruhia",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Panchagarh"
+  }
+]

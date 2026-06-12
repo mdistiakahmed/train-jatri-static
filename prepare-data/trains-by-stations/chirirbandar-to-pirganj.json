@@ -1,0 +1,67 @@
+[
+  {
+    "train_name": "BANGLABANDHA EXPRESS",
+    "train_number": 803,
+    "arrival_at_source": "02:05 am BST",
+    "departure_from_source": "02:07 am BST",
+    "arrival_at_destination": "03:17 am BST",
+    "journey_duration": "01:10",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Chirirbandar",
+    "destination_city": "Pirganj",
+    "main_source_city": "Rajshahi",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "DRUTOJAN EXPRESS",
+    "train_number": 757,
+    "arrival_at_source": "04:25 am BST",
+    "departure_from_source": "04:27 am BST",
+    "arrival_at_destination": "05:36 am BST",
+    "journey_duration": "01:09",
+    "operating_days": "Daily",
+    "source_city": "Chirirbandar",
+    "destination_city": "Pirganj",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "DOLONCHAPA EXPRESS",
+    "train_number": 767,
+    "arrival_at_source": "05:40 pm BST",
+    "departure_from_source": "05:43 pm BST",
+    "arrival_at_destination": "07:06 pm BST",
+    "journey_duration": "01:23",
+    "operating_days": "Daily",
+    "source_city": "Chirirbandar",
+    "destination_city": "Pirganj",
+    "main_source_city": "Santahar",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "EKOTA EXPRESS",
+    "train_number": 705,
+    "arrival_at_source": "06:40 pm BST",
+    "departure_from_source": "06:42 pm BST",
+    "arrival_at_destination": "07:51 pm BST",
+    "journey_duration": "01:09",
+    "operating_days": "Daily",
+    "source_city": "Chirirbandar",
+    "destination_city": "Pirganj",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Panchagarh"
+  },
+  {
+    "train_name": "KANCHON INTERCITY COMMUTER",
+    "train_number": 41,
+    "arrival_at_source": "08:02 am BST",
+    "departure_from_source": "08:05 am BST",
+    "arrival_at_destination": "10:00 am BST",
+    "journey_duration": "01:55",
+    "operating_days": "Daily",
+    "source_city": "Chirirbandar",
+    "destination_city": "Pirganj",
+    "main_source_city": "Parbatipur",
+    "main_destination_city": "Panchagarh"
+  }
+]

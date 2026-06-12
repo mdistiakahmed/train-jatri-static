@@ -1,0 +1,41 @@
+[
+  {
+    "train_name": "KOROTOA EXPRESS",
+    "train_number": 713,
+    "arrival_at_source": "03:02 pm BST",
+    "departure_from_source": "03:04 pm BST",
+    "arrival_at_destination": "03:16 pm BST",
+    "journey_duration": "00:12",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Hatibandha",
+    "destination_city": "Barkhata",
+    "main_source_city": "Santahar",
+    "main_destination_city": "Burimari"
+  },
+  {
+    "train_name": "BURIMARI EXPRESS",
+    "train_number": 809,
+    "arrival_at_source": "08:21 pm BST",
+    "departure_from_source": "08:37 pm BST",
+    "arrival_at_destination": "08:48 pm BST",
+    "journey_duration": "00:11",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Hatibandha",
+    "destination_city": "Barkhata",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Burimari"
+  },
+  {
+    "train_name": "BURIMARI COMMUTER",
+    "train_number": 65,
+    "arrival_at_source": "09:24 am BST",
+    "departure_from_source": "09:28 am BST",
+    "arrival_at_destination": "09:39 am BST",
+    "journey_duration": "00:11",
+    "operating_days": "Daily",
+    "source_city": "Hatibandha",
+    "destination_city": "Barkhata",
+    "main_source_city": "Lalmonirhat",
+    "main_destination_city": "Burimari"
+  }
+]

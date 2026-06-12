@@ -1,0 +1,41 @@
+[
+  {
+    "train_name": "SILKCITY EXPRESS",
+    "train_number": 753,
+    "arrival_at_source": "03:21 pm BST",
+    "departure_from_source": "03:24 pm BST",
+    "arrival_at_destination": "07:06 pm BST",
+    "journey_duration": "03:42",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Joydebpur",
+    "destination_city": "Abdulpur",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "DHUMKETU EXPRESS",
+    "train_number": 769,
+    "arrival_at_source": "06:51 am BST",
+    "departure_from_source": "06:53 am BST",
+    "arrival_at_destination": "10:33 am BST",
+    "journey_duration": "03:40",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Joydebpur",
+    "destination_city": "Abdulpur",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  },
+  {
+    "train_name": "PADMA EXPRESS",
+    "train_number": 759,
+    "arrival_at_source": "11:36 pm BST",
+    "departure_from_source": "11:38 pm BST",
+    "arrival_at_destination": "02:48 am BST",
+    "journey_duration": "03:10",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Joydebpur",
+    "destination_city": "Abdulpur",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rajshahi"
+  }
+]

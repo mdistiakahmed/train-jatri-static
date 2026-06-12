@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "KALNI EXPRESS",
+    "train_number": 773,
+    "arrival_at_source": "04:46 pm BST",
+    "departure_from_source": "04:49 pm BST",
+    "arrival_at_destination": "07:22 pm BST",
+    "journey_duration": "02:33",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Brahmanbaria",
+    "destination_city": "Shamshernagar",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Sylhet"
+  }
+]

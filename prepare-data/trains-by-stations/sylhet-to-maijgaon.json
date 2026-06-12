@@ -1,0 +1,80 @@
+[
+  {
+    "train_name": "PARABAT EXPRESS",
+    "train_number": 710,
+    "arrival_at_source": null,
+    "departure_from_source": "04:00 pm BST",
+    "arrival_at_destination": "04:39 pm BST",
+    "journey_duration": "00:39",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Sylhet",
+    "destination_city": "Maijgaon",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "KALNI EXPRESS",
+    "train_number": 774,
+    "arrival_at_source": null,
+    "departure_from_source": "06:15 am BST",
+    "arrival_at_destination": "06:55 am BST",
+    "journey_duration": "00:40",
+    "operating_days": "Sat, Sun, Mon, Tue, Wed, Thu",
+    "source_city": "Sylhet",
+    "destination_city": "Maijgaon",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "UDAYAN EXPRESS",
+    "train_number": 724,
+    "arrival_at_source": null,
+    "departure_from_source": "10:00 pm BST",
+    "arrival_at_destination": "10:39 pm BST",
+    "journey_duration": "00:39",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Sylhet",
+    "destination_city": "Maijgaon",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "PAHARIKA EXPRESS",
+    "train_number": 720,
+    "arrival_at_source": null,
+    "departure_from_source": "10:30 am BST",
+    "arrival_at_destination": "11:09 am BST",
+    "journey_duration": "00:39",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Thu",
+    "source_city": "Sylhet",
+    "destination_city": "Maijgaon",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Chattogram"
+  },
+  {
+    "train_name": "UPABAN EXPRESS",
+    "train_number": 740,
+    "arrival_at_source": null,
+    "departure_from_source": "11:30 pm BST",
+    "arrival_at_destination": "12:09 am BST",
+    "journey_duration": "00:39",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Sylhet",
+    "destination_city": "Maijgaon",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  },
+  {
+    "train_name": "JAYENTIKA EXPRESS",
+    "train_number": 718,
+    "arrival_at_source": null,
+    "departure_from_source": "12:00 pm BST",
+    "arrival_at_destination": "12:48 pm BST",
+    "journey_duration": "00:48",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Sylhet",
+    "destination_city": "Maijgaon",
+    "main_source_city": "Sylhet",
+    "main_destination_city": "Dhaka"
+  }
+]

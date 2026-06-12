@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "RUPSHA EXPRESS",
+    "train_number": 727,
+    "arrival_at_source": "08:50 am BST",
+    "departure_from_source": "08:52 am BST",
+    "arrival_at_destination": "02:05 pm BST",
+    "journey_duration": "05:13",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Mubarakganj",
+    "destination_city": "Joypurhat",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Chilahati"
+  },
+  {
+    "train_name": "SIMANTA EXPRESS",
+    "train_number": 747,
+    "arrival_at_source": "10:54 pm BST",
+    "departure_from_source": "10:56 pm BST",
+    "arrival_at_destination": "03:46 am BST",
+    "journey_duration": "04:50",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Mubarakganj",
+    "destination_city": "Joypurhat",
+    "main_source_city": "Khulna",
+    "main_destination_city": "Chilahati"
+  }
+]

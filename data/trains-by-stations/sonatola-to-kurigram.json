@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "RANGPUR EXPRESS",
+    "train_number": 771,
+    "arrival_at_source": "04:11 pm BST",
+    "departure_from_source": "04:13 pm BST",
+    "arrival_at_destination": "07:20 pm BST",
+    "journey_duration": "03:07",
+    "operating_days": "Fri, Sat, Sun, Tue, Wed, Thu",
+    "source_city": "Sonatola",
+    "destination_city": "Kurigram",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Rangpur"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "train_name": "KURIGRAM EXPRESS",
+    "train_number": 797,
+    "arrival_at_source": "03:58 am BST",
+    "departure_from_source": "04:03 am BST",
+    "arrival_at_destination": "05:10 am BST",
+    "journey_duration": "01:07",
+    "operating_days": "Fri, Sat, Sun, Mon, Wed, Thu",
+    "source_city": "Rangpur",
+    "destination_city": "Kurigram",
+    "main_source_city": "Dhaka",
+    "main_destination_city": "Kurigram"
+  },
+  {
+    "train_name": "RANGPUR EXPRESS",
+    "train_number": 772,
+    "arrival_at_source": null,
+    "departure_from_source": "08:00 pm BST",
+    "arrival_at_destination": "07:50 pm BST",
+    "journey_duration": "23:50",
+    "operating_days": "Fri, Sat, Mon, Tue, Wed, Thu",
+    "source_city": "Rangpur",
+    "destination_city": "Kurigram",
+    "main_source_city": "Rangpur",
+    "main_destination_city": "Dhaka"
+  }
+]

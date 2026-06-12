@@ -1,0 +1,15 @@
+[
+  {
+    "train_name": "DHALARCHAR EXPRESS",
+    "train_number": 779,
+    "arrival_at_source": "09:12 am BST",
+    "departure_from_source": "09:15 am BST",
+    "arrival_at_destination": "09:56 am BST",
+    "journey_duration": "00:41",
+    "operating_days": "Fri, Sat, Sun, Mon, Tue, Wed",
+    "source_city": "Azim Nagar",
+    "destination_city": "Sardah Road",
+    "main_source_city": "Dhalarchar",
+    "main_destination_city": "Rajshahi"
+  }
+]
