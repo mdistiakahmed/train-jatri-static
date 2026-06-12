@@ -6,7 +6,11 @@ import { FaQuestionCircle, FaRegCommentDots } from "react-icons/fa";
 import path from "path";
 import fs from "fs";
 import { Metadata } from "next";
-import { formatTrainNameForUrl } from "@/app/station/[name]/components";
+
+const formatTrainNameForUrl = (trainName: string) => {
+  if (!trainName) return "";
+  return trainName.toLowerCase().replace(/\s+/g, "-");
+};
 
 async function getRouteData(slug: string) {
   try {
