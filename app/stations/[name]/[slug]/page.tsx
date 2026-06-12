@@ -195,6 +195,7 @@ function formatOperatingDays(
 }
 
 const parseTime = (timeStr: string) => {
+  if(!timeStr) return 0;
   const time = timeStr.replace(" BST", "").trim();
   const [clock, period] = time.split(" ");
   let [hours, minutes] = clock.split(":").map(Number);
