@@ -3,86 +3,12 @@ import { FaTrain, FaExternalLinkAlt } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
 import { FaQuestionCircle, FaRegCommentDots } from "react-icons/fa";
-import path from "path";
-import fs from "fs";
-import { Metadata } from "next";
+import type { Metadata } from "next";
+import { createFilenameFromRoute } from "@/utils/stringutils";
 
-const formatTrainNameForUrl = (trainName: string) => {
-  if (!trainName) return "";
-  return trainName.toLowerCase().replace(/\s+/g, "-");
-};
+export const runtime = "edge";
 
-async function getRouteData(slug: string) {
-  try {
-    const filePath = path.join(
-      process.cwd(),
-      "data",
-      "trains-by-stations",
-      `${slug}.json`,
-    );
-
-    const fileContents = fs.readFileSync(filePath, "utf8");
-    return JSON.parse(fileContents);
-  } catch (error) {
-    return null;
-  }
-}
-
-async function getReverseRouteData(fromStation: string, toStation: string) {
-  const reverseSlug =
-    `${toStation.toLowerCase().replace(/\s+/g, "-")}` +
-    `-to-` +
-    `${fromStation.toLowerCase().replace(/\s+/g, "-")}`;
-
-  return getRouteData(reverseSlug);
-}
-
-async function getPopularDestinations(stationName: string, limit: number = 20) {
-  try {
-    const filePath = path.join(
-      process.cwd(),
-      "data",
-      "trains-by-stations",
-      "all-trips.json",
-    );
-
-    const fileContents = fs.readFileSync(filePath, "utf8");
-    const data = JSON.parse(fileContents);
-
-    return data.routes
-      .filter((route: any) => route.route.startsWith(`${stationName} - `))
-      .map((route: any) => ({
-        name: route.route.split(" - ")[1],
-        slug: route.filename.replace(".json", ""),
-      }))
-      .slice(0, limit);
-  } catch {
-    return [];
-  }
-}
-
-async function getTrainCountForRoute(fromStation: string, toStation: string) {
-  try {
-    const slug =
-      `${fromStation.toLowerCase().replace(/\s+/g, "-")}` +
-      `-to-` +
-      `${toStation.toLowerCase().replace(/\s+/g, "-")}`;
-
-    const filePath = path.join(
-      process.cwd(),
-      "data",
-      "trains-by-stations",
-      `${slug}.json`,
-    );
-
-    const fileContents = fs.readFileSync(filePath, "utf8");
-    const data = JSON.parse(fileContents);
-
-    return data.length;
-  } catch {
-    return null;
-  }
-}
+const BASE_URL = "https://cdn.railthailand.com";
 
 // Helper function to parse the slug into readable station names
 function parseSlug(slug: string) {
@@ -101,58 +27,138 @@ function parseSlug(slug: string) {
   };
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ slug: string }>;
-}): Promise<Metadata> {
-  const { slug } = await params;
+async function getRouteData(slug: string) {
+  try {
+    const res = await fetch(`${BASE_URL}/${slug}.json`, {
+      next: { revalidate: 86400 }, // cache 1 day
+    });
 
-  const stations = parseSlug(slug);
+    if (!res.ok) return [];
 
-  if (!stations) {
-    return {
-      title: "Route Not Found | Train Jatri",
-    };
+    return await res.json();
+  } catch (error) {
+    return null;
   }
-
-  const data = await getRouteData(slug);
-
-  if (!data?.length) {
-    return {
-      title: `${stations.from} to ${stations.to} Train Schedule | Train Jatri`,
-    };
-  }
-
-  return {
-    title: `${stations.from} to ${stations.to} Train Schedule (${data.length} Daily Trains) | Train Jatri`,
-    description: `Check Bangladesh Railway train schedule from ${stations.from} to ${stations.to}. View departure times, arrival times, train duration, train number and operating days.`,
-  };
 }
 
-export async function generateStaticParams() {
-  const filePath = path.join(
-    process.cwd(),
-    "data",
-    "trains-by-stations",
-    "all-trips.json",
-  );
+// Function to get reverse route data
+async function getReverseRouteData(fromStation: string, toStation: string) {
+  try {
+    const reverseSlug = `${toStation.toLowerCase().replace(/\s+/g, "-")}-to-${fromStation.toLowerCase().replace(/\s+/g, "-")}`;
+    const res = await fetch(`${BASE_URL}/${reverseSlug}.json`, {
+      next: { revalidate: 86400 }, // cache 1 day
+    });
 
-  const fileContents = fs.readFileSync(filePath, "utf8");
+    if (!res.ok) return [];
 
-  const data = JSON.parse(fileContents);
-
-  return data.routes.map((route: any) => {
-    const slug = route.filename.replace(".json", "");
-
-    const fromStation = slug.split("-to-")[0];
-
-    return {
-      name: fromStation,
-      slug,
-    };
-  });
+    return await res.json();
+  } catch (error) {
+    return null;
+  }
 }
+
+// Function to get popular destinations from a station
+async function getPopularDestinations(stationName: string, limit: number = 8) {
+  try {
+    const res = await fetch(`${BASE_URL}/all-trips.json`, {
+      next: { revalidate: 86400 }, // cache 1 day
+    });
+
+    if (!res.ok) return [];
+    const data = await res.json();
+
+    const destinations = data.allTrips
+      .filter((route: any) => route.startsWith(`${stationName} - `))
+      .map((route: any) => {
+        const destination = route.split(" - ")[1];
+        return {
+          name: destination,
+          slug: createFilenameFromRoute(route),
+        };
+      })
+      .slice(0, limit);
+
+    return destinations;
+  } catch (error) {
+    return [];
+  }
+}
+
+// export async function generateMetadata({ params }: any): Promise<Metadata> {
+//   const { name, slug } = await params;
+//   const stations = parseSlug(slug);
+//   if (!stations) {
+//     return { title: "Route Not Found | Train Jatri" };
+//   }
+
+//   const data = await getRouteData(slug);
+//   if (!data || data.length === 0) {
+//     return {
+//       title: `${stations.from} to ${stations.to} Train Schedule | No Data Available`,
+//       robots: { index: false, follow: true },
+//     };
+//   }
+
+//   const sorted = [...data].sort((a, b) =>
+//     parseTime(a.arrival_at_source) - parseTime(b.arrival_at_source),
+//   );
+
+//   const totalTrains = sorted.length;
+//   const firstTrain = sorted[0];
+//   const lastTrain = sorted[sorted.length - 1];
+
+//   const title = `${stations.from} to ${stations.to} Train Schedule & Timetable (${totalTrains} Daily Trains) | Train Jatri`;
+
+//   const description = `Check the latest ${stations.from} to ${stations.to} train schedule in Bangladesh. ${totalTrains} daily trains operate on this route. First departure at ${firstTrain.departure_from_source}, last train at ${lastTrain.departure_from_source}. View updated timetable, journey duration, train types, and operating days.`;
+
+//   const url = `https://www.trainjatri.com/stations/${name}/${slug}`;
+
+//   return {
+//     title,
+//     description,
+//     keywords: [
+//       `${stations.from} to ${stations.to} train schedule`,
+//       `${stations.from} to ${stations.to} timetable`,
+//       `${stations.from} to ${stations.to} train time`,
+//       `Bangladesh railway ${stations.from} to ${stations.to}`,
+//       `${stations.from} to ${stations.to} departure time`,
+//       `${stations.from} to ${stations.to} daily trains`,
+//     ],
+//     alternates: {
+//       canonical: url,
+//     },
+//     openGraph: {
+//       title,
+//       description,
+//       url,
+//       siteName: "Train Jatri",
+//       type: "website",
+//       images: [
+//         {
+//           url: "https://www.trainjatri.com/logo.png",
+//           width: 1200,
+//           height: 630,
+//           alt: `${stations.from} to ${stations.to} train schedule`,
+//         },
+//       ],
+//     },
+//     twitter: {
+//       card: "summary_large_image",
+//       title,
+//       description,
+//       images: ["https://www.trainjatri.com/logo.png"],
+//     },
+//     robots: {
+//       index: true,
+//       follow: true,
+//     },
+//   };
+// }
+
+const formatTrainNameForUrl = (trainName: string) => {
+  if (!trainName) return "";
+  return trainName.toLowerCase().replace(/\s+/g, "-");
+};
 
 const formatTime = (time: string) => {
   if (!time) return "N/A";
@@ -161,7 +167,7 @@ const formatTime = (time: string) => {
 
 function formatOperatingDays(
   daysString: string,
-  lang: "en" | "bn" = "en"
+  lang: "en" | "bn" = "en",
 ): string {
   if (!daysString) return "N/A";
 
@@ -175,13 +181,9 @@ function formatOperatingDays(
     { short: "Fri", en: "Friday", bn: "শুক্রবার" },
   ];
 
-  const operatingDays = daysString
-    .split(",")
-    .map((d) => d.trim());
+  const operatingDays = daysString.split(",").map((d) => d.trim());
 
-  const offDays = weekDays.filter(
-    (day) => !operatingDays.includes(day.short)
-  );
+  const offDays = weekDays.filter((day) => !operatingDays.includes(day.short));
 
   if (offDays.length === 0) {
     return lang === "bn"
@@ -191,15 +193,13 @@ function formatOperatingDays(
 
   return offDays
     .map((day) =>
-      lang === "bn"
-        ? `${day.en} (${day.bn})`
-        : `${day.en} (${day.bn})`
+      lang === "bn" ? `${day.en} (${day.bn})` : `${day.en} (${day.bn})`,
     )
     .join(", ");
 }
 
 const parseTime = (timeStr: string) => {
-  if(!timeStr) return 0;
+  if (!timeStr) return 0;
   const time = timeStr.replace(" BST", "").trim();
   const [clock, period] = time.split(" ");
   let [hours, minutes] = clock.split(":").map(Number);
@@ -216,15 +216,13 @@ const parseTime = (timeStr: string) => {
 export default async function StationRoutePage({ params }: any) {
   const { slug } = await params;
   const stations = parseSlug(slug);
+
+  console.log("==================================");
+  console.log(JSON.stringify(stations));
   if (!stations) notFound();
 
-  const [data, reverseRouteData, fromDestinations, toDestinations] =
-    await Promise.all([
-      getRouteData(slug),
-      getReverseRouteData(stations.from, stations.to),
-      getPopularDestinations(stations.from, 20),
-      getPopularDestinations(stations.to, 20),
-    ]);
+  const data = await getRouteData(slug);
+  if (!data) notFound();
 
   const sortedData = data
     ? [...data].sort(
@@ -233,24 +231,15 @@ export default async function StationRoutePage({ params }: any) {
       )
     : [];
 
-  if (!data) return notFound();
+  const reverseRouteData = await getReverseRouteData(
+    stations.from,
+    stations.to,
+  );
+  const fromDestinations = await getPopularDestinations(stations.from, 20);
+  const toDestinations = await getPopularDestinations(stations.to, 20);
 
   const toStationSlug = stations.to.toLowerCase().replace(/\s+/g, "-");
   const reverseSlug = `${toStationSlug}-to-${stations.from.toLowerCase().replace(/\s+/g, "-")}`;
-
-  const fromDestinationsWithCounts = await Promise.all(
-    fromDestinations.map(async (destination: any) => ({
-      ...destination,
-      trainCount: await getTrainCountForRoute(stations.from, destination.name),
-    })),
-  );
-
-  const toDestinationsWithCounts = await Promise.all(
-    toDestinations.map(async (destination: any) => ({
-      ...destination,
-      trainCount: await getTrainCountForRoute(stations.to, destination.name),
-    })),
-  );
 
   return (
     <div className="min-h-screen w-screen md:w-full py-8 md:px-4">
@@ -337,7 +326,6 @@ export default async function StationRoutePage({ params }: any) {
                       {sortedData.map((trip: any, index: number) => (
                         <tr key={index} className="hover:bg-gray-50">
                           <td className="text-center">
-
                             <a
                               href={`/trains/${formatTrainNameForUrl(trip.train_name)}`}
                               className="text-blue-600 underline inline-flex items-center space-x-3 transition-colors"
@@ -345,8 +333,7 @@ export default async function StationRoutePage({ params }: any) {
                               <span>{trip.train_name}</span>
                               <FaExternalLinkAlt className="w-3 h-3" />
                             </a>
-                            
-                            </td>
+                          </td>
 
                           <td className="text-center">
                             {formatTime(trip.departure_from_source)}
@@ -387,10 +374,9 @@ export default async function StationRoutePage({ params }: any) {
           <div className="space-y-4">
             {sortedData.map((trip: any, index: number) => (
               <p key={index} className="text-gray-700">
-                The {trip.train_name} departs from{" "}
-                {stations.from} at {formatTime(trip.departure_from_source)} and
-                arrives in {stations.to} at{" "}
-                {formatTime(trip.arrival_at_destination)}.
+                The {trip.train_name} departs from {stations.from} at{" "}
+                {formatTime(trip.departure_from_source)} and arrives in{" "}
+                {stations.to} at {formatTime(trip.arrival_at_destination)}.
               </p>
             ))}
           </div>
@@ -458,8 +444,8 @@ export default async function StationRoutePage({ params }: any) {
                 <FaRegCommentDots className="text-gray-500 mt-1 shrink-0 text-lg" />
                 <p className="text-gray-700 leading-7">
                   The earliest train departs from {stations.from} at{" "}
-                  {formatTime(sortedData[0].departure_from_source)} {" "}
-                  and arrives in {stations.to} at{" "}
+                  {formatTime(sortedData[0].departure_from_source)} and arrives
+                  in {stations.to} at{" "}
                   {formatTime(sortedData[0].arrival_at_destination)}.
                 </p>
               </div>
@@ -479,7 +465,7 @@ export default async function StationRoutePage({ params }: any) {
                   The final daily departure leaves {stations.from} at{" "}
                   {formatTime(
                     sortedData[sortedData.length - 1].departure_from_source,
-                  )} {" "}
+                  )}{" "}
                   and reaches {stations.to} at{" "}
                   {formatTime(
                     sortedData[sortedData.length - 1].arrival_at_destination,
@@ -501,14 +487,12 @@ export default async function StationRoutePage({ params }: any) {
                 <FaRegCommentDots className="text-gray-500 mt-1 shrink-0 text-lg" />
                 <p className="text-gray-700 leading-7">
                   Most trains on this route operate daily, but some services may
-                  run only on selected days. Please check the "Off Day"
-                  column in the timetable above for the most accurate and
-                  updated schedule information.
+                  run only on selected days. Please check the "Off Day" column
+                  in the timetable above for the most accurate and updated
+                  schedule information.
                 </p>
               </div>
             </div>
-
-
 
             {/* Dynamic Train-Specific FAQs */}
             {sortedData.slice(0, 2).map((trip: any, index: number) => (
@@ -568,7 +552,7 @@ export default async function StationRoutePage({ params }: any) {
         )}
 
         {/* ================= Popular Routes From Station A ================= */}
-        {fromDestinationsWithCounts.length > 0 && (
+        {fromDestinations.length > 0 && (
           <section className="mt-16 max-w-6xl mx-auto">
             <div className="mb-6">
               <h2 className="text-2xl font-bold text-gray-900">
@@ -582,49 +566,47 @@ export default async function StationRoutePage({ params }: any) {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {fromDestinationsWithCounts.map(
-                (destination: any, index: number) => {
-                  const trainCount = destination.trainCount;
+              {fromDestinations.map((destination: any, index: number) => {
+                const trainCount = destination.trainCount;
 
-                  return (
-                    <Link
-                      key={`from-${index}`}
-                      href={`/stations/${stations.from.toLowerCase().replace(/\s+/g, "-")}/${destination.slug}`}
-                      prefetch={false}
-                      className="group bg-white rounded-xl border border-gray-200 p-5 hover:border-blue-300 hover:shadow-lg transition-all duration-300"
-                    >
-                      <div className="flex flex-col items-center gap-3 mb-3">
-                        <div className="flex gap-3 items-center justify-center">
-                          <FaTrain className="text-red-500 text-base" />
-                          <span className="text-base font-semibold text-gray-900">
-                            {stations.from} → {destination.name}
-                          </span>
-                        </div>
-                        <span className="ml-2 px-2 py-1 bg-red-100 text-red-700 text-xs rounded-full font-medium">
-                          {trainCount
-                            ? `${trainCount} daily train${trainCount > 1 ? "s" : ""} available`
-                            : "Train schedules available"}
+                return (
+                  <Link
+                    key={`from-${index}`}
+                    href={`/stations/${stations.from.toLowerCase().replace(/\s+/g, "-")}/${destination.slug}`}
+                    prefetch={false}
+                    className="group bg-white rounded-xl border border-gray-200 p-5 hover:border-blue-300 hover:shadow-lg transition-all duration-300"
+                  >
+                    <div className="flex flex-col items-center gap-3 mb-3">
+                      <div className="flex gap-3 items-center justify-center">
+                        <FaTrain className="text-red-500 text-base" />
+                        <span className="text-base font-semibold text-gray-900">
+                          {stations.from} → {destination.name}
                         </span>
                       </div>
+                      <span className="ml-2 px-2 py-1 bg-red-100 text-red-700 text-xs rounded-full font-medium">
+                        {trainCount
+                          ? `${trainCount} daily train${trainCount > 1 ? "s" : ""} available`
+                          : "Train schedules available"}
+                      </span>
+                    </div>
 
-                      <div className="space-y-2 flex flex-col items-center justify-center">
-                        <p className="text-sm font-medium text-gray-700 group-hover:text-red-600 transition-colors">
-                          View Complete Train Schedule
-                        </p>
-                        <p className="text-xs text-gray-500">
-                          {trainCount} daily departures • Updated timetable
-                        </p>
-                      </div>
-                    </Link>
-                  );
-                },
-              )}
+                    <div className="space-y-2 flex flex-col items-center justify-center">
+                      <p className="text-sm font-medium text-gray-700 group-hover:text-red-600 transition-colors">
+                        View Complete Train Schedule
+                      </p>
+                      <p className="text-xs text-gray-500">
+                        {trainCount} daily departures • Updated timetable
+                      </p>
+                    </div>
+                  </Link>
+                );
+              })}
             </div>
           </section>
         )}
 
         {/* ================= Popular Routes From Station B ================= */}
-        {toDestinationsWithCounts.length > 0 && (
+        {toDestinations.length > 0 && (
           <section className="mt-16 max-w-6xl mx-auto">
             <div className="mb-6">
               <h2 className="text-2xl font-bold text-gray-900">
@@ -638,43 +620,41 @@ export default async function StationRoutePage({ params }: any) {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {toDestinationsWithCounts.map(
-                (destination: any, index: number) => {
-                  const trainCount = destination.trainCount;
+              {toDestinations.map((destination: any, index: number) => {
+                const trainCount = destination.trainCount;
 
-                  return (
-                    <Link
-                      key={`from-${index}`}
-                      href={`/stations/${stations.to.toLowerCase().replace(/\s+/g, "-")}/${destination.slug}`}
-                      prefetch={false}
-                      className="group bg-white rounded-xl border border-gray-200 p-5 hover:border-blue-300 hover:shadow-lg transition-all duration-300"
-                    >
-                      <div className="flex flex-col items-center gap-3 mb-3">
-                        <div className="flex gap-3 items-center justify-center">
-                          <FaTrain className="text-red-500 text-base" />
-                          <span className="text-base font-semibold text-gray-900">
-                            {stations.to} → {destination.name}
-                          </span>
-                        </div>
-                        <span className="ml-2 px-2 py-1 bg-red-100 text-red-700 text-xs rounded-full font-medium">
-                          {trainCount
-                            ? `${trainCount} daily train${trainCount > 1 ? "s" : ""} available`
-                            : "Train schedules available"}
+                return (
+                  <Link
+                    key={`from-${index}`}
+                    href={`/stations/${stations.to.toLowerCase().replace(/\s+/g, "-")}/${destination.slug}`}
+                    prefetch={false}
+                    className="group bg-white rounded-xl border border-gray-200 p-5 hover:border-blue-300 hover:shadow-lg transition-all duration-300"
+                  >
+                    <div className="flex flex-col items-center gap-3 mb-3">
+                      <div className="flex gap-3 items-center justify-center">
+                        <FaTrain className="text-red-500 text-base" />
+                        <span className="text-base font-semibold text-gray-900">
+                          {stations.to} → {destination.name}
                         </span>
                       </div>
+                      <span className="ml-2 px-2 py-1 bg-red-100 text-red-700 text-xs rounded-full font-medium">
+                        {trainCount
+                          ? `${trainCount} daily train${trainCount > 1 ? "s" : ""} available`
+                          : "Train schedules available"}
+                      </span>
+                    </div>
 
-                      <div className="space-y-2 flex flex-col items-center justify-center">
-                        <p className="text-sm font-medium text-gray-700 group-hover:text-red-600 transition-colors">
-                          View Complete Train Schedule
-                        </p>
-                        <p className="text-xs text-gray-500">
-                          {trainCount} daily departures • Updated timetable
-                        </p>
-                      </div>
-                    </Link>
-                  );
-                },
-              )}
+                    <div className="space-y-2 flex flex-col items-center justify-center">
+                      <p className="text-sm font-medium text-gray-700 group-hover:text-red-600 transition-colors">
+                        View Complete Train Schedule
+                      </p>
+                      <p className="text-xs text-gray-500">
+                        {trainCount} daily departures • Updated timetable
+                      </p>
+                    </div>
+                  </Link>
+                );
+              })}
             </div>
           </section>
         )}
