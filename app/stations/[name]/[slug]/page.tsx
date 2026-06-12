@@ -323,7 +323,7 @@ export default async function StationRoutePage({ params }: any) {
                     <tbody>
                       {sortedData.map((trip: any, index: number) => (
                         <tr key={index} className="hover:bg-gray-50">
-                          <td className="text-center">
+                          <td className="py-2 px-4 text-xs sm:text-sm whitespace-nowrap">
                             <a
                               href={`/trains/${formatTrainNameForUrl(trip.train_name)}`}
                               className="text-blue-600 underline inline-flex items-center space-x-3 transition-colors"
@@ -333,19 +333,19 @@ export default async function StationRoutePage({ params }: any) {
                             </a>
                           </td>
 
-                          <td className="text-center">
+                          <td className="py-2 px-4 text-xs sm:text-sm whitespace-nowrap">
                             {formatTime(trip.departure_from_source)}
                           </td>
 
-                          <td className="text-center">
+                          <td className="py-2 px-4 text-xs sm:text-sm whitespace-nowrap">
                             {formatTime(trip.arrival_at_destination)}
                           </td>
 
-                          <td className="text-center">
+                          <td className="py-2 px-4 text-xs sm:text-sm whitespace-nowrap">
                             {formatOperatingDays(trip.operating_days)}
                           </td>
 
-                          <td className="text-center">
+                          <td className="py-2 px-4 text-xs sm:text-sm whitespace-nowrap">
                             {trip.journey_duration || "N/A"}
                           </td>
 
