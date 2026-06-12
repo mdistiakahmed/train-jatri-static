@@ -1,22 +1,5 @@
 import { uniqueTrainNames } from "@/utils/trainNames";
 
-export const getDataForStation = async (name: string) => {
-  try {
-    if (!name) {
-        throw new Error(`No train name provided`);
-    }
-      const fileName = name; // normalize: "Upakul Express" → "upukulexpress"
-
-      const { trainData } = await import(`../data/Stations/${fileName}.js`);
-
-      return trainData;
-  } catch (error) {
-      console.error(`Failed to load train data for: ${name}`);
-    throw error;
-  }
-};
-
-
 export const getDataForRoute = async (route: string) => {
   try {
     if (!route) {
