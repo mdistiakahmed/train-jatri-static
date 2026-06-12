@@ -8,7 +8,7 @@ import { createFilenameFromRoute } from "@/utils/stringutils";
 
 export const runtime = "edge";
 
-const BASE_URL = "https://cdn.railthailand.com";
+const BASE_URL = "https://pub-a48b3342350946d49e7b66b624db1328.r2.dev";
 
 // Helper function to parse the slug into readable station names
 function parseSlug(slug: string) {
@@ -84,76 +84,76 @@ async function getPopularDestinations(stationName: string, limit: number = 8) {
   }
 }
 
-// export async function generateMetadata({ params }: any): Promise<Metadata> {
-//   const { name, slug } = await params;
-//   const stations = parseSlug(slug);
-//   if (!stations) {
-//     return { title: "Route Not Found | Train Jatri" };
-//   }
+export async function generateMetadata({ params }: any): Promise<Metadata> {
+  const { name, slug } = await params;
+  const stations = parseSlug(slug);
+  if (!stations) {
+    return { title: "Route Not Found | Train Jatri" };
+  }
 
-//   const data = await getRouteData(slug);
-//   if (!data || data.length === 0) {
-//     return {
-//       title: `${stations.from} to ${stations.to} Train Schedule | No Data Available`,
-//       robots: { index: false, follow: true },
-//     };
-//   }
+  const data = await getRouteData(slug);
+  if (!data || data.length === 0) {
+    return {
+      title: `${stations.from} to ${stations.to} Train Schedule | No Data Available`,
+      robots: { index: false, follow: true },
+    };
+  }
 
-//   const sorted = [...data].sort((a, b) =>
-//     parseTime(a.arrival_at_source) - parseTime(b.arrival_at_source),
-//   );
+  const sorted = [...data].sort(
+    (a, b) => parseTime(a.arrival_at_source) - parseTime(b.arrival_at_source),
+  );
 
-//   const totalTrains = sorted.length;
-//   const firstTrain = sorted[0];
-//   const lastTrain = sorted[sorted.length - 1];
+  const totalTrains = sorted.length;
+  const firstTrain = sorted[0];
+  const lastTrain = sorted[sorted.length - 1];
 
-//   const title = `${stations.from} to ${stations.to} Train Schedule & Timetable (${totalTrains} Daily Trains) | Train Jatri`;
+  const title = `${stations.from} to ${stations.to} Train Schedule & Timetable (${totalTrains} Daily Trains) | Train Jatri`;
 
-//   const description = `Check the latest ${stations.from} to ${stations.to} train schedule in Bangladesh. ${totalTrains} daily trains operate on this route. First departure at ${firstTrain.departure_from_source}, last train at ${lastTrain.departure_from_source}. View updated timetable, journey duration, train types, and operating days.`;
+  const description = `Check the latest ${stations.from} to ${stations.to} train schedule in Bangladesh. ${totalTrains} daily trains operate on this route. First departure at ${firstTrain.departure_from_source}, last train at ${lastTrain.departure_from_source}. View updated timetable, journey duration, train types, and operating days.`;
 
-//   const url = `https://www.trainjatri.com/stations/${name}/${slug}`;
+  const url = `https://www.trainjatri.com/stations/${name}/${slug}`;
 
-//   return {
-//     title,
-//     description,
-//     keywords: [
-//       `${stations.from} to ${stations.to} train schedule`,
-//       `${stations.from} to ${stations.to} timetable`,
-//       `${stations.from} to ${stations.to} train time`,
-//       `Bangladesh railway ${stations.from} to ${stations.to}`,
-//       `${stations.from} to ${stations.to} departure time`,
-//       `${stations.from} to ${stations.to} daily trains`,
-//     ],
-//     alternates: {
-//       canonical: url,
-//     },
-//     openGraph: {
-//       title,
-//       description,
-//       url,
-//       siteName: "Train Jatri",
-//       type: "website",
-//       images: [
-//         {
-//           url: "https://www.trainjatri.com/logo.png",
-//           width: 1200,
-//           height: 630,
-//           alt: `${stations.from} to ${stations.to} train schedule`,
-//         },
-//       ],
-//     },
-//     twitter: {
-//       card: "summary_large_image",
-//       title,
-//       description,
-//       images: ["https://www.trainjatri.com/logo.png"],
-//     },
-//     robots: {
-//       index: true,
-//       follow: true,
-//     },
-//   };
-// }
+  return {
+    title,
+    description,
+    keywords: [
+      `${stations.from} to ${stations.to} train schedule`,
+      `${stations.from} to ${stations.to} timetable`,
+      `${stations.from} to ${stations.to} train time`,
+      `Bangladesh railway ${stations.from} to ${stations.to}`,
+      `${stations.from} to ${stations.to} departure time`,
+      `${stations.from} to ${stations.to} daily trains`,
+    ],
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: "Train Jatri",
+      type: "website",
+      images: [
+        {
+          url: "https://www.trainjatri.com/logo.png",
+          width: 1200,
+          height: 630,
+          alt: `${stations.from} to ${stations.to} train schedule`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: ["https://www.trainjatri.com/logo.png"],
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
+}
 
 const formatTrainNameForUrl = (trainName: string) => {
   if (!trainName) return "";
@@ -217,8 +217,6 @@ export default async function StationRoutePage({ params }: any) {
   const { slug } = await params;
   const stations = parseSlug(slug);
 
-  console.log("==================================");
-  console.log(JSON.stringify(stations));
   if (!stations) notFound();
 
   const data = await getRouteData(slug);
