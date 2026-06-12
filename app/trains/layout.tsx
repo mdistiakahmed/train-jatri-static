@@ -1,6 +1,3 @@
-import { allStationNames } from "@/data/Stations/0_all_station_name";
-import { uniqueTrainNames } from "@/utils/trainNames";
-import { paths } from "@/utils/trainRoutes";
 
 export default function RootLayout({
   children,
@@ -23,20 +20,8 @@ export default function RootLayout({
               Explore train schedules from major railway stations across
               Bangladesh. Check arrivals, departures, and plan your journey.
             </p>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-8">
-              {allStationNames.splice(0, 12).map((station) => (
-                <a
-                  key={station}
-                  href={`/station/${station.toLowerCase().replace(/\s+/g, "-")}`}
-                  className="p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors text-center"
-                >
-                  <h3 className="font-medium text-gray-800">{station}</h3>
-                  <p className="text-sm text-gray-500">Station</p>
-                </a>
-              ))}
-            </div>
             <a
-              href="/station"
+              href="/stations"
               className="inline-flex items-center px-6 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 transition-colors duration-200"
             >
               View All Stations
