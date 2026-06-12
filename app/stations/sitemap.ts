@@ -16,8 +16,8 @@ function getStations() {
 
   const stations = new Set<string>();
 
-  data.routes.forEach((route: string) => {
-    const [start] = route.split(" - ");
+  data.routes.forEach((entry: any) => {
+    const [start] = entry.route.split(" - ");
 
     const slug = start
       .toLowerCase()
