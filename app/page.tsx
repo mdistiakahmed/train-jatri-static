@@ -140,7 +140,7 @@ const HomePage = () => {
             {majorStations.map((station, index) => (
               <a
                 key={index}
-                href={`/station/${station.toLowerCase()}`}
+                href={`/stations/${station.toLowerCase()}`}
                 className="p-4 bg-white rounded-md shadow-sm hover:shadow-md transition-shadow duration-200 text-center border border-gray-100"
               >
                 <h3 className="font-medium text-gray-800">{station} Station</h3>
