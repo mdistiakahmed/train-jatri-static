@@ -6,7 +6,7 @@ import { paths } from "@/utils/trainRoutes";
 // Major stations in Bangladesh
 const majorStations = [
   "Dhaka",
-  "Chittagong",
+  "Chattogram",
   "Sylhet",
   "Rajshahi",
   "Khulna",

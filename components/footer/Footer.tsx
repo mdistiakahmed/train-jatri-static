@@ -113,17 +113,17 @@ const Footer = () => {
               {[
                 {
                   name: "Narsingdi to Dhaka",
-                  slug: "narsingdi#Narsingdi-to-Dhaka",
+                  slug: "narsingdi/narsingdi-to-dhaka",
                 },
-                { name: "Cumilla to Dhaka", slug: "cumilla#Cumilla-to-Dhaka" },
+                { name: "Cumilla to Dhaka", slug: "cumilla/cumilla-to-dhaka" },
                 {
                   name: "Dhaka to Chattogram",
-                  slug: "dhaka#Dhaka-to-Chattogram",
+                  slug: "dhaka/dhaka-to-chattogram",
                 },
               ].map((route) => (
                 <li key={route.slug}>
                   <a
-                    href={`/station/${route.slug}`}
+                    href={`/stations/${route.slug}`}
                     className="text-sm text-gray-400 hover:text-red-500 transition-colors"
                   >
                     {route.name}
