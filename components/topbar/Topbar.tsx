@@ -33,26 +33,26 @@ const Topbar = () => {
                 href="/trains"
                 className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium  hover:text-gray-900 hover:border-gray-300"
               >
-                Trains
+                Train Schedule
               </a>
 
               <a
                 href="/stations"
                 className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium  hover:text-gray-900 hover:border-gray-300"
               >
-                Stations
+                Station Schedule
+              </a>
+              <a
+                href="/metro-rail-schedule"
+                className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium hover:text-gray-900 hover:border-gray-300"
+              >
+                Metro Rail Schedule
               </a>
               <a
                 href="/places-to-visit"
                 className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium hover:text-gray-900 hover:border-gray-300"
               >
                 Places to visit
-              </a>
-              <a
-                href="/metro-rail-schedule"
-                className="inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium hover:text-gray-900 hover:border-gray-300"
-              >
-                Metro Rail
               </a>
             </div>
           </div>
@@ -126,14 +126,22 @@ const Topbar = () => {
             className="block px-3 py-2 rounded-md text-base font-medium  hover:bg-gray-50 hover:text-gray-900"
             onClick={closeMobileMenu}
           >
-            Trains
+            Train Schedule
           </a>
           <a
             href="/stations"
             className="block px-3 py-2 rounded-md text-base font-medium  hover:bg-gray-50 hover:text-gray-900"
             onClick={closeMobileMenu}
           >
-            Stations
+            Station Schedule
+          </a>
+
+          <a
+            href="/metro-railschedule"
+            className="block px-3 py-2 rounded-md text-base font-medium  hover:bg-gray-50 hover:text-gray-900"
+            onClick={closeMobileMenu}
+          >
+            Metro Rail Schedule
           </a>
           <a
             href="/places-to-visit"
@@ -141,13 +149,6 @@ const Topbar = () => {
             onClick={closeMobileMenu}
           >
             Places to visit
-          </a>
-          <a
-            href="/metro-railschedule"
-            className="block px-3 py-2 rounded-md text-base font-medium  hover:bg-gray-50 hover:text-gray-900"
-            onClick={closeMobileMenu}
-          >
-            Metro Rail
           </a>
           <a
             href="https://eticket.railway.gov.bd/"
