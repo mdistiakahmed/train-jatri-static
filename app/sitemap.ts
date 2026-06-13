@@ -17,7 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "",
     "/about-us",
     "/live-tracking",
-    "/metro-rail",
+    "/metro-rail-schedula",
     "/places-to-visit",
     "/stations",
     "/trains",
