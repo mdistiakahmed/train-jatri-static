@@ -67,7 +67,7 @@ const HomePage = () => {
               </p>
             </a>
             <a
-              href="/station"
+              href="/stations"
               className="block p-6 bg-green-50 rounded-lg hover:bg-green-100 transition-colors duration-300 border border-green-100"
             >
               <h3 className="text-xl font-semibold mb-3 text-green-800">
@@ -132,7 +132,7 @@ const HomePage = () => {
         <section className="mb-16">
           <div className="flex justify-between items-center mb-8">
             <h2 className="text-3xl font-semibold">Major Railway Stations</h2>
-            <a href="/station" className="text-blue-600 hover:underline">
+            <a href="/stations" className="text-blue-600 hover:underline">
               View All Stations →
             </a>
           </div>

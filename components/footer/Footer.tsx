@@ -65,7 +65,7 @@ const Footer = () => {
             <ul className="space-y-2">
               {[
                 { name: "Train Schedule", href: "/trains" },
-                { name: "Routes by Station", href: "/station" },
+                { name: "Routes by Station", href: "/stations" },
                 {
                   name: "Live Tracking",
                   href: "/live-tracking",
