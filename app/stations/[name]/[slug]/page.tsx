@@ -67,13 +67,13 @@ async function getPopularDestinations(stationName: string, limit: number = 8) {
     if (!res.ok) return [];
     const data = await res.json();
 
-    const destinations = data.allTrips
-      .filter((route: any) => route.startsWith(`${stationName} - `))
-      .map((route: any) => {
-        const destination = route.split(" - ")[1];
+    const destinations = data.routes
+      .filter((element: any) => element.route.startsWith(`${stationName} - `))
+      .map((filteredElement: any) => {
+        const destination = filteredElement.route.split(" - ")[1];
         return {
           name: destination,
-          slug: createFilenameFromRoute(route),
+          slug: createFilenameFromRoute(filteredElement.route),
         };
       })
       .slice(0, limit);
@@ -170,6 +170,10 @@ function formatOperatingDays(
   lang: "en" | "bn" = "en",
 ): string {
   if (!daysString) return "N/A";
+
+  if (daysString?.toLowerCase() === "Daily".toLowerCase()) {
+    return "Runs all 7 days a week";
+  }
 
   const weekDays = [
     { short: "Sat", en: "Saturday", bn: "শনিবার" },
