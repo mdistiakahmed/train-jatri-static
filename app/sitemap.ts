@@ -6,7 +6,7 @@ export const dynamic = "force-static";
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.trainjatri.com";
 
-  const totalChunks = 5; // Assuming 6,000 pages / 1,000 per page = 6 chunks
+  const totalChunks = 6; // Assuming 6,000 pages / 1,000 per page = 6 chunks
   const chunkSitemaps = Array.from({ length: totalChunks }).map((_, i) => ({
     url: `https://www.trainjatri.com/stations-routes-sitemap/${i}`,
     lastModified: new Date(),
