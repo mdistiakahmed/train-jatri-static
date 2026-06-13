@@ -8,7 +8,7 @@ import { createFilenameFromRoute } from "@/utils/stringutils";
 
 export const runtime = "edge";
 
-const BASE_URL = "https://pub-a48b3342350946d49e7b66b624db1328.r2.dev";
+const BASE_URL = "https://cdn.trainjatri.com";
 
 // Helper function to parse the slug into readable station names
 function parseSlug(slug: string) {
