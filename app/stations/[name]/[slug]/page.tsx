@@ -100,7 +100,8 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
   }
 
   const sorted = [...data].sort(
-    (a, b) => parseTime(a.arrival_at_source) - parseTime(b.arrival_at_source),
+    (a, b) =>
+      parseTime(a.departure_from_source) - parseTime(b.departure_from_source),
   );
 
   const totalTrains = sorted.length;
@@ -208,9 +209,9 @@ const parseTime = (timeStr: string) => {
   const [clock, period] = time.split(" ");
   let [hours, minutes] = clock.split(":").map(Number);
 
-  if (period.toLowerCase() === "pm" && hours !== 12) {
+  if (period.trim().toLowerCase() === "pm" && hours !== 12) {
     hours += 12;
-  } else if (period.toLowerCase() === "am" && hours === 12) {
+  } else if (period.trim().toLowerCase() === "am" && hours === 12) {
     hours = 0;
   }
 
@@ -229,7 +230,8 @@ export default async function StationRoutePage({ params }: any) {
   const sortedData = data
     ? [...data].sort(
         (a, b) =>
-          parseTime(a.arrival_at_source) - parseTime(b.arrival_at_source),
+          parseTime(a.departure_from_source) -
+          parseTime(b.departure_from_source),
       )
     : [];
 
