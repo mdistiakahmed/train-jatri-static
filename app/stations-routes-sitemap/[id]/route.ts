@@ -7,7 +7,7 @@ const BASE_URL = "https://www.trainjatri.com";
 const PAGE_SIZE = 1000;
 
 let cachedRoutes: any = null;
-const CDN_BASE_URL = "https://pub-a48b3342350946d49e7b66b624db1328.r2.dev";
+const CDN_BASE_URL = "https://cdn.trainjatri.com";
 
 async function getAllRouteSlugs() {
   try {
