@@ -7,10 +7,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.trainjatri.com";
 
   const totalChunks = 6; // Assuming 6,000 pages / 1,000 per page = 6 chunks
-  const chunkSitemaps = Array.from({ length: totalChunks }).map((_, i) => ({
-    url: `https://www.trainjatri.com/stations-routes-sitemap/${i}`,
-    lastModified: new Date(),
-  }));
+
+  const nestedSitemaps = [
+    {
+      url: `${baseUrl}/stations/sitemap.xml`,
+      lastModified: new Date(),
+    },
+    ...Array.from({ length: totalChunks }).map((_, i) => ({
+      url: `${baseUrl}/stations-routes-sitemap/${i}`,
+      lastModified: new Date(),
+    })),
+  ];
 
   // Static routes
   const staticRoutes = [
@@ -42,5 +49,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: route === "" ? 1 : 0.8,
   }));
 
-  return [...staticSitemapEntries, ...trainRoutes, ...chunkSitemaps];
+  return [...staticSitemapEntries, ...trainRoutes, ...nestedSitemaps];
 }
