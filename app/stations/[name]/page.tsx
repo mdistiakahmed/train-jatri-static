@@ -6,6 +6,10 @@ import { FaTrain, FaExternalLinkAlt } from "react-icons/fa";
 import { RouteSearch } from "./components";
 import type { Metadata } from "next";
 import { dataSlugToRouteUrlSlug } from "@/utils/stringutils";
+import {
+  POPULAR_ROUTES,
+  getPopularRouteHref,
+} from "../utils/routeSeo";
 
 export const dynamic = "force-static";
 export const revalidate = false;
@@ -169,6 +173,10 @@ export default async function RoutesPage({ params }: any) {
   const stationName = formatStationName(name);
   const routes = await getRoutesForStation(stationName);
 
+  const featuredRoutes = POPULAR_ROUTES.filter(
+    (route) => route.from === stationName,
+  );
+
   return (
     <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
@@ -227,6 +235,31 @@ export default async function RoutesPage({ params }: any) {
         />
 
         <RouteSearch startStation={stationName} routes={routes} />
+
+        {featuredRoutes.length > 0 && (
+          <section className="mb-10">
+            <h2 className="text-xl font-bold text-gray-900 mb-4">
+              Popular Train Schedules from {stationName}
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {featuredRoutes.map((route) => (
+                <Link
+                  key={`${route.from}-${route.to}`}
+                  href={getPopularRouteHref(route.from, route.to)}
+                  prefetch={false}
+                  className="block p-4 bg-red-50 border border-red-100 rounded-lg hover:border-red-300 hover:shadow-md transition-all"
+                >
+                  <h3 className="font-semibold text-gray-900">
+                    {route.from} to {route.to} Train Schedule
+                  </h3>
+                  <p className="text-xs text-gray-600 mt-1">
+                    View timetable, departure times &amp; all trains
+                  </p>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
 
         <div className="space-y-4">
           {routes.length > 0 ? (

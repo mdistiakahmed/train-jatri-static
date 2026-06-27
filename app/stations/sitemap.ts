@@ -37,6 +37,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${BASE_URL}/stations/${station}`,
     lastModified: new Date(),
     changeFrequency: "weekly",
-    priority: 0.8,
+    priority: 0.85,
   }));
 }

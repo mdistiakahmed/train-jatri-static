@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { FaTrain, FaExternalLinkAlt } from "react-icons/fa";
+import { FaTrain, FaExternalLinkAlt, FaTicketAlt } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
 import { FaQuestionCircle, FaRegCommentDots } from "react-icons/fa";
@@ -7,9 +7,22 @@ import type { Metadata } from "next";
 import {
   createRouteUrlSlugFromRoute,
   createRouteUrlSlugFromStations,
+  formatStationNameForUrl,
   parseRouteUrlSlug,
   routeUrlSlugToDataSlug,
 } from "@/utils/stringutils";
+import RouteScheduleTable from "../../components/RouteScheduleTable";
+import { RouteSeoBody, RouteSeoIntro } from "../../components/RouteSeoContent";
+import {
+  buildBreadcrumbSchema,
+  buildFaqSchema,
+  buildItemListSchema,
+  buildRouteFaqItems,
+  formatDisplayTime,
+  getRouteSummary,
+  parseTimeToMinutes,
+  splitTrainsByCategory,
+} from "../../utils/routeSeo";
 
 export const runtime = "edge";
 
@@ -93,16 +106,18 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
 
   const sorted = [...data].sort(
     (a, b) =>
-      parseTime(a.departure_from_source) - parseTime(b.departure_from_source),
+      parseTimeToMinutes(a.departure_from_source) -
+      parseTimeToMinutes(b.departure_from_source),
   );
 
   const totalTrains = sorted.length;
   const firstTrain = sorted[0];
   const lastTrain = sorted[sorted.length - 1];
+  const currentYear = new Date().getFullYear();
 
-  const title = `${stations.from} to ${stations.to} Train Schedule & Timetable (${totalTrains} Daily Trains) | Train Jatri`;
+  const title = `${stations.from} to ${stations.to} Train Schedule & Timetable ${currentYear} (${totalTrains} Trains) | Train Jatri`;
 
-  const description = `Check the latest ${stations.from} to ${stations.to} train schedule in Bangladesh. ${totalTrains} daily trains operate on this route. First departure at ${firstTrain.departure_from_source}, last train at ${lastTrain.departure_from_source}. View updated timetable, journey duration, train types, and operating days.`;
+  const description = `${stations.from} to ${stations.to} train schedule ${currentYear} — ${totalTrains} daily trains on Bangladesh Railway. First train at ${formatDisplayTime(firstTrain.departure_from_source)}, last at ${formatDisplayTime(lastTrain.departure_from_source)}. View full timetable, departure times, journey duration, and book tickets online.`;
 
   const url = `https://www.trainjatri.com/stations/${name}/${slug}`;
 
@@ -111,11 +126,12 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
     description,
     keywords: [
       `${stations.from} to ${stations.to} train schedule`,
+      `${stations.from} to ${stations.to} train schedule ${currentYear}`,
       `${stations.from} to ${stations.to} timetable`,
       `${stations.from} to ${stations.to} train time`,
       `Bangladesh railway ${stations.from} to ${stations.to}`,
       `${stations.from} to ${stations.to} departure time`,
-      `${stations.from} to ${stations.to} daily trains`,
+      `${stations.from} to ${stations.to} train ticket`,
     ],
     alternates: {
       canonical: url,
@@ -148,84 +164,20 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
   };
 }
 
-const formatTrainNameForUrl = (trainName: string) => {
-  if (!trainName) return "";
-  return trainName.toLowerCase().replace(/\s+/g, "-");
-};
-
-const formatTime = (time: string) => {
-  if (!time) return "N/A";
-  return time.replace("BST", "").trim();
-};
-
-function formatOperatingDays(
-  daysString: string,
-  lang: "en" | "bn" = "en",
-): string {
-  if (!daysString) return "N/A";
-
-  if (daysString?.toLowerCase() === "Daily".toLowerCase()) {
-    return "Runs all 7 days a week";
-  }
-
-  const weekDays = [
-    { short: "Sat", en: "Saturday", bn: "শনিবার" },
-    { short: "Sun", en: "Sunday", bn: "রবিবার" },
-    { short: "Mon", en: "Monday", bn: "সোমবার" },
-    { short: "Tue", en: "Tuesday", bn: "মঙ্গলবার" },
-    { short: "Wed", en: "Wednesday", bn: "বুধবার" },
-    { short: "Thu", en: "Thursday", bn: "বৃহস্পতিবার" },
-    { short: "Fri", en: "Friday", bn: "শুক্রবার" },
-  ];
-
-  const operatingDays = daysString.split(",").map((d) => d.trim());
-
-  const offDays = weekDays.filter((day) => !operatingDays.includes(day.short));
-
-  if (offDays.length === 0) {
-    return lang === "bn"
-      ? "সপ্তাহের ৭ দিনই চলাচল করে"
-      : "Runs all 7 days a week";
-  }
-
-  return offDays
-    .map((day) =>
-      lang === "bn" ? `${day.en} (${day.bn})` : `${day.en} (${day.bn})`,
-    )
-    .join(", ");
-}
-
-const parseTime = (timeStr: string) => {
-  if (!timeStr) return 0;
-  const time = timeStr.replace(" BST", "").trim();
-  const [clock, period] = time.split(" ");
-  let [hours, minutes] = clock.split(":").map(Number);
-
-  if (period.trim().toLowerCase() === "pm" && hours !== 12) {
-    hours += 12;
-  } else if (period.trim().toLowerCase() === "am" && hours === 12) {
-    hours = 0;
-  }
-
-  return hours * 60 + minutes;
-};
-
 export default async function StationRoutePage({ params }: any) {
-  const { slug } = await params;
+  const { name, slug } = await params;
   const stations = parseRouteUrlSlug(slug);
 
   if (!stations) notFound();
 
   const data = await getRouteData(slug);
-  if (!data) notFound();
+  if (!data || data.length === 0) notFound();
 
-  const sortedData = data
-    ? [...data].sort(
-        (a, b) =>
-          parseTime(a.departure_from_source) -
-          parseTime(b.departure_from_source),
-      )
-    : [];
+  const sortedData = [...data].sort(
+    (a, b) =>
+      parseTimeToMinutes(a.departure_from_source) -
+      parseTimeToMinutes(b.departure_from_source),
+  );
 
   const reverseRouteData = await getReverseRouteData(
     stations.from,
@@ -234,11 +186,37 @@ export default async function StationRoutePage({ params }: any) {
   const fromDestinations = await getPopularDestinations(stations.from, 20);
   const toDestinations = await getPopularDestinations(stations.to, 20);
 
-  const toStationSlug = stations.to.toLowerCase().replace(/\s+/g, "-");
+  const toStationSlug = formatStationNameForUrl(stations.to);
+  const fromStationSlug = formatStationNameForUrl(stations.from);
   const reverseSlug = createRouteUrlSlugFromStations(
     stations.to,
     stations.from,
   );
+  const currentYear = new Date().getFullYear();
+  const routeSummary = getRouteSummary(sortedData)!;
+  const { intercity, mail } = splitTrainsByCategory(sortedData);
+  const faqItems = buildRouteFaqItems(stations.from, stations.to, sortedData);
+  const faqSchema = buildFaqSchema(stations.from, stations.to, sortedData);
+  const breadcrumbSchema = buildBreadcrumbSchema(
+    stations.from,
+    stations.to,
+    fromStationSlug,
+    slug,
+  );
+  const itemListSchema = buildItemListSchema(
+    stations.from,
+    stations.to,
+    sortedData,
+    `https://www.trainjatri.com/stations/${name}/${slug}`,
+  );
+  const seoProps = {
+    from: stations.from,
+    to: stations.to,
+    sortedTrains: sortedData,
+    routeSummary,
+    reverseTrainCount: reverseRouteData?.length ?? 0,
+    currentYear,
+  };
 
   return (
     <div className="min-h-screen w-screen md:w-full py-8 md:px-4">
@@ -246,273 +224,168 @@ export default async function StationRoutePage({ params }: any) {
         {/* Header */}
         <div className="text-center mb-10 max-w-4xl mx-auto px-4">
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-            {stations.from} to {stations.to} Train Schedule, Timetable &
-            Departure Times
+            {stations.from} to {stations.to} Train Schedule &amp; Timetable{" "}
+            {currentYear}
           </h1>
 
           <p className="text-lg text-gray-700 mb-4">
-            There {data.length === 1 ? "is" : "are"}{" "}
+            Complete <strong>{stations.from} to {stations.to} train schedule</strong>{" "}
+            for Bangladesh Railway {currentYear}. There{" "}
+            {sortedData.length === 1 ? "is" : "are"}{" "}
             <strong>
-              {sortedData.length} daily train{sortedData.length > 1 ? "s" : ""}
+              {sortedData.length} train{sortedData.length > 1 ? "s" : ""}
             </strong>{" "}
-            operating from <strong>{stations.from}</strong> to{" "}
-            <strong>{stations.to}</strong> via Bangladesh Railway. The first
-            train departs at{" "}
-            <strong>{formatTime(sortedData[0].departure_from_source)}</strong>{" "}
-            and the last service leaves at{" "}
+            on this route — first departure at{" "}
             <strong>
-              {formatTime(
-                sortedData[sortedData.length - 1].departure_from_source,
-              )}
+              {formatDisplayTime(routeSummary?.firstDeparture || "")}
+            </strong>
+            , last at{" "}
+            <strong>
+              {formatDisplayTime(routeSummary?.lastDeparture || "")}
             </strong>
             .
           </p>
 
           <p className="text-base text-gray-600">
-            On this page, you can check updated departure times, arrival times,
-            journey duration, train numbers, operating days, and available train
-            types for the {stations.from} - {stations.to} railway route. Compare
-            services and plan your train journey in Bangladesh efficiently.
+            This is the official station-to-station timetable for{" "}
+            <strong>
+              {stations.from} → {stations.to}
+            </strong>
+            . Compare all trains, departure times, arrival times, journey
+            duration, and operating days. For individual train stop details,
+            use the &quot;View all stops&quot; link under each train name.
           </p>
+        </div>
+
+        {routeSummary && (
+          <div className="max-w-4xl mx-auto mb-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              { label: "Total Trains", value: String(routeSummary.totalTrains) },
+              {
+                label: "First Departure",
+                value: formatDisplayTime(routeSummary.firstDeparture),
+              },
+              {
+                label: "Last Departure",
+                value: formatDisplayTime(routeSummary.lastDeparture),
+              },
+              {
+                label: "Fastest Journey",
+                value: routeSummary.fastestDuration,
+              },
+            ].map((item) => (
+              <div
+                key={item.label}
+                className="bg-white border border-gray-200 rounded-lg p-4 text-center shadow-sm"
+              >
+                <p className="text-xs text-gray-500 uppercase tracking-wide">
+                  {item.label}
+                </p>
+                <p className="text-lg font-bold text-gray-900 mt-1">
+                  {item.value}
+                </p>
+              </div>
+            ))}
+          </div>
+        )}
+
+        <RouteSeoIntro {...seoProps} />
+
+        <div className="max-w-4xl mx-auto mb-8">
+          <a
+            href="https://eticket.railway.gov.bd/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center gap-2 w-full sm:w-auto sm:mx-auto px-6 py-3 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 transition"
+          >
+            <FaTicketAlt />
+            Book {stations.from} to {stations.to} Train Tickets Online
+          </a>
         </div>
 
         <Image
           src="/logo.png"
-          alt="Bangladesh Railway Train Journey"
+          alt={`${stations.from} to ${stations.to} Bangladesh Railway Train Schedule`}
           width={400}
           height={200}
           className="mx-auto my-8"
         />
 
-        <div className="overflow-x-auto flex flex-col gap-8">
-          {/* Schedule Table */}
-          <div className="flex flex-col overflow-x-auto">
-            <div>
-              <div className="bg-red-600 text-white px-6 py-3">
-                <h2 className="text-xl font-semibold">
-                  {stations.from} to {stations.to} Schedule
-                </h2>
-              </div>
-              <div className="w-full overflow-x-auto max-w-full">
-                {sortedData && sortedData.length > 0 ? (
-                  <table className="min-w-max w-full bg-white rounded-lg shadow-md">
-                    <thead>
-                      <tr className="bg-gray-100">
-                        <th className="py-2 px-4 border-b text-xs sm:text-sm whitespace-nowrap">
-                          Train Name
-                        </th>
-                        <th className="py-2 px-4 border-b text-xs sm:text-sm whitespace-nowrap">
-                          Departure From {stations.from}
-                        </th>
-                        <th className="py-2 px-4 border-b text-xs sm:text-sm whitespace-nowrap">
-                          Arrival at {stations.to}
-                        </th>
+        <div
+          id="train-schedule"
+          className="overflow-x-auto flex flex-col gap-8 max-w-6xl mx-auto"
+        >
+          {intercity.length > 0 && (
+            <RouteScheduleTable
+              title={`${stations.from} to ${stations.to} Intercity Train Schedule`}
+              from={stations.from}
+              to={stations.to}
+              trains={intercity}
+            />
+          )}
 
-                        <th className="py-2 px-4 border-b text-xs sm:text-sm whitespace-nowrap">
-                          Off Day
-                        </th>
+          {mail.length > 0 && (
+            <RouteScheduleTable
+              title={`${stations.from} to ${stations.to} Mail / Express Train Schedule`}
+              from={stations.from}
+              to={stations.to}
+              trains={mail}
+            />
+          )}
 
-                        <th className="py-2 px-4 border-b text-xs sm:text-sm whitespace-nowrap">
-                          Duration
-                        </th>
-
-                        {/* <th className="py-2 px-4 border-b text-xs sm:text-sm whitespace-nowrap">
-                          Live Track
-                        </th> */}
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {sortedData.map((trip: any, index: number) => (
-                        <tr key={index} className="hover:bg-gray-50 ">
-                          <td className="py-2 px-4 text-xs sm:text-sm whitespace-nowrap">
-                            <a
-                              href={`/trains/${formatTrainNameForUrl(trip.train_name)}`}
-                              className="text-blue-600 underline inline-flex items-center space-x-3 transition-colors"
-                            >
-                              <span>{trip.train_name}</span>
-                              <FaExternalLinkAlt className="w-3 h-3" />
-                            </a>
-                          </td>
-
-                          <td className="py-2 px-4 text-xs sm:text-sm whitespace-nowrap text-center">
-                            {formatTime(trip.departure_from_source)}
-                          </td>
-
-                          <td className="py-2 px-4 text-xs sm:text-sm whitespace-nowrap text-center">
-                            {formatTime(trip.arrival_at_destination)}
-                          </td>
-
-                          <td className="py-2 px-4 text-xs sm:text-sm whitespace-nowrap text-center">
-                            {formatOperatingDays(trip.operating_days)}
-                          </td>
-
-                          <td className="py-2 px-4 text-xs sm:text-sm whitespace-nowrap text-center">
-                            {trip.journey_duration || "N/A"}
-                          </td>
-
-                          {/* <td className="font-medium">Live Track</td> */}
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                ) : (
-                  <p className="text-gray-500 text-center py-4">
-                    No scheduled trains found for this route.
-                  </p>
-                )}
-              </div>
-            </div>
-          </div>
+          {intercity.length === 0 && mail.length === 0 && (
+            <p className="text-gray-500 text-center py-4">
+              No scheduled trains found for this route.
+            </p>
+          )}
         </div>
 
         {/* Schedule Overview */}
-        <div className="bg-white rounded-lg shadow-sm p-6 mt-8 mb-8 text-center">
+        <div className="bg-white rounded-lg shadow-sm p-6 mt-8 mb-8 max-w-4xl mx-auto">
           <h2 className="text-xl font-semibold text-gray-800 mb-4 text-center">
-            Schedule Overview
+            {stations.from} to {stations.to} Schedule Overview
           </h2>
-          <div className="space-y-4">
+          <p className="text-gray-700 text-center mb-4">
+            Trains on the {stations.from} to {stations.to} route include:{" "}
+            <strong>{routeSummary?.trainNames}</strong>.
+          </p>
+          <div className="space-y-3">
             {sortedData.map((trip: any, index: number) => (
-              <p key={index} className="text-gray-700">
-                The {trip.train_name} departs from {stations.from} at{" "}
-                {formatTime(trip.departure_from_source)} and arrives in{" "}
-                {stations.to} at {formatTime(trip.arrival_at_destination)}.
+              <p key={index} className="text-gray-700 text-sm sm:text-base">
+                <strong>{trip.train_name}</strong> departs {stations.from} at{" "}
+                {formatDisplayTime(trip.departure_from_source)}, arrives{" "}
+                {stations.to} at{" "}
+                {formatDisplayTime(trip.arrival_at_destination)} (
+                {trip.journey_duration || "N/A"}).
               </p>
             ))}
           </div>
         </div>
 
+        <RouteSeoBody {...seoProps} />
+
         {/* FAQ Section */}
-        <div className="mt-14 flex flex-col gap-4">
+        <div id="faq" className="mt-14 flex flex-col gap-4">
           <h2 className="text-2xl font-semibold text-center mb-8">
-            Frequently Asked Questions About {stations.from} to {stations.to}{" "}
-            Trains
+            Frequently Asked Questions — {stations.from} to {stations.to} Train
+            Schedule
           </h2>
 
           <div className="space-y-6 max-w-4xl mx-auto flex flex-col gap-4">
-            {/* Total Trains Question */}
-            <div className="bg-white rounded-xl shadow-sm p-6 md:p-8 border border-gray-100">
-              <div className="flex items-start gap-3 mb-3">
-                <FaQuestionCircle className="text-indigo-600 mt-1 shrink-0 text-lg" />
-                <h3 className="text-lg font-semibold text-gray-800">
-                  How many trains run daily from {stations.from} to{" "}
-                  {stations.to}?
-                </h3>
-              </div>
-              <div className="flex items-start gap-3">
-                <FaRegCommentDots className="text-gray-500 mt-1 shrink-0 text-lg" />
-                <p className="text-gray-700 leading-7">
-                  There are {sortedData.length} daily trains operating from{" "}
-                  {stations.from} to {stations.to}. Departure times start at{" "}
-                  {formatTime(sortedData[0].departure_from_source)}
-                  and continue throughout the day until the last train at{" "}
-                  {formatTime(
-                    sortedData[sortedData.length - 1].departure_from_source,
-                  )}
-                  .
-                </p>
-              </div>
-            </div>
-
-            {/* Duration Question */}
-            <div className="bg-white rounded-xl shadow-sm p-6 md:p-8 border border-gray-100">
-              <div className="flex items-start gap-3 mb-3">
-                <FaQuestionCircle className="text-indigo-600 mt-1 shrink-0 text-lg" />
-                <h3 className="text-lg font-semibold text-gray-800">
-                  How long does train take from {stations.from} to {stations.to}
-                  ?
-                </h3>
-              </div>
-              <div className="flex items-start gap-3">
-                <FaRegCommentDots className="text-gray-500 mt-1 shrink-0 text-lg" />
-                <p className="text-gray-700 leading-7">
-                  The average travel time is{" "}
-                  {sortedData[0].journey_duration || "N/A"}
-                </p>
-              </div>
-            </div>
-
-            {/* First Train Question */}
-            <div className="bg-white rounded-xl shadow-sm p-6 md:p-8 border border-gray-100">
-              <div className="flex items-start gap-3 mb-3">
-                <FaQuestionCircle className="text-indigo-600 mt-1 shrink-0 text-lg" />
-                <h3 className="text-lg font-semibold text-gray-800">
-                  What is the first train from {stations.from} to {stations.to}?
-                </h3>
-              </div>
-              <div className="flex items-start gap-3">
-                <FaRegCommentDots className="text-gray-500 mt-1 shrink-0 text-lg" />
-                <p className="text-gray-700 leading-7">
-                  The earliest train departs from {stations.from} at{" "}
-                  {formatTime(sortedData[0].departure_from_source)} and arrives
-                  in {stations.to} at{" "}
-                  {formatTime(sortedData[0].arrival_at_destination)}.
-                </p>
-              </div>
-            </div>
-
-            {/* Last Train Question */}
-            <div className="bg-white rounded-xl shadow-sm p-6 md:p-8 border border-gray-100">
-              <div className="flex items-start gap-3 mb-3">
-                <FaQuestionCircle className="text-indigo-600 mt-1 shrink-0 text-lg" />
-                <h3 className="text-lg font-semibold text-gray-800">
-                  What is the last train from {stations.from} to {stations.to}?
-                </h3>
-              </div>
-              <div className="flex items-start gap-3">
-                <FaRegCommentDots className="text-gray-500 mt-1 shrink-0 text-lg" />
-                <p className="text-gray-700 leading-7">
-                  The final daily departure leaves {stations.from} at{" "}
-                  {formatTime(
-                    sortedData[sortedData.length - 1].departure_from_source,
-                  )}{" "}
-                  and reaches {stations.to} at{" "}
-                  {formatTime(
-                    sortedData[sortedData.length - 1].arrival_at_destination,
-                  )}
-                  .
-                </p>
-              </div>
-            </div>
-
-            {/* Operating Days Question */}
-            <div className="bg-white rounded-xl shadow-sm p-6 md:p-8 border border-gray-100">
-              <div className="flex items-start gap-3 mb-3">
-                <FaQuestionCircle className="text-indigo-600 mt-1 shrink-0 text-lg" />
-                <h3 className="text-lg font-semibold text-gray-800">
-                  Do trains from {stations.from} to {stations.to} run every day?
-                </h3>
-              </div>
-              <div className="flex items-start gap-3">
-                <FaRegCommentDots className="text-gray-500 mt-1 shrink-0 text-lg" />
-                <p className="text-gray-700 leading-7">
-                  Most trains on this route operate daily, but some services may
-                  run only on selected days. Please check the "Off Day" column
-                  in the timetable above for the most accurate and updated
-                  schedule information.
-                </p>
-              </div>
-            </div>
-
-            {/* Dynamic Train-Specific FAQs */}
-            {sortedData.slice(0, 2).map((trip: any, index: number) => (
+            {faqItems.map((faq, index) => (
               <div
-                key={`train-faq-${index}`}
+                key={index}
                 className="bg-white rounded-xl shadow-sm p-6 md:p-8 border border-gray-100"
               >
                 <div className="flex items-start gap-3 mb-3">
                   <FaQuestionCircle className="text-indigo-600 mt-1 shrink-0 text-lg" />
                   <h3 className="text-lg font-semibold text-gray-800">
-                    What time does Train {trip.train_name} depart from{" "}
-                    {stations.from}?
+                    {faq.question}
                   </h3>
                 </div>
                 <div className="flex items-start gap-3">
                   <FaRegCommentDots className="text-gray-500 mt-1 shrink-0 text-lg" />
-                  <p className="text-gray-700 leading-7">
-                    Train {trip.train_name} departs from {stations.from} at{" "}
-                    {formatTime(trip.departure_from_source)} and arrives in{" "}
-                    {stations.to} at {formatTime(trip.arrival_at_destination)}.
-                  </p>
+                  <p className="text-gray-700 leading-7">{faq.answer}</p>
                 </div>
               </div>
             ))}
@@ -571,7 +444,7 @@ export default async function StationRoutePage({ params }: any) {
                 return (
                   <Link
                     key={`from-${index}`}
-                    href={`/stations/${stations.from.toLowerCase().replace(/\s+/g, "-")}/${destination.slug}`}
+                    href={`/stations/${fromStationSlug}/${destination.slug}`}
                     prefetch={false}
                     className="group bg-white rounded-xl border border-gray-200 p-5 hover:border-blue-300 hover:shadow-lg transition-all duration-300"
                   >
@@ -625,7 +498,7 @@ export default async function StationRoutePage({ params }: any) {
                 return (
                   <Link
                     key={`from-${index}`}
-                    href={`/stations/${stations.to.toLowerCase().replace(/\s+/g, "-")}/${destination.slug}`}
+                    href={`/stations/${toStationSlug}/${destination.slug}`}
                     prefetch={false}
                     className="group bg-white rounded-xl border border-gray-200 p-5 hover:border-blue-300 hover:shadow-lg transition-all duration-300"
                   >
@@ -658,6 +531,19 @@ export default async function StationRoutePage({ params }: any) {
           </section>
         )}
       </div>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+      />
     </div>
   );
 }

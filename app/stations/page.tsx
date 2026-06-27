@@ -5,6 +5,7 @@ import { promises as fs } from "fs";
 import path from "path";
 import type { Metadata } from "next";
 import SearchStationButton from "./components";
+import PopularRoutes from "./components/PopularRoutes";
 
 export const dynamic = "force-static";
 export const revalidate = false;
@@ -118,6 +119,8 @@ export default async function StationsPage() {
         />
 
         <SearchStationButton stations={stationGroups} routes={routes} />
+
+        <PopularRoutes />
 
         {/* Compact Station Grid */}
         <div className="grid grid-cols-2  gap-3 mt-8">
