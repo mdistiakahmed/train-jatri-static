@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import { dataSlugToRouteUrlSlug } from '@/utils/stringutils';
 import { useRouter } from 'next/navigation';
 import { Autocomplete, TextField, Button, Box, Typography } from '@mui/material';
 import { FaSearch, FaTrain } from 'react-icons/fa';
@@ -37,7 +38,9 @@ export const SearchStationButton: React.FC<SearchStationButtonProps> = ({ statio
       });
       
       if (matchingRoute) {
-        const destinationSlug = matchingRoute.filename.replace('.json', '');
+        const destinationSlug = dataSlugToRouteUrlSlug(
+          matchingRoute.filename.replace('.json', ''),
+        );
         const startStationSlug =  startStation.toLowerCase()
             .replace(/\s+/g, '-')
             .replace(/[^a-z0-9\s-]/g, '')

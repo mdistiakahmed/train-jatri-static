@@ -4,32 +4,22 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaQuestionCircle, FaRegCommentDots } from "react-icons/fa";
 import type { Metadata } from "next";
-import { createFilenameFromRoute } from "@/utils/stringutils";
+import {
+  createRouteUrlSlugFromRoute,
+  createRouteUrlSlugFromStations,
+  parseRouteUrlSlug,
+  routeUrlSlugToDataSlug,
+} from "@/utils/stringutils";
 
 export const runtime = "edge";
 
 const BASE_URL = "https://cdn.trainjatri.com";
 
-// Helper function to parse the slug into readable station names
-function parseSlug(slug: string) {
-  const parts = slug.split("-to-");
-  if (parts.length !== 2) return null;
+async function getRouteData(urlSlug: string) {
+  const dataSlug = routeUrlSlugToDataSlug(urlSlug);
 
-  const formatStationName = (str: string) =>
-    str
-      .split("-")
-      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-      .join(" ");
-
-  return {
-    from: formatStationName(parts[0]),
-    to: formatStationName(parts[1]),
-  };
-}
-
-async function getRouteData(slug: string) {
   try {
-    const res = await fetch(`${BASE_URL}/${slug}.json`, {
+    const res = await fetch(`${BASE_URL}/${dataSlug}.json`, {
       next: { revalidate: 86400 }, // cache 1 day
     });
 
@@ -44,8 +34,10 @@ async function getRouteData(slug: string) {
 // Function to get reverse route data
 async function getReverseRouteData(fromStation: string, toStation: string) {
   try {
-    const reverseSlug = `${toStation.toLowerCase().replace(/\s+/g, "-")}-to-${fromStation.toLowerCase().replace(/\s+/g, "-")}`;
-    const res = await fetch(`${BASE_URL}/${reverseSlug}.json`, {
+    const reverseDataSlug = routeUrlSlugToDataSlug(
+      createRouteUrlSlugFromStations(toStation, fromStation),
+    );
+    const res = await fetch(`${BASE_URL}/${reverseDataSlug}.json`, {
       next: { revalidate: 86400 }, // cache 1 day
     });
 
@@ -73,7 +65,7 @@ async function getPopularDestinations(stationName: string, limit: number = 8) {
         const destination = filteredElement.route.split(" - ")[1];
         return {
           name: destination,
-          slug: createFilenameFromRoute(filteredElement.route),
+          slug: createRouteUrlSlugFromRoute(filteredElement.route),
         };
       })
       .slice(0, limit);
@@ -86,7 +78,7 @@ async function getPopularDestinations(stationName: string, limit: number = 8) {
 
 export async function generateMetadata({ params }: any): Promise<Metadata> {
   const { name, slug } = await params;
-  const stations = parseSlug(slug);
+  const stations = parseRouteUrlSlug(slug);
   if (!stations) {
     return { title: "Route Not Found | Train Jatri" };
   }
@@ -220,7 +212,7 @@ const parseTime = (timeStr: string) => {
 
 export default async function StationRoutePage({ params }: any) {
   const { slug } = await params;
-  const stations = parseSlug(slug);
+  const stations = parseRouteUrlSlug(slug);
 
   if (!stations) notFound();
 
@@ -243,7 +235,10 @@ export default async function StationRoutePage({ params }: any) {
   const toDestinations = await getPopularDestinations(stations.to, 20);
 
   const toStationSlug = stations.to.toLowerCase().replace(/\s+/g, "-");
-  const reverseSlug = `${toStationSlug}-to-${stations.from.toLowerCase().replace(/\s+/g, "-")}`;
+  const reverseSlug = createRouteUrlSlugFromStations(
+    stations.to,
+    stations.from,
+  );
 
   return (
     <div className="min-h-screen w-screen md:w-full py-8 md:px-4">

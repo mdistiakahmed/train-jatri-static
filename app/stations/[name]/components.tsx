@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import { dataSlugToRouteUrlSlug } from '@/utils/stringutils';
 import { useRouter } from 'next/navigation';
 import { Autocomplete, TextField, Button, Box, Typography } from '@mui/material';
 import { FaSearch } from 'react-icons/fa';
@@ -34,7 +35,9 @@ export const RouteSearch: React.FC<RouteSearchProps> = ({ startStation, routes }
       });
       
       if (matchingRoute) {
-        const slug = matchingRoute.filename.replace('.json', '');
+        const slug = dataSlugToRouteUrlSlug(
+          matchingRoute.filename.replace('.json', ''),
+        );
         const startStationSlug = startStation.toLowerCase().replace(/\s+/g, '-');
         router.push(`/stations/${startStationSlug}/${slug}`);
       } else {

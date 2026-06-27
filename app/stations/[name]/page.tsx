@@ -1,4 +1,3 @@
-// Create new file: app/routes/[station]/page.tsx
 import fs from "fs/promises";
 import path from "path";
 import Link from "next/link";
@@ -6,6 +5,7 @@ import Image from "next/image";
 import { FaTrain, FaExternalLinkAlt } from "react-icons/fa";
 import { RouteSearch } from "./components";
 import type { Metadata } from "next";
+import { dataSlugToRouteUrlSlug } from "@/utils/stringutils";
 
 export const dynamic = "force-static";
 export const revalidate = false;
@@ -235,7 +235,7 @@ export default async function RoutesPage({ params }: any) {
               return (
                 <Link
                   key={index}
-                  href={`/stations/${name}/${route.filename.replace(".json", "")}`}
+                  href={`/stations/${name}/${dataSlugToRouteUrlSlug(route.filename.replace(".json", ""))}`}
                   prefetch={false}
                   className="block p-4 bg-white rounded-lg border border-gray-200 hover:border-blue-200 hover:shadow-md transition-all duration-200"
                 >

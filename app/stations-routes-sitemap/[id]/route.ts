@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { createFilenameFromRoute } from "@/utils/stringutils";
+import { createDataSlugFromRoute, dataSlugToRouteUrlSlug } from "@/utils/stringutils";
 
 export const runtime = "edge";
 
@@ -21,7 +21,7 @@ async function getAllRouteSlugs() {
 
     const data = await res.json();
     cachedRoutes = data.routes.map((entry: any) =>
-      createFilenameFromRoute(entry.route),
+      createDataSlugFromRoute(entry.route),
     );
     return cachedRoutes;
   } catch (error) {
@@ -51,9 +51,10 @@ export async function GET(
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${subset
   .map((slug: string) => {
+    const routeUrlSlug = dataSlugToRouteUrlSlug(slug);
     const [from] = slug.split("-to-");
     return `  <url>
-    <loc>${BASE_URL}/stations/${from}/${slug}</loc>
+    <loc>${BASE_URL}/stations/${from}/${routeUrlSlug}</loc>
     <lastmod>${new Date().toISOString()}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

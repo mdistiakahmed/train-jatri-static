@@ -113,12 +113,15 @@ const Footer = () => {
               {[
                 {
                   name: "Narsingdi to Dhaka",
-                  slug: "narsingdi/narsingdi-to-dhaka",
+                  slug: "narsingdi/narsingdi-to-dhaka-train-schedule",
                 },
-                { name: "Cumilla to Dhaka", slug: "cumilla/cumilla-to-dhaka" },
+                {
+                  name: "Cumilla to Dhaka",
+                  slug: "cumilla/cumilla-to-dhaka-train-schedule",
+                },
                 {
                   name: "Dhaka to Chattogram",
-                  slug: "dhaka/dhaka-to-chattogram",
+                  slug: "dhaka/dhaka-to-chattogram-train-schedule",
                 },
               ].map((route) => (
                 <li key={route.slug}>

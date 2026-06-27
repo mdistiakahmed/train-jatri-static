@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { parseRouteUrlSlug } from "@/utils/stringutils";
 import { usePathname } from "next/navigation";
 import { FaHome, FaChevronRight } from "react-icons/fa";
 
@@ -40,9 +41,10 @@ export const Breadcrumb = () => {
       } else if (segment === "trains") {
         label = "Trains";
       } else if (segment.includes("-to-")) {
-        // Handle route slugs like "bangkok-to-chiang-mai"
-        const [from, to] = segment.split("-to-");
-        label = `${formatStationName(decodeURIComponent(from))} to ${formatStationName(decodeURIComponent(to))}`;
+        const parsed = parseRouteUrlSlug(segment);
+        label = parsed
+          ? `${parsed.from} to ${parsed.to}`
+          : formatStationName(decodeURIComponent(segment));
       } else if (index > 0 && pathSegments[index - 1] === "stations") {
         // Handle station name slugs
         label = formatStationName(decodeURIComponent(segment));
