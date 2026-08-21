@@ -41,3 +41,9 @@ yarn-error.log*
 next-env.d.ts
 
 /prepare-data/node_modules
+prepare-data/trains-by-stations/**
+prepare-data/Final_train_data/**
+prepare-data/train_details/**
+prepare-data/local_train_details/**
+prepare-data/local-train-schedule.pdf
+prepare-data/local-train-schedule-page1.png 
