@@ -97,6 +97,7 @@ function processDirection(directionData, stationPairMap) {
   }
 
   const { train_name, train_number, days, total_duration } = directionData;
+  const train_type = directionData.train_type || "InterCity";
 
   const routes = directionData.routes;
 
@@ -123,6 +124,7 @@ function processDirection(directionData, stationPairMap) {
       stationPairMap.get(key).push({
         train_name,
         train_number,
+        train_type,
 
         arrival_at_source: source.arrival_time,
         departure_from_source: source.departure_time,
@@ -180,6 +182,12 @@ async function generateStationSchedules() {
 
         processDirection(data.forward, stationPairMap);
         processDirection(data.reverse, stationPairMap);
+
+        // Titas Commuter has two extra legs
+        if (file === "titas_commuter.js") {
+          processDirection(data.forward_2, stationPairMap);
+          processDirection(data.reverse_2, stationPairMap);
+        }
       } catch (error) {
         console.error(`Error processing ${file}:`, error.message);
       }
